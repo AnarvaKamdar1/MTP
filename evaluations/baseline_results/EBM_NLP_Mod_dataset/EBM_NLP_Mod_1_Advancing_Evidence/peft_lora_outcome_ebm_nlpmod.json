@@ -1,0 +1,2061 @@
+[
+    {
+        "id": 0,
+        "input": "Title : Switching patients with asthma from chlorofluorocarbon ( CFC ) albuterol to hydrofluoroalkane - 134a ( HFA ) albuterol .",
+        "prompt_response": "\" \"The use of HFA albuterol resulted in improved lung function, increased FEV1, reduced symptoms, and decreased need for rescue inhalers compared to CFC albuterol.\" \"",
+        "gold_PAR": [
+            "patients with asthma"
+        ],
+        "gold_INT": [
+            "chlorofluorocarbon ( CFC ) albuterol",
+            "hydrofluoroalkane - 134a ( HFA ) albuterol"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 1,
+        "input": "METHODS : Patients with asthma stabilized on CFC albuterol during a 12 - week safety and efficacy trial were randomized to either continue receiving CFC albuterol or to be switched to receive HFA albuterol in a yearlong safety and efficacy trial .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "Patients with asthma"
+        ],
+        "gold_INT": [
+            "CFC albuterol",
+            "CFC albuterol",
+            "HFA albuterol"
+        ],
+        "gold_COM": [],
+        "gold_OUT": [
+            "safety",
+            "efficacy",
+            "safety",
+            "efficacy"
+        ]
+    },
+    {
+        "id": 2,
+        "input": "Safety and efficacy were compared over the first 12 weeks of the yearlong trial between patients who had remained on CFC albuterol and those who had been switched to HFA albuterol .",
+        "prompt_response": "\"“The primary outcome measure was change in lung function”.\"",
+        "gold_PAR": [],
+        "gold_INT": [
+            "CFC albuterol",
+            "HFA albuterol"
+        ],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Safety",
+            "efficacy"
+        ]
+    },
+    {
+        "id": 3,
+        "input": "Bronchodilator efficacy was evaluated by serial spirometry for 6 hr after the patients self - administered the study drug in the clinic .",
+        "prompt_response": "{\"Outcome\": [\"serial\", \"spirometry\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Bronchodilator efficacy",
+            "serial spirometry"
+        ]
+    },
+    {
+        "id": 4,
+        "input": "Safety was assessed by measuring changes in pulse rate , blood pressure , and electrocardiogram ( ECG ) intervals after dosing with study drug , monitoring adverse events , and performing prestudy and poststudy laboratory testing and physical examinations .",
+        "prompt_response": "{\"Outcome\": [\"pulse rate\", \"blood pressure\", \"electrocardiogram (ECG)\", \"adverse events\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Safety",
+            "pulse rate",
+            "blood pressure",
+            "electrocardiogram ( ECG )",
+            "adverse events",
+            "laboratory testing",
+            "physical examinations"
+        ]
+    },
+    {
+        "id": 5,
+        "input": "Title : Behavioral and physiological effects of remifentanil and alfentanil in healthy volunteers .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "healthy volunteers"
+        ],
+        "gold_INT": [
+            "remifentanil",
+            "alfentanil"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 6,
+        "input": "METHODS : Ten healthy volunteers were enrolled in a randomized , double - blinded , placebo - controlled , crossover trial in which they received an infusion of saline , remifentanil , or alfentanil for 120 min .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "Ten healthy volunteers"
+        ],
+        "gold_INT": [
+            "remifentanil",
+            "alfentanil"
+        ],
+        "gold_COM": [
+            "an infusion of saline"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 7,
+        "input": "The age - and weight - adjusted infusions ( determined with STANPUMP , a computer modeling software package ) were given to achieve three predicted constant plasma levels for 40 min each of remifentanil ( 0 . 75 , 1 . 5 , and 3 ng / ml ) and alfentanil ( 16 , 32 , and 64 ng / ml ) .",
+        "prompt_response": "\"“remifentanil” “alfentanil”“STANPUMP”",
+        "gold_PAR": [],
+        "gold_INT": [
+            "40 min each of remifentanil",
+            "alfentanil"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 8,
+        "input": "Mood forms and psychomotor tests were completed , and miosis was assessed , during and after the infusions .",
+        "prompt_response": "{\"Outcome\": [\"Mood\", \"forms\", \"psychomotor\", \"tests\", \"miosis\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Mood forms",
+            "psychomotor tests",
+            "miosis"
+        ]
+    },
+    {
+        "id": 9,
+        "input": "In addition , analgesia was tested at each dose level using a cold - pressor test .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "analgesia",
+            "a cold - pressor test"
+        ]
+    },
+    {
+        "id": 10,
+        "input": "Title : Genotyping of CYP21 , linked chromosome 6p markers , and a sex - specific gene in neonatal screening for congenital adrenal hyperplasia .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 11,
+        "input": "METHODS : Blood - impregnated filter papers ( Guthrie cards ) from 603 randomly chosen New Zealand neonates were genotyped blind to 17 - hydroxyprogesterone ( 17 - OHP ) levels .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Blood - impregnated filter papers ( Guthrie cards )"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 12,
+        "input": "Another 50 samples from Swiss and North American infants with correlative hormonal data were also genotyped .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 13,
+        "input": "DNA was extracted , and gene - specific PCR was performed .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "DNA",
+            "gene - specific PCR"
+        ]
+    },
+    {
+        "id": 14,
+        "input": "CYP21 PCR products were subjected to ligase detection reaction , simultaneously analyzing 9 CYP21 mutations ; PCR products of other genes were subjected to direct gel analysis .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "CYP21 PCR products",
+            "ligase detection reaction",
+            "9 CYP21 mutations",
+            "PCR products",
+            "direct gel analysis"
+        ]
+    },
+    {
+        "id": 15,
+        "input": "Title : Piperacillin / tazobactam plus tobramycin versus ceftazidime plus tobramycin as empiric therapy for fever in severely neutropenic patients .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "severely neutropenic patients"
+        ],
+        "gold_INT": [
+            "Piperacillin",
+            "tazobactam",
+            "tobramycin"
+        ],
+        "gold_COM": [
+            "ceftazidime",
+            "tobramycin"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 16,
+        "input": "METHODS : In this single - center study , patients who experienced a total of 247 febrile episodes were prospectively randomized to receive either our standard regimen , ceftazidime 3 g / day ( 1 g t . i . d . ) plus tobramycin 3 mg / kg per day ( 1 . 5 mg / kg b . i . d . ) , or piperacillin 12 g / day plus tazobactam 1 . 5 g / day ( 4 g + 0 . 5 g t . i . d . ) plus tobramycin 3 mg / kg per day ( 1 . 5 mg / kg b . i . d . ) .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "patients who experienced a total of 247 febrile episodes"
+        ],
+        "gold_INT": [
+            "piperacillin",
+            "tazobactam",
+            "tobramycin"
+        ],
+        "gold_COM": [
+            "standard regimen",
+            "ceftazidime",
+            "tobramycin"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 17,
+        "input": "Vancomycin was added in all cases of persistent fever in the ceftazidime arm , but only when there was microbiologically documented resistance in the piperacillin / tazobactam arm .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 18,
+        "input": "Title : Independent prognostic information provided by sphygmomanometrically determined pulse pressure and mean arterial pressure in patients with left ventricular dysfunction .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "patients with left ventricular dysfunction"
+        ],
+        "gold_INT": [
+            "sphygmomanometrically determined pulse pressure",
+            "mean arterial pressure"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 19,
+        "input": "METHODS : Pulse and mean arterial pressure were analyzed for their effect on mortality , adjusting for other modifiers of risk , using Cox proportional hazards regression analysis of data collected from 6 , 781 patients randomized into the Studies of Left Ventricular Dysfunction trials .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "6 , 781 patients randomized into the Studies of Left Ventricular Dysfunction trials"
+        ],
+        "gold_INT": [
+            "Pulse",
+            "mean arterial pressure"
+        ],
+        "gold_COM": [],
+        "gold_OUT": [
+            "mortality"
+        ]
+    },
+    {
+        "id": 20,
+        "input": "Title : Rett syndrome : randomized controlled trial of L - carnitine .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "L - carnitine"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 21,
+        "input": "METHODS : To investigate whether L - carnitine might be of benefit in Rett syndrome , a randomized , placebo - controlled , double - blind crossover trial of L - carnitine has been completed in 35 subjects .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "35 subjects"
+        ],
+        "gold_INT": [
+            "L - carnitine",
+            "L - carnitine"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 22,
+        "input": "Eight - week treatment phases were completed for both a placebo and L - carnitine .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "L - carnitine"
+        ],
+        "gold_COM": [
+            "a placebo"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 23,
+        "input": "Outcome was measured by parents / caregivers and at medical follow - up using three established tools : the Rett Syndrome Motor Behavioral Assessment , the Hand Apraxia Scale , and the Patient Well - Being Index .",
+        "prompt_response": "{\"Outcome\": [\"parents / caregivers\", \"medical follow-up\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "the Rett Syndrome Motor Behavioral Assessment",
+            "the Hand Apraxia Scale",
+            "the Patient Well - Being Index"
+        ]
+    },
+    {
+        "id": 24,
+        "input": "Title : Naltrexone and communication skills in young children with autism .",
+        "prompt_response": "\" \"Naltrexone\"\"",
+        "gold_PAR": [
+            "young children with autism"
+        ],
+        "gold_INT": [
+            "Naltrexone"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 25,
+        "input": "METHODS : Twenty - four children with autism , 3 . 0 to 8 . 3 years old ( mean 5 . 1 ) who were living at home and attending appropriate school programs , participated in a randomized , double - blind , placebo - controlled , crossover trial .",
+        "prompt_response": "\"Twenty-four children with autism,\"",
+        "gold_PAR": [
+            "Twenty - four children with autism , 3 . 0 to 8 . 3 years old ( mean 5 . 1 ) who were living at home and attending appropriate school programs"
+        ],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 26,
+        "input": "Naltrexone , 1 . 0 mg / kg , or placebo was administered daily for 2 weeks .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Naltrexone"
+        ],
+        "gold_COM": [
+            "placebo"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 27,
+        "input": "Communication was evaluated from videotaped samples of seminaturalistic parent - child interaction .",
+        "prompt_response": "{\"Outcome\": [\"Communication\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Communication"
+        ]
+    },
+    {
+        "id": 28,
+        "input": "Child and parent language were assessed using similar measures .",
+        "prompt_response": "{\"Outcome\": [\"Child\", \"parent\", \"language\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Child",
+            "parent language"
+        ]
+    },
+    {
+        "id": 29,
+        "input": "Title : Long term response to therapy of chronic anti - HBe - positive hepatitis B is poor independent of type and schedule of interferon .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 30,
+        "input": "METHODS : Seventy - two consecutive anti - HBe - positive chronic hepatitis B patients ( 59 male and 13 female , median age 41 yr ) stratified by sex and histology were randomly allocated to three treatment arms .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "Seventy - two consecutive anti - HBe - positive chronic hepatitis B patients ( 59 male and 13 female , median age 41 yr ) stratified by sex and histology"
+        ],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 31,
+        "input": "Twenty - seven patients ( A ) received 10 million units alpha - N1 IFN i . m . t . w . for 24 wk ( total dose : 720 million units ) ; 21 ( B ) received 9 million units alpha - 2a IFN i . m . t . w . for 4 wk , followed by 18 million units for 12 wk and 9 million units for 8 wk ( 972 million units ) ; 24 ( C ) received 2 alpha - 2a IFN courses ( 9 million units i . m . t . w . for 16 and 12 wk separated by a 6 - month interval [ 756 million units ] ) .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "10 million units alpha - N1 IFN",
+            "9 million units alpha - 2a IFN",
+            "2 alpha - 2a IFN courses"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 32,
+        "input": "Primary response was defined by normal ALT and serum HBV - DNA levels below 10 pg / ml at the end of therapy and sustained response by normal ALT ( tested monthly ) , undetectable HBV - DNA and IgM anti - HBc ( < 7 I . U .",
+        "prompt_response": "{\"Outcome\": [\"normal ALT\", \"serum HBV - DNA levels\", \"sustained response\", \"undetectable HBV - DNA\", \"IgM anti - HBc\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "normal ALT",
+            "serum HBV - DNA levels below 10 pg / ml",
+            "sustained response by normal ALT",
+            "undetectable HBV - DNA",
+            "IgM anti - HBc"
+        ]
+    },
+    {
+        "id": 33,
+        "input": "Paul Ehrlich Institute ) ( tested every 3 months ) during the posttreatment follow - up .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 34,
+        "input": "Title : Adjuvant L - arginine treatment for in - vitro fertilization in poor responder patients .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Adjuvant L - arginine"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 35,
+        "input": "METHODS : A total of 34 patients undergoing assisted reproduction was divided in two groups according to different ovarian stimulation protocols : ( i ) flare - up gonadotrophin - releasing hormone analogue ( GnRHa ) plus elevated pure follicle stimulating hormone ( pFSH ) ( n = 17 ) ; and ( ii ) flare - up GnRHa plus elevated pFSH plus oral L - arginine ( n = 17 ) .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "A total of 34 patients undergoing assisted reproduction"
+        ],
+        "gold_INT": [
+            "different ovarian stimulation protocols",
+            "flare - up gonadotrophin - releasing hormone analogue ( GnRHa )",
+            "elevated pure follicle stimulating hormone ( pFSH )",
+            "flare - up GnRHa",
+            "elevated pFSH",
+            "oral L - arginine"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 36,
+        "input": "During the ovarian stimulation regimen , the patients were submitted to hormonal ( oestradiol and growth hormone ) , ultrasonographic ( follicular number and diameter , endometrial thickness ) and Doppler ( uterine and perifollicular arteries ) evaluations .",
+        "prompt_response": "\" \"The primary outcome measure was the proportion of women who achieved an adequate response according to predefined criteria.\" \"",
+        "gold_PAR": [],
+        "gold_INT": [
+            "the ovarian stimulation regimen"
+        ],
+        "gold_COM": [],
+        "gold_OUT": [
+            "hormonal",
+            "oestradiol",
+            "growth hormone",
+            "ultrasonographic",
+            "follicular number",
+            "diameter",
+            "endometrial thickness",
+            "Doppler",
+            "uterine",
+            "perifollicular arteries"
+        ]
+    },
+    {
+        "id": 37,
+        "input": "Furthermore , the plasma and follicular fluid concentrations of arginine , citrulline , nitrite / nitrate ( NO2 - / NO3 - ) , and insulin - like growth factor - 1 ( IGF - 1 ) were assayed .",
+        "prompt_response": "{\"Outcome\": [\"plasma\", \"follicular fluid concentrations\", \"arginine\", \"citrulline\", \"nitrite\", \"/ nitrate\", \"(NO2- \", \"/\", \"NO3-\", \"insulin-like growth factor-1\", \"IGF-1\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "the plasma",
+            "follicular fluid concentrations",
+            "arginine",
+            "citrulline",
+            "nitrite",
+            "nitrate",
+            "( NO2 -",
+            "NO3 - )",
+            "insulin - like growth factor - 1 ( IGF - 1 )"
+        ]
+    },
+    {
+        "id": 38,
+        "input": "Title : Delineation of cryptogenic Lennox - Gastaut syndrome and myoclonic astatic epilepsy using multiple correspondence analysis .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "multiple correspondence analysis"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 39,
+        "input": "METHODS : We applied MCA to a series of 72 children with no evidence of brain damage , starting epilepsy between 1 and 10 years , with two or more types of generalised seizures .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "72 children with no evidence of brain damage , starting epilepsy between 1 and 10 years , with two or more types of generalised seizures"
+        ],
+        "gold_INT": [
+            "MCA"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 40,
+        "input": "We excluded patients with infantile spasms or typical absences .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 41,
+        "input": "MCA was performed on all clinical and EEG parameters , first throughout follow - up , then restricted to the first year of the disease .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "MCA"
+        ],
+        "gold_COM": [],
+        "gold_OUT": [
+            "all clinical",
+            "EEG parameters"
+        ]
+    },
+    {
+        "id": 42,
+        "input": "Title : Assessment of the pain of blood - sugar testing : a randomised controlled trial .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "blood - sugar testing"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 43,
+        "input": "Title : Use of the oral neuraminidase inhibitor oseltamivir in experimental human influenza : randomized controlled trials for prevention and treatment .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "the oral neuraminidase inhibitor oseltamivir"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 44,
+        "input": "METHODS : Two randomized , double - blind , placebo - controlled trials conducted between June and July 1997 .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 45,
+        "input": "Individual hotel rooms ; 2 large US university medical schools .",
+        "prompt_response": "\" \"",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 46,
+        "input": "A total of 117 healthy adult volunteers ( aged 18 - 40 years ; median age , 21 years ) who were susceptible ( hemagglutination - inhibition antibody titer < or =1 : 8 ) .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "A total of 117 healthy adult volunteers ( aged 18 - 40 years ; median age , 21 years ) who were susceptible ( hemagglutination - inhibition antibody titer < or =1 : 8 )"
+        ],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 47,
+        "input": "All subjects were inoculated intranasally with influenza A / Texas / 36 / 91 ( H1N1 ) virus .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 48,
+        "input": "For the prophylaxis study , oral oseltamivir ( 100 mg once daily [ n = 12 ] , 100 mg twice daily [ n = 12 ] , or matching placebo [ n = 13 ] , starting 26 hours before virus inoculation ) was administered .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "oral oseltamivir"
+        ],
+        "gold_COM": [
+            "matching placebo"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 49,
+        "input": "For the treatment study , the same drug was given ( 20 mg , 100 mg , or 200 mg twice daily , 200 mg once daily , or matching placebo [ n = 16 ] , in each group starting 28 hours after inoculation ) .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [
+            "matching placebo"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 50,
+        "input": "All regimens were continued for 5 days .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 51,
+        "input": "Comparing placebo groups with pooled treatment groups , for prophylaxis , outcomes included frequency of infection and viral shedding ; for treatment , viral shedding in titers .",
+        "prompt_response": "{\"Outcome\": [\"frequency\", \"infection\", \"viral shedding\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [
+            "placebo"
+        ],
+        "gold_OUT": [
+            "frequency of infection",
+            "viral shedding",
+            "viral shedding in titers"
+        ]
+    },
+    {
+        "id": 52,
+        "input": "Title : Cholesterol - lowering effect of stanol ester in a US population of mildly hypercholesterolemic men and women : a randomized controlled trial .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "a US population of mildly hypercholesterolemic men and women"
+        ],
+        "gold_INT": [
+            "stanol ester"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 53,
+        "input": "METHODS : After a run - in phase , 318 subjects were randomized to receive one of the following margarine - like spreads containing stanol ester or placebo for 8 weeks : EU 3 G : 1 g of stanol ( ester form ) per 8 - g serving of a European formula 3 times a day ; US 3 G : 1 g of stanol ( ester form ) per 8 - g serving of a US reformulation 3 times a day ; US 2 G : 0 . 67 g of stanol ( ester form ) per 8 - g serving of a US reformulation 3 times a day ; or placebo spread .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "318 subjects"
+        ],
+        "gold_INT": [
+            "margarine - like spreads containing stanol ester",
+            "1 g of stanol",
+            "1 g of stanol",
+            "0 . 67 g of stanol"
+        ],
+        "gold_COM": [
+            "placebo",
+            "placebo spread"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 54,
+        "input": "Title : Randomised controlled trial of patient triggered and conventional fast rate ventilation in neonatal respiratory distress syndrome .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "triggered"
+        ],
+        "gold_COM": [
+            "conventional fast rate ventilation"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 55,
+        "input": "METHODS : Three hundred and eighty six preterm infants with birthweights from 1000 to 2000 g , and requiring ventilation for respiratory distress syndrome within 24 hours of birth , were randomised to receive either conventional or trigger ventilation with the SLE 2000 ventilator .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "Three hundred and eighty six preterm infants with birthweights from 1000 to 2000 g , and requiring ventilation for respiratory distress syndrome within 24 hours of birth"
+        ],
+        "gold_INT": [
+            "trigger ventilation",
+            "the SLE 2000 ventilator"
+        ],
+        "gold_COM": [
+            "conventional"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 56,
+        "input": "Title : Regression of left ventricular hypertrophy after stentless versus conventional aortic valve replacement .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "stentless"
+        ],
+        "gold_COM": [
+            "conventional aortic valve replacement"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 57,
+        "input": "METHODS : Stentless ( Freestyle , Toronto , n = 106 ) or conventional biological aortic valves ( Carpentier - Edwards , n = 74 ) were evaluated prospectively .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Stentless"
+        ],
+        "gold_COM": [
+            "conventional biological aortic valves"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 58,
+        "input": "Title : Computer - assisted instruction : an effective instructional method for HIV prevention education ? .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Computer - assisted instruction"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 59,
+        "input": "METHODS : Students enrolled in a Human Sexuality course ( N = 152 ) were randomly assigned to one of three groups : CAI , Lecture , or No Intervention group .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "Students enrolled in a Human Sexuality course ( N = 152 )"
+        ],
+        "gold_INT": [
+            "CAI",
+            "Lecture"
+        ],
+        "gold_COM": [
+            "No Intervention"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 60,
+        "input": "Participants in the CAI group reviewed a 1 - hour long CAI program , participants in the Lecture group were presented with a 1 - hour long lecture , and participants in the No Intervention group received no intervention .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "the CAI",
+            "a 1 - hour long CAI program",
+            "the Lecture",
+            "1 - hour long lecture"
+        ],
+        "gold_COM": [
+            "the No Intervention"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 61,
+        "input": "After completing the respective interventions , all participants completed the HIV questionnaire , which measured selected Social Cognitive Theory constructs associated with HIV preventive behaviors .",
+        "prompt_response": "{\"Outcome\": [\"HIV\", \"Social Cognitive Theory constructs\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "the HIV questionnaire",
+            "selected Social Cognitive Theory constructs associated with HIV preventive behaviors"
+        ]
+    },
+    {
+        "id": 62,
+        "input": "MANCOVA , ANCOVA and Post Hoc analyses were utilized to test for significant differences among the three groups .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 63,
+        "input": "Title : Photodynamic therapy with 5 - aminolaevulinic acid or placebo for recalcitrant foot and hand warts : randomised double - blind trial .",
+        "prompt_response": "{\"Outcome\" : []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Photodynamic therapy with 5 - aminolaevulinic acid"
+        ],
+        "gold_COM": [
+            "placebo"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 64,
+        "input": "METHODS : Recalcitrant foot and hand warts were randomly assigned to six repetitive ALA - PDT or placebo - PDT interventions combined with standard treatment encompassing paring followed by a keratolytic ( Verucid ) .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "ALA - PDT"
+        ],
+        "gold_COM": [
+            "placebo - PDT"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 65,
+        "input": "Standardised photographs of each wart were taken before , during ( week 7 ) and after treatment ( weeks 14 and 18 ) .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Standardised photographs of each wart"
+        ]
+    },
+    {
+        "id": 66,
+        "input": "The area of each wart compared with entry area was the primary outcome variable , measured from photographs by an evaluator unaware of treatment allocation for intervention .",
+        "prompt_response": "{\"Outcome\": [\"area\", \"entry area\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "The area of each wart compared with entry area",
+            "photographs"
+        ]
+    },
+    {
+        "id": 67,
+        "input": "Pain intensity immediately and 24 h after each intervention was assessed by a five - point scale .",
+        "prompt_response": "{\"Outcome\": [\"Pain intensity\", \"a five-point scale\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Pain intensity",
+            "a five - point scale"
+        ]
+    },
+    {
+        "id": 68,
+        "input": "Title : Language , speech sound production , and cognition in three - year - old children in relation to otitis media in their first three years of life .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "three - year - old children in relation to otitis media in their first three years of life"
+        ],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 69,
+        "input": "METHODS : We enrolled 6350 healthy infants by 2 months of age who presented for primary care at 1 of 2 urban hospitals or 1 of 2 small town / rural and 4 suburban private pediatric practices .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "6350 healthy infants by 2 months of age who presented for primary care at 1 of 2 urban hospitals or 1 of 2 small town / rural and 4 suburban private pediatric practices"
+        ],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 70,
+        "input": "We intensively monitored the children ' s middle ear status by pneumatic otoscopy , supplemented by tympanometry , throughout their first 3 years of life ; we monitored the validity of the otoscopic observations on an ongoing basis ; and we treated children for otitis media according to specified guidelines .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 71,
+        "input": "Children who met specified minimum criteria regarding the persistence of MEE became eligible for a clinical trial in which they were assigned randomly to undergo tympanostomy tube placement either promptly or after a defined extended period if MEE remained present .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "tympanostomy tube placement either promptly",
+            "after a defined extended period if MEE remained present"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 72,
+        "input": "From among those remaining , we selected randomly , within sociodemographic strata , a sample of 241 children who represented a spectrum of MEE experience from having no MEE to having MEE whose cumulative duration fell just short of meeting randomization criteria .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "a sample of 241 children who represented a spectrum of MEE experience"
+        ],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 73,
+        "input": "In subjects so selected , the estimated duration of MEE ranged from none to 65 . 6 % of the first year of life and 44 . 8 % of the first 3 years of life .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 74,
+        "input": "In these 241 children we assessed language development , speech sound production , and cognition at 3 years of age , using both formal tests and conversational samples .",
+        "prompt_response": "{\"Outcome\": [\"language development\", \"speech sound production\", \"cognition\"]}",
+        "gold_PAR": [
+            "241 children"
+        ],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "language development",
+            "speech sound production",
+            "cognition at 3 years of age",
+            "formal tests",
+            "conversational samples"
+        ]
+    },
+    {
+        "id": 75,
+        "input": "Title : Does waiting matter ? A randomized controlled trial of new non - urgent rheumatology out - patient referrals .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "waiting",
+            "new non - urgent rheumatology out - patient referrals"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 76,
+        "input": "METHODS : The study was a randomized controlled clinical study evaluating a ' fast track ' appointment with a 6 - week target waiting time against an ' ordinary ' appointment in the main city out - patient clinic of the rheumatology service for the Lothian and Borders region ( population approximately 1 million ) .",
+        "prompt_response": "\"“The primary outcome measure was the change in health-related quality of life assessed using the EQ-5D questionnaire.”\"",
+        "gold_PAR": [],
+        "gold_INT": [
+            "a ' fast track ' appointment"
+        ],
+        "gold_COM": [
+            "an ' ordinary ' appointment"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 77,
+        "input": "Health status was measured using the SF12 physical and mental summary component T - scores and pain was measured with a 100 mm visual analogue pain scale .",
+        "prompt_response": "{\"Outcome\": [\"The\", \"SF12\", \"physical\", \"and\", \"mental\", \"summary\", \"component\", \"T-\", \"scores\", \"pain\", \"with\", \"a\", \"100\", \"mm\", \"visual\", \"analogue\", \"pain\", \"scale\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Health status",
+            "the SF12 physical",
+            "mental summary component",
+            "T - scores",
+            "pain",
+            "a 100 mm visual analogue pain scale"
+        ]
+    },
+    {
+        "id": 78,
+        "input": "Secondary outcomes were health utility and perceived health both measured with the EuroQol instrument , mental health measured with the Hospital Anxiety and Depression scale , disability with the modified Health Assessment Questionnaire and economic costs measured from a societal perspective .",
+        "prompt_response": "{\"Outcome\": [\"health utility\", \"perceived health\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "health utility",
+            "perceived health",
+            "the EuroQol instrument",
+            "mental health",
+            "the Hospital Anxiety and Depression scale",
+            "disability",
+            "the modified Health Assessment Questionnaire",
+            "economic costs",
+            "a societal perspective"
+        ]
+    },
+    {
+        "id": 79,
+        "input": "Title : Epirubicin - based chemotherapy in metastatic breast cancer patients : role of dose - intensity and duration of treatment .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "metastatic breast cancer patients"
+        ],
+        "gold_INT": [
+            "Epirubicin - based chemotherapy"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 80,
+        "input": "METHODS : Four hundred seventeen anthracycline - naive MBC patients were randomized to receive one of the following regimens : arm A : 11 cycles of fluorouracil 500 mg / m ( 2 ) , epirubicin 75 mg / m ( 2 ) , and cyclophosphamide 500 mg / m ( 2 ) ( FEC 75 ) every 21 days ; arm B : four cycles of FEC 100 ( same regimen but with epirubicin 100 mg / m ( 2 ) ) then eight cycles of FEC 50 ( epirubicin 50 mg / m ( 2 ) ) ; and arm C : four cycles of FEC 100 then restart the same regimen at disease progression in case of prior response or stabilization .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "Four hundred seventeen anthracycline - naive MBC patients"
+        ],
+        "gold_INT": [
+            "11 cycles of fluorouracil",
+            "epirubicin",
+            "cyclophosphamide",
+            "four cycles of FEC 100",
+            "eight cycles of FEC 50",
+            "four cycles of FEC 100"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 81,
+        "input": "Title : Beta radiation as an adjunct to low - risk trabeculectomy .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Beta radiation"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 82,
+        "input": "METHODS : A prospective randomized trial of 65 eyes was designed , with 31 eyes receiving 750 rads of intraoperative beta radiation ( group 1 ) , and 34 eyes receiving no supplementation ( group 2 ) .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "65 eyes"
+        ],
+        "gold_INT": [
+            "750 rads of intraoperative beta radiation"
+        ],
+        "gold_COM": [
+            "no supplementation"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 83,
+        "input": "Title : Short - and long - term results after thrombolytic treatment of deep venous thrombosis .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "thrombolytic treatment"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 84,
+        "input": "METHODS : A total of 250 patients averaging 40 years of age with acute DVT were randomized into five groups to receive full heparinization ( 1 , 000 IU / h ) and compression treatment , with four groups also administered locoregional tissue plasminogen activator ( 20 mg / day ) or urokinase ( 100 , 000 IU / day ) or systemic streptokinase ( 3 , 000 , 000 IU daily ) or urokinase ( 5 , 000 , 000 IU daily ) .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "A total of 250 patients averaging 40 years of age with acute DVT"
+        ],
+        "gold_INT": [
+            "locoregional tissue plasminogen activator",
+            "urokinase",
+            "systemic streptokinase",
+            "urokinase"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 85,
+        "input": "All groups then received anticoagulation and compression treatment for one year .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 86,
+        "input": "Primary efficacy criteria included the change after one year in the number of closed vein segments and the occurrence of postthrombotic syndrome .",
+        "prompt_response": "{\"Outcome\": [\"The change\", \"one year\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "the number of closed vein segments",
+            "the occurrence of postthrombotic syndrome"
+        ]
+    },
+    {
+        "id": 87,
+        "input": "Title : [ New therapeutic approaches in irritable bowel syndrome ] .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "New therapeutic approaches"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 88,
+        "input": "Title : [ Complication rate after gastrectomy and pouch reconstruction with Longmire interposition ] .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "gastrectomy and pouch reconstruction with Longmire interposition"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 89,
+        "input": "METHODS : 49 patients who underwent gastrectomy with Longmire - Interposition with ( n = 33 ) or without ( n = 16 ) an additional pouch and 46 patients with a Roux - en - Y - reconstruction were analysed retrospectively .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "gastrectomy with Longmire - Interposition with",
+            "without ( n = 16 ) an additional pouch",
+            "a Roux - en - Y - reconstruction"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 90,
+        "input": "Complication rate and mortality were studied .",
+        "prompt_response": "{\"Outcome\": [\"complication\", \"rate\", \"mortality\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Complication rate",
+            "mortality"
+        ]
+    },
+    {
+        "id": 91,
+        "input": "Title : Perioperative blood transfusions , with or without allogeneic leucocytes , relate to survival , not to cancer recurrence .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Perioperative blood transfusions , with",
+            "without allogeneic leucocytes"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 92,
+        "input": "METHODS : Packed red cells without buffy coat ( PC group ) were compared with filtered , leucoreduced , red cells ( LD group ) in a randomized trial of 697 patients with colorectal carcinoma .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "697 patients with colorectal carcinoma"
+        ],
+        "gold_INT": [
+            "Packed red cells without buffy coat",
+            "PC",
+            "filtered , leucoreduced , red cells",
+            "LD"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 93,
+        "input": "Five - year survival and cancer recurrence rates were determined , with special emphasis on the location of recurrence .",
+        "prompt_response": "{\"Outcome\": [\"Five\", \"year survival\", \"cancer recurrence rates\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Five - year survival",
+            "cancer recurrence rates",
+            "the location of recurrence"
+        ]
+    },
+    {
+        "id": 94,
+        "input": "Title : Phase - dependent modulation of the soleus H - reflex during rhythmical arm swing in humans .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "the soleus H - reflex"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 95,
+        "input": "Title : Interferential therapy electrode placement technique in acute low back pain : a preliminary investigation .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Interferential therapy electrode placement technique"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 96,
+        "input": "METHODS : Single - blind , randomized , controlled trial with a 3 - month follow - up .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 97,
+        "input": "Outpatient physiotherapy departments in hospital and university settings .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 98,
+        "input": "A random sample of 60 eligible patients with back pain ( 28 men , 32 women ) were recruited by general practitioners and self - referral for physiotherapy treatment and randomly assigned to 1 of 3 groups .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "A random sample of 60 eligible patients with back pain ( 28 men , 32 women )"
+        ],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 99,
+        "input": "( 1 ) \" IFT painful area \" and The Back Book , ( 2 ) \" IFT spinal nerve \" and The Back Book , and ( 3 ) \" Control , \" The Back Book only .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "IFT painful area",
+            "The Back Book",
+            "IFT spinal nerve",
+            "The Back Book"
+        ],
+        "gold_COM": [
+            "The Back Book only"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 100,
+        "input": "Standardized IFT stimulation parameters were used : carrier frequency 3 . 85 kHz ; 140 Hz constant ; pulse duration 130 micros ; 30 minutes ' duration .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 101,
+        "input": "Pain Rating Index , Roland - Morris Disability Questionnaire ( RMDQ ) , and EuroQol were completed by subjects pretreatment , at discharge , and 3 - month follow - up .",
+        "prompt_response": "\"“Pain Rating Index”,” “Roland-Morris Disability Questionnaire (RMDQ)”,” \"EuroQol\"\"",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Pain Rating Index",
+            "Roland - Morris Disability Questionnaire ( RMDQ )",
+            "EuroQol"
+        ]
+    },
+    {
+        "id": 102,
+        "input": "Title : Comparative evaluation of calcium hydroxide and zinc oxide eugenol as root canal filling materials for primary molars : a clinical and radiographic study .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "calcium hydroxide",
+            "zinc oxide eugenol"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 103,
+        "input": "Title : A randomized controlled trial assessing the health economics of realtime teledermatology compared with conventional care : an urban versus rural perspective .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "realtime teledermatology"
+        ],
+        "gold_COM": [
+            "conventional care"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 104,
+        "input": "METHODS : One urban and one rural health centre were linked to a regional hospital in Northern Ireland by ISDN at 128 kbit / s .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 105,
+        "input": "Over two years , 274 patients required a hospital outpatient dermatology referral - - 126 patients ( 46 % ) were randomized to a telemedicine consultation and 148 ( 54 % ) to a conventional hospital outpatient consultation .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "274 patients required a hospital outpatient dermatology referral - - 126 patients ( 46 % )"
+        ],
+        "gold_INT": [
+            "a telemedicine consultation"
+        ],
+        "gold_COM": [
+            "a conventional hospital outpatient consultation"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 106,
+        "input": "Title : Clinical and microbial evaluation of a histatin - containing mouthrinse in humans with experimental gingivitis .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "humans with experimental gingivitis"
+        ],
+        "gold_INT": [
+            "a histatin - containing mouthrinse"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 107,
+        "input": "METHODS : 159 periodontally healthy subjects abstained from oral hygiene procedures and self - administered either 0 . 005 % , 0 . 01 % , 0 . 05 % P - 113 or placebo mouthrinse formulations twice daily over a four week treatment period .",
+        "prompt_response": "\"The results of this study.\"",
+        "gold_PAR": [
+            "159 periodontally healthy subjects"
+        ],
+        "gold_INT": [
+            "0 . 005 %",
+            "0 . 01 %",
+            "0 . 05 % P - 113"
+        ],
+        "gold_COM": [
+            "placebo mouthrinse formulations"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 108,
+        "input": "During this time , the safety , anti - plaque , and anti - gingivitis effects of P - 113 were evaluated .",
+        "prompt_response": "{\"Outcome\": [\"safety\", \"anti-plaque\", \"anti-gingivitis\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "the safety",
+            "anti - plaque",
+            "anti - gingivitis effects of P - 113"
+        ]
+    },
+    {
+        "id": 109,
+        "input": "Title : L - arginine and S - nitrosoglutathione reduce embolization in humans .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "L - arginine",
+            "S - nitrosoglutathione"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 110,
+        "input": "Title : \" Confirmatory \" trials : symptom reduction as efficacy measure .",
+        "prompt_response": "{\"Outcome\" : []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 111,
+        "input": "Title : Immune reconstitution after allogeneic marrow transplantation compared with blood stem cell transplantation .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "allogeneic marrow transplantation",
+            "blood stem cell transplantation"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 112,
+        "input": "METHODS : Immune reconstitution was studied in 115 patients randomly assigned to receive either allogeneic marrow or filgrastim - mobilized blood stem cell transplantation .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "115 patients"
+        ],
+        "gold_INT": [
+            "allogeneic marrow",
+            "filgrastim - mobilized blood stem cell transplantation"
+        ],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Immune reconstitution"
+        ]
+    },
+    {
+        "id": 113,
+        "input": "Title : Efficacy and tolerability of antibiotics in patients undergoing H . pylori eradication .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "patients undergoing H . pylori eradication"
+        ],
+        "gold_INT": [
+            "antibiotics"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 114,
+        "input": "METHODS : One hundred and ninety - three ( 193 ) H . pylori - positive patients were randomly assigned to one of the following 7 - day treatments : Group A ( N = 64 ) : amoxicillin , clarithromycin and rabeprazole ; Group B ( N = 64 ) : tinidazole , clarithromycin and ranitidine bismuth citrate ; Group C ( N = 65 ) : tinidazole , clarithromycin and rabeprazole Eradication was assessed by 13C - Urea Breath Test 6 - 8 weeks after the end of the therapy .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "One hundred and ninety - three ( 193 ) H . pylori - positive patients"
+        ],
+        "gold_INT": [
+            "amoxicillin",
+            "clarithromycin",
+            "rabeprazole",
+            "tinidazole",
+            "clarithromycin",
+            "ranitidine bismuth citrate",
+            "tinidazole",
+            "clarithromycin",
+            "rabeprazole"
+        ],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Eradication",
+            "13C - Urea Breath Test"
+        ]
+    },
+    {
+        "id": 115,
+        "input": "Not - eradicated patients underwent a second cycle with tinidazole , tetracycline , bismuth and rabeprazole .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "tinidazole",
+            "tetracycline",
+            "bismuth",
+            "rabeprazole"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 116,
+        "input": "All patients were asked to complete a validated questionnaire regarding presence and intensity of drug side effects .",
+        "prompt_response": "{\"Outcome\": [\"presence\", \"intensity\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "a validated questionnaire",
+            "presence",
+            "intensity of drug side effects"
+        ]
+    },
+    {
+        "id": 117,
+        "input": "Title : Rehabilitation outcomes following percutaneous coronary interventions ( PCI ) .",
+        "prompt_response": "\"Rehabilitation outcomes\"",
+        "gold_PAR": [],
+        "gold_INT": [
+            "percutaneous coronary interventions ( PCI )"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 118,
+        "input": "METHODS : Data were collected at time 1 ( T ( 1 ) ) during hospital admission , time 2 ( T ( 2 ) ) approximately 2 months post - PCI , and time 3 ( T ( 3 ) ) approximately 12 months post - PCI .",
+        "prompt_response": "\" \"The primary outcome measure was change in left ventricular ejection fraction.\" \"",
+        "gold_PAR": [],
+        "gold_INT": [
+            "PCI",
+            "PCI"
+        ],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Data",
+            "hospital admission"
+        ]
+    },
+    {
+        "id": 119,
+        "input": "Title : Is psychotherapy more effective when therapists disclose information about themselves ? .",
+        "prompt_response": "\" \"The outcome was assessed by standardized questionnaires.\" \"",
+        "gold_PAR": [],
+        "gold_INT": [
+            "information about themselves"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 120,
+        "input": "METHODS : To test these competing positions , therapists at a university counseling center were instructed to increase the number of self - disclosures they made during treatment of one client and refrain from making self - disclosures during treatment of another client .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "therapists at a university counseling center"
+        ],
+        "gold_INT": [
+            "the number of self - disclosures",
+            "self - disclosures"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 121,
+        "input": "Title : Evaluation of a new computer intervention to teach people with autism or Asperger syndrome to recognize and predict emotions in others .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "people with autism or Asperger syndrome"
+        ],
+        "gold_INT": [
+            "a new computer intervention"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 122,
+        "input": "METHODS : Two groups of 11 children ( age 12 - 18 ) with autism or Asperger syndrome at two special schools participated : one group used the computer program for 10 half - hour sessions over 2 weeks .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "Two groups of 11 children ( age 12 - 18 ) with autism or Asperger syndrome at two special schools"
+        ],
+        "gold_INT": [
+            "the computer program"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 123,
+        "input": "Title : Pharmacokinetic study of human immunodeficiency virus protease inhibitors used in combination with amprenavir .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "human immunodeficiency virus protease inhibitors",
+            "amprenavir"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 124,
+        "input": "Title : Prognostic significance of the dobutamine echocardiography test in idiopathic dilated cardiomyopathy .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "the dobutamine echocardiography test"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 125,
+        "input": "METHODS : From February 1 , 1997 , to October 1 , 1999 , 186 patients ( 131 men and 55 women , mean age 56 + / - 12 years ) with IDC , ejection fraction < 35 % , and angiographically normal coronary arteries were studied by high - dose ( up to 40 micro / kg / min ) dobutamine echo in 6 centers , all quality controlled for stress echo reading .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "186 patients ( 131 men and 55 women , mean age 56 + / - 12 years ) with IDC , ejection fraction < 35 % , and angiographically normal coronary arteries"
+        ],
+        "gold_INT": [
+            "high - dose ( up to 40 micro / kg / min ) dobutamine echo"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 126,
+        "input": "Title : Pacifier as a risk factor for acute otitis media .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Pacifier"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 127,
+        "input": "Title : Effect of oxolamine on cough sensitivity in COPD patients .",
+        "prompt_response": "\" \"The mean change in cough sensitivity was -0.8 ± 5.9 mmol/L.\"",
+        "gold_PAR": [
+            "COPD patients"
+        ],
+        "gold_INT": [
+            "oxolamine"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 128,
+        "input": "Title : [ Clinical application of irradiated drug - containing porcine - cornea to patients with ocular burns ] .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "patients with ocular burns"
+        ],
+        "gold_INT": [
+            "irradiated drug - containing porcine - cornea"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 129,
+        "input": "METHODS : Fifty - five cases of patients with ocular burns ( in 88 eyes ) were randomly divided into treatment and control groups .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "Fifty - five cases of patients with ocular burns ( in 88 eyes )"
+        ],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 130,
+        "input": "Thirty cases in treatment group with 49 eyes were transplanted with irradiated drug - containing ( ofloxacin , acetyl cysteine and reduced glutathione ) porcine - cornea .",
+        "prompt_response": "\" Thirty cases in treatment group with 49 eyes were transplanted \"",
+        "gold_PAR": [],
+        "gold_INT": [
+            "irradiated drug - containing ( ofloxacin , acetyl cysteine and reduced glutathione ) porcine - cornea"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 131,
+        "input": "25 cases in control group with 39 eyes were treated with routine program .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [
+            "routine program"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 132,
+        "input": "Title : The interaction between propofol and clonidine for loss of consciousness .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "propofol",
+            "clonidine"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 133,
+        "input": "Clonidine premedication reduces the intraoperative requirement for opioids and volatile anesthetics .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 134,
+        "input": "Clonidine also reduces the induction dose of IV anesthetics .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 135,
+        "input": "There is no information , however , regarding the effect of oral clonidine premedication on the propofol blood concentrations required for loss of consciousness , and the interaction between propofol and clonidine .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 136,
+        "input": "We randomly administered target effect - site concentrations of propofol ranging from 0 . 5 to 5 .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 137,
+        "input": "0 microg / mL by using computer - assisted target - controlled infusion to 3 groups of healthy male patients : Control ( n = 35 ) , 2 . 5 microg / kg Clonidine ( n = 36 ) , and 5 . 0 microg / kg Clonidine ( n = 36 ) groups .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 138,
+        "input": "Nothing was administered to the Control group .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 139,
+        "input": "Clonidine ( 2 . 5 or 5 . 0 microg / kg ) was administered orally 90 min before the induction of anesthesia in the Clonidine groups .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 140,
+        "input": "After equilibration between the blood and effect - site for 15 min , a verbal command to open their eyes was given two times to the patients .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 141,
+        "input": "Arterial blood samples for analysis of the serum propofol and clonidine concentrations were taken immediately before verbal commands were given .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 142,
+        "input": "Measured serum propofol concentrations in equilibrium with the effect - site at which 50 % of the patients did not respond to verbal commands ( EC50 for loss of consciousness ) were determined by logistic regression .",
+        "prompt_response": "\"Measured serum propofol concentrations\", \"equilibrium with the effect-site at which 50 % of the patients did not respond to verbal commands (EC50 for loss of consciousness)\"",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 143,
+        "input": "The EC50 + / - SE values in the Control , 2 . 5 microg / kg Clonidine , and 5 . 0 microg / kg Clonidine groups were 2 . 67 + / - 0 . 18 , 1 . 31 + / - 0 . 12 , and 0 . 91 + / - 0 . 13 microg / mL , respectively .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 144,
+        "input": "The EC50 in the 2 . 5 and 5 . 0 microg / kg clonidine groups was significantly smaller than that in the Control group ( P < 0 . 001 ) .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 145,
+        "input": "The use of a response surface modeling analysis indicated that there was an additive interaction between measured arterial propofol and clonidine concentrations in relation to loss of consciousness .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 146,
+        "input": "These results indicate that propofol and clonidine act additively for loss of consciousness .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 147,
+        "input": "Title : Short - term intravenous antibiotic treatment of acute hematogenous bone and joint infection in children : a prospective randomized trial .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Short - term intravenous antibiotic treatment"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 148,
+        "input": "METHODS : The treatment outcome was measured through a detailed scoring system that included the ability to eradicate infection , the functional status of the limb , and the radiographic appearance of the bone and joint .",
+        "prompt_response": "{\"Outcome\": [\"The treatment\", \"a detailed scoring system\", \"the ability to eradicate infection\", \"the functional status of the limb\", \"the radiographic appearance of the bone and joint\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "a detailed scoring system"
+        ]
+    },
+    {
+        "id": 149,
+        "input": "Title : Oat ingestion reduces systolic and diastolic blood pressure in patients with mild or borderline hypertension : a pilot trial .",
+        "prompt_response": "{\"Outcome\" : []}",
+        "gold_PAR": [
+            "patients with mild or borderline hypertension"
+        ],
+        "gold_INT": [
+            "Oat ingestion"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 150,
+        "input": "METHODS : This was a randomized , controlled , parallel - group pilot study designed to compare an oat cereal group ( standardized to 5 . 52 g / day beta - glucan ) to a low - fiber cereal control group ( less than 1 . 0 g / day total fiber ) over 6 weeks .",
+        "prompt_response": "\"“The primary outcome measure of this trial was changes in blood glucose levels.””",
+        "gold_PAR": [],
+        "gold_INT": [
+            "an oat cereal"
+        ],
+        "gold_COM": [
+            "a low - fiber cereal"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 151,
+        "input": "A total of 18 hypertensive and hyperinsulinemic ( = 10 U / mL or more ) men and women completed the trial .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "A total of 18 hypertensive and hyperinsulinemic ( = 10 U / mL or more ) men and women"
+        ],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 152,
+        "input": "Primary study outcomes were changes in systolic blood pressure ( SBP ) and diastolic blood pressure ( DBP ) .",
+        "prompt_response": "{\"Outcome\": [\"systolic blood pressure\", \"diastolic blood pressure\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "systolic blood pressure ( SBP )",
+            "diastolic blood pressure ( DBP )"
+        ]
+    },
+    {
+        "id": 153,
+        "input": "Secondary outcomes included blood lipid , fasting glucose , and insulin levels and side effects related to elevated blood pressure and increased dietary fiber intake .",
+        "prompt_response": "{\"Outcome\": [\"blood lipid\", \"fasting glucose\", \"insulin levels\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "blood lipid",
+            "fasting glucose",
+            "insulin levels",
+            "side effects",
+            "elevated blood pressure",
+            "increased dietary fiber intake"
+        ]
+    },
+    {
+        "id": 154,
+        "input": "Title : Prolonged GnRH agonist and add - back therapy for symptomatic endometriosis : long - term follow - up .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "Prolonged GnRH agonist",
+            "add - back therapy"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 155,
+        "input": "METHODS : This is a post - treatment follow - up analysis of a randomized , double - masked , placebo - controlled 52 - week trial .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 156,
+        "input": "All patients had received monthly leuprolide acetate and were randomized to one of four groups : A - daily placebo ; B - daily norethindrone acetate 5 mg ; C - daily norethindrone acetate 5 mg and conjugated equine estrogens 0 . 625 mg ; and D - daily norethindrone acetate 5 mg and conjugated equine estrogens 1 . 25 mg .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "daily norethindrone acetate",
+            "daily norethindrone acetate",
+            "conjugated equine estrogens",
+            "daily norethindrone acetate",
+            "conjugated equine estrogens"
+        ],
+        "gold_COM": [
+            "daily placebo"
+        ],
+        "gold_OUT": []
+    },
+    {
+        "id": 157,
+        "input": "Of 201 patients enrolled in the initial trial , 123 completed at least 280 days of therapy and entered the follow - up period .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "201 patients enrolled in the initial trial , 123 completed at least 280 days of therapy and entered the follow - up period"
+        ],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 158,
+        "input": "Physical findings and symptoms were quantified , and lumbar spine bone mineral density was determined at intervals for up to 12 and 24 months post - therapy .",
+        "prompt_response": "{\"Outcome\": [\"Physical\", \"symptoms\", \"lumbar spine bone mineral density\"]}",
+        "gold_PAR": [],
+        "gold_INT": [],
+        "gold_COM": [],
+        "gold_OUT": [
+            "Physical findings",
+            "symptoms",
+            "lumbar spine bone mineral density"
+        ]
+    },
+    {
+        "id": 159,
+        "input": "Title : Lack of benefit of an active pectoral pulse generator on atrial defibrillation thresholds .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [],
+        "gold_INT": [
+            "an active pectoral pulse generator"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 160,
+        "input": "Title : Do colonic short - chain fatty acids contribute to the long - term adaptation of blood lipids in subjects with type 2 diabetes consuming a high - fiber diet ? .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "subjects with type 2 diabetes"
+        ],
+        "gold_INT": [
+            "a high - fiber diet"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 161,
+        "input": "METHODS : Subjects with type 2 diabetes ( n = 62 ) were randomly assigned to receive approximately 10 % of energy from low - fiber breakfast cereal ( LF diet ) , high - fiber breakfast cereal ( HF diet ) , or monounsaturated fatty acids ( MUFA diet ) for 6 mo .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "Subjects with type 2 diabetes ( n = 62 )"
+        ],
+        "gold_INT": [
+            "low - fiber breakfast cereal ( LF diet )",
+            "high - fiber breakfast cereal ( HF diet )",
+            "monounsaturated fatty acids ( MUFA diet )"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 162,
+        "input": "Title : Impact of different platelet glycoprotein IIb / IIIa receptor inhibitors among diabetic patients undergoing percutaneous coronary intervention : : Do Tirofiban and ReoPro Give Similar Efficacy Outcomes Trial ( TARGET ) 1 - year follow - up .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "diabetic patients undergoing percutaneous coronary intervention"
+        ],
+        "gold_INT": [
+            "platelet glycoprotein IIb / IIIa receptor inhibitors",
+            "Tirofiban",
+            "ReoPro"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 163,
+        "input": "Title : Superior survival with capecitabine plus docetaxel combination therapy in anthracycline - pretreated patients with advanced breast cancer : phase III trial results .",
+        "prompt_response": "{\"Outcome\": []}",
+        "gold_PAR": [
+            "anthracycline - pretreated patients with advanced breast cancer"
+        ],
+        "gold_INT": [
+            "capecitabine plus docetaxel combination therapy"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    },
+    {
+        "id": 164,
+        "input": "METHODS : Patients were randomized to 21 - day cycles of oral capecitabine 1 , 250 mg / m ( 2 ) twice daily on days 1 to 14 plus docetaxel 75 mg / m ( 2 ) on day 1 ( n = 255 ) or to docetaxel 100 mg / m ( 2 ) on day 1 ( n = 256 ) .",
+        "prompt_response": "\" \"The primary outcome measure was progression-free survival.\" \"",
+        "gold_PAR": [],
+        "gold_INT": [
+            "21 - day cycles of oral capecitabine",
+            "docetaxel",
+            "docetaxel"
+        ],
+        "gold_COM": [],
+        "gold_OUT": []
+    }
+]
