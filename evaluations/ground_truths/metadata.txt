@@ -1,0 +1,11 @@
+EBM NLP Mod -
+
+The EBM NLP Mod dataset is present at - https://github.com/BIDS-Xu-Lab/section_specific_annotation_of_PICO/tree/main/data/EBM-NLPmod 
+There are 5 folds of data, we are combining them to form the EBM_NLP_Mod_ground_truth.jsonl file.
+
+EBM NLP -
+
+The EBM NLP dataset is present at - https://github.com/bepnye/EBM-NLP
+We have chosen the "ebm_nlp_2_00.tar.gz" as the test data, used the "convert_ebm_nlp.py" file to get jsonl file for use as "EBM_NLP_ground_truth.jsonl"
+
+EBM NLP Comet - 
