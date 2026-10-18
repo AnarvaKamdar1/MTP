@@ -9,3 +9,6 @@ The EBM NLP dataset is present at - https://github.com/bepnye/EBM-NLP
 We have chosen the "ebm_nlp_2_00.tar.gz" as the test data, used the "convert_ebm_nlp.py" file to get jsonl file for use as "EBM_NLP_ground_truth.jsonl"
 
 EBM NLP Comet - 
+
+The EBM NLP Comet dataset is present at - https://github.com/shrimonmuke0202/AlpaPICO/tree/main/dataset
+We have chosen the "test.pkl" as the test data, used the "convert_pkl_to_json.py" file to get the json file for use as "EBM_NLP_Comet_ground_truth.json"
