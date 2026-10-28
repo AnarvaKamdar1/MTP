@@ -1,0 +1,16 @@
+| ID  | Activation                                       | Purpose                                |
+| --  | ------------------------------------------------ | -------------------------------------- |
+| A01 | `Population` token                               | Task-label/control representation      |
+| A02 | `(P)` token                                      | Label-symbol control                   |
+| A03 | `Intervention` token                             | Task-label/control representation      |
+| A04 | `(I)` token                                      | Label-symbol control                   |
+| A05 | `Comparator` token                               | Task-label/control representation      |
+| A06 | `(C)` token                                      | Label-symbol control                   |
+| A07 | `Outcome` token                                  | Task-label/control representation      |
+| A08 | `(O)` token                                      | Label-symbol control                   |
+| A09 | **Assistant-start token**                        | **Pre-generation PICO representation** |
+| A10 | Last user/input token                            | Alternative pre-generation state       |
+| A11 | Full input sequence                              | Distributed representation             |
+| A12 | PICO-relevant abstract span                      | Local representation control           |
+| A13 | `assistant-start_steered`                        | Pre-generation steered state           |
+| A14 | `assistant-start_steered − assistant-start_base` | **Meaning/effect of KV steering**      |
