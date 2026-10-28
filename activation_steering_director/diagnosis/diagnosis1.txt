@@ -1,0 +1,816 @@
+(qwenfix) srinjoy@AI-ProLiant-DL380-Gen11:~/Anarva/interpretability/Director_for_Qwen_A01_A14$ python run.py --input ../input_data/test.json --output ../output_data/qwen_steered_diagnosis1_sot.jsonl --alpha 100 --beta 0.7  --steer_format --limit 
+5 --save_raw --verbose
+============================================================
+[*] Initializing DIRECTER Pipeline
+    - Model: Qwen/Qwen3-8B
+    - Steering: ON
+    - Alpha (Key Scale): 100.0
+    - Beta (Plausibility): 0.7
+    - Value Steering : 1.0
+    - Attention: sdpa
+    - Thinking mode: False
+============================================================
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████| 5/5 [00:04<00:00,  1.13it/s]
+[*] Processing 5 abstracts...
+[Population] prompt=476 tok, steered=59 tok, steered_spans=[(201, 260)], abstract_span=(25, 202)
+    [GATE] top1=0.8801 top2=0.1191 ratio=0.1353 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [33, 26, 34, 30, 24, 29, 31, 27]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9981 top2=0.0019 ratio=0.0019 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9999 top2=0.0001 ratio=0.0001 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.6224 top2=0.3775 ratio=0.6065 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=1 elem=p tokens=26 attempts=0 accepted=0 accept_rate=0.00
+[Population] -> Found 1 span(s)
+[Intervention] prompt=535 tok, steered=60 tok, steered_spans=[(201, 261)], abstract_span=(25, 202)
+    [GATE] top1=0.9046 top2=0.0953 ratio=0.1054 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [24, 34, 26, 33, 29, 23, 27, 32]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9975 top2=0.0025 ratio=0.0025 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.7745 top2=0.2219 ratio=0.2865 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9997 top2=0.0003 ratio=0.0003 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9985 top2=0.0015 ratio=0.0015 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9998 top2=0.0001 ratio=0.0001 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.8175 top2=0.1824 ratio=0.2231 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=1 elem=i tokens=35 attempts=0 accepted=0 accept_rate=0.00
+[Intervention] -> Found 3 span(s)
+[Comparator] prompt=509 tok, steered=59 tok, steered_spans=[(201, 260)], abstract_span=(25, 202)
+    [GATE] top1=0.9863 top2=0.0052 ratio=0.0052 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [26, 24, 29, 33, 27, 30, 32, 25]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9975 top2=0.0025 ratio=0.0025 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9998 top2=0.0002 ratio=0.0002 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.7311 top2=0.2689 ratio=0.3679 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9996 top2=0.0004 ratio=0.0004 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9999 top2=0.0001 ratio=0.0001 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=1 elem=c tokens=19 attempts=0 accepted=0 accept_rate=0.00
+[Comparator] -> Found 2 span(s)
+[Outcome] prompt=603 tok, steered=59 tok, steered_spans=[(201, 260)], abstract_span=(25, 202)
+    [GATE] top1=0.9046 top2=0.0953 ratio=0.1054 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [24, 29, 26, 33, 31, 30, 34, 25]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9999 top2=0.0001 ratio=0.0001 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9999 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9991 top2=0.0009 ratio=0.0009 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.8808 top2=0.1192 ratio=0.1353 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9991 top2=0.0009 ratio=0.0009 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.8520 top2=0.1480 ratio=0.1738 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9608 top2=0.0373 ratio=0.0388 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.5622 top2=0.4378 ratio=0.7788 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=1 elem=o tokens=62 attempts=1 accepted=1 accept_rate=1.00
+[Outcome] -> Found 4 span(s)
+[1/5] ID: N/A (Avg: 9.0s/doc)
+[Population] prompt=474 tok, steered=59 tok, steered_spans=[(199, 258)], abstract_span=(25, 200)
+    [GATE] top1=0.9703 top2=0.0293 ratio=0.0302 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [26, 33, 34, 29, 27, 30, 24, 28]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9948 top2=0.0052 ratio=0.0052 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9820 top2=0.0180 ratio=0.0183 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.7773 top2=0.2227 ratio=0.2865 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=2 elem=p tokens=10 attempts=0 accepted=0 accept_rate=0.00
+[Population] -> Found 1 span(s)
+[Intervention] prompt=533 tok, steered=60 tok, steered_spans=[(199, 259)], abstract_span=(25, 200)
+    [GATE] top1=0.9525 top2=0.0474 ratio=0.0498 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [26, 34, 24, 33, 23, 30, 25, 32]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9859 top2=0.0141 ratio=0.0143 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.8406 top2=0.1461 ratio=0.1738 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.5622 top2=0.4378 ratio=0.7788 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.7773 top2=0.2227 ratio=0.2865 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=2 elem=i tokens=29 attempts=1 accepted=1 accept_rate=1.00
+[Intervention] -> Found 3 span(s)
+[Comparator] prompt=507 tok, steered=59 tok, steered_spans=[(199, 258)], abstract_span=(25, 200)
+    [GATE] top1=0.4981 top2=0.4981 ratio=1.0000 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [24, 26, 31, 29, 34, 30, 25, 27]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9991 top2=0.0009 ratio=0.0009 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9999 top2=0.0001 ratio=0.0001 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9890 top2=0.0110 ratio=0.0111 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=2 elem=c tokens=7 attempts=1 accepted=1 accept_rate=1.00
+[Comparator] -> Found 1 span(s)
+[Outcome] prompt=601 tok, steered=59 tok, steered_spans=[(199, 258)], abstract_span=(25, 200)
+    [GATE] top1=0.9707 top2=0.0293 ratio=0.0302 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [24, 26, 33, 34, 27, 30, 29, 31]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9999 top2=0.0001 ratio=0.0001 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9998 top2=0.0002 ratio=0.0002 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9526 top2=0.0474 ratio=0.0498 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9997 top2=0.0003 ratio=0.0003 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9526 top2=0.0474 ratio=0.0498 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.7370 top2=0.2111 ratio=0.2865 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=2 elem=o tokens=22 attempts=0 accepted=0 accept_rate=0.00
+[Outcome] -> Found 3 span(s)
+[2/5] ID: N/A (Avg: 7.6s/doc)
+[Population] prompt=418 tok, steered=59 tok, steered_spans=[(143, 202)], abstract_span=(25, 144)
+    [GATE] top1=0.8164 top2=0.1419 ratio=0.1738 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [33, 34, 26, 24, 27, 29, 31, 32]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9914 top2=0.0086 ratio=0.0087 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9998 top2=0.0002 ratio=0.0002 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9996 top2=0.0003 ratio=0.0003 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9517 top2=0.0474 ratio=0.0498 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=3 elem=p tokens=47 attempts=0 accepted=0 accept_rate=0.00
+[Population] -> Found 2 span(s)
+[Intervention] prompt=477 tok, steered=60 tok, steered_spans=[(143, 203)], abstract_span=(25, 144)
+    [GATE] top1=0.9627 top2=0.0373 ratio=0.0388 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [24, 34, 26, 32, 33, 30, 23, 27]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9997 top2=0.0003 ratio=0.0003 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.7743 top2=0.2218 ratio=0.2865 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.5427 top2=0.4226 ratio=0.7788 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9627 top2=0.0373 ratio=0.0388 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9944 top2=0.0052 ratio=0.0052 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=3 elem=i tokens=67 attempts=1 accepted=1 accept_rate=1.00
+[Intervention] -> Found 5 span(s)
+[Comparator] prompt=451 tok, steered=59 tok, steered_spans=[(143, 202)], abstract_span=(25, 144)
+    [GATE] top1=0.9437 top2=0.0285 ratio=0.0302 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [24, 26, 34, 33, 25, 30, 29, 31]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9038 top2=0.0953 ratio=0.1054 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9975 top2=0.0025 ratio=0.0025 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=3 elem=c tokens=26 attempts=0 accepted=0 accept_rate=0.00
+[Comparator] -> Found 1 span(s)
+[Outcome] prompt=545 tok, steered=59 tok, steered_spans=[(143, 202)], abstract_span=(25, 144)
+    [GATE] top1=0.9399 top2=0.0601 ratio=0.0639 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [24, 26, 33, 30, 27, 34, 29, 23]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9988 top2=0.0012 ratio=0.0012 thresh=0.7
+    [GATE] top1=0.8958 top2=0.0573 ratio=0.0639 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9994 top2=0.0006 ratio=0.0006 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=3 elem=o tokens=20 attempts=0 accepted=0 accept_rate=0.00
+[Outcome] -> Found 1 span(s)
+[3/5] ID: N/A (Avg: 8.0s/doc)
+[Population] prompt=488 tok, steered=59 tok, steered_spans=[(213, 272)], abstract_span=(25, 214)
+    [GATE] top1=0.8517 top2=0.1480 ratio=0.1738 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [26, 33, 34, 24, 27, 29, 23, 30]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9994 top2=0.0006 ratio=0.0006 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9991 top2=0.0009 ratio=0.0009 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=4 elem=p tokens=19 attempts=0 accepted=0 accept_rate=0.00
+[Population] -> Found 1 span(s)
+[Intervention] prompt=547 tok, steered=60 tok, steered_spans=[(213, 273)], abstract_span=(25, 214)
+    [GATE] top1=0.9522 top2=0.0474 ratio=0.0498 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [34, 24, 33, 23, 26, 29, 25, 27]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9933 top2=0.0067 ratio=0.0067 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9998 top2=0.0002 ratio=0.0002 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9914 top2=0.0086 ratio=0.0087 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9975 top2=0.0025 ratio=0.0025 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9988 top2=0.0009 ratio=0.0009 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=4 elem=i tokens=124 attempts=0 accepted=0 accept_rate=0.00
+[Intervention] -> Found 3 span(s)
+[Comparator] prompt=521 tok, steered=59 tok, steered_spans=[(213, 272)], abstract_span=(25, 214)
+    [GATE] top1=0.9015 top2=0.0576 ratio=0.0639 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [24, 34, 26, 23, 25, 33, 32, 27]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9890 top2=0.0110 ratio=0.0111 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9999 top2=0.0001 ratio=0.0001 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=4 elem=c tokens=118 attempts=0 accepted=0 accept_rate=0.00
+[Comparator] -> Found 2 span(s)
+[Outcome] prompt=615 tok, steered=59 tok, steered_spans=[(213, 272)], abstract_span=(25, 214)
+    [GATE] top1=0.9890 top2=0.0110 ratio=0.0111 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [24, 34, 26, 33, 30, 27, 29, 23]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9707 top2=0.0293 ratio=0.0302 thresh=0.7
+    [GATE] top1=0.9542 top2=0.0288 ratio=0.0302 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=4 elem=o tokens=9 attempts=0 accepted=0 accept_rate=0.00
+[Outcome] -> Found 1 span(s)
+[4/5] ID: N/A (Avg: 8.9s/doc)
+[Population] prompt=351 tok, steered=59 tok, steered_spans=[(76, 135)], abstract_span=(25, 77)
+    [GATE] top1=0.9241 top2=0.0759 ratio=0.0821 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [33, 34, 29, 27, 26, 24, 23, 30]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9975 top2=0.0025 ratio=0.0025 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.8032 top2=0.1087 ratio=0.1353 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=5 elem=p tokens=22 attempts=0 accepted=0 accept_rate=0.00
+[Population] -> Found 1 span(s)
+[Intervention] prompt=410 tok, steered=60 tok, steered_spans=[(76, 136)], abstract_span=(25, 77)
+    [GATE] top1=0.9859 top2=0.0141 ratio=0.0143 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [24, 34, 32, 26, 27, 21, 33, 29]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.5042 top2=0.3058 ratio=0.6065 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9991 top2=0.0009 ratio=0.0009 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=5 elem=i tokens=13 attempts=0 accepted=0 accept_rate=0.00
+[Intervention] -> Found 1 span(s)
+[Comparator] prompt=384 tok, steered=59 tok, steered_spans=[(76, 135)], abstract_span=(25, 77)
+    [GATE] top1=0.9951 top2=0.0041 ratio=0.0041 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [15, 24, 32, 26, 34, 33, 29, 31]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=0.9988 top2=0.0012 ratio=0.0012 thresh=0.7
+    [GATE] top1=0.7788 top2=0.1353 ratio=0.1738 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=5 elem=c tokens=11 attempts=0 accepted=0 accept_rate=0.00
+[Comparator] -> Found 1 span(s)
+[Outcome] prompt=478 tok, steered=59 tok, steered_spans=[(76, 135)], abstract_span=(25, 77)
+    [GATE] top1=0.9959 top2=0.0041 ratio=0.0041 thresh=0.7
+  [DIRECTER] Top-8 sensitive layers: [24, 25, 26, 29, 30, 27, 33, 34]
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+    [GATE] top1=1.0000 top2=0.0000 ratio=0.0000 thresh=0.7
+[DIAG] doc=5 elem=o tokens=7 attempts=0 accepted=0 accept_rate=0.00
+[Outcome] -> Found 1 span(s)
+[5/5] ID: N/A (Avg: 8.2s/doc)
+============================================================
+[*] Finished processing in 41.2s -> ../output_data/qwen_steered_diagnosis1_sot.jsonl
+============================================================
