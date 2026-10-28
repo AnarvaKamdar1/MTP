@@ -1,0 +1,2035 @@
+[
+  {
+    "title": "Switching patients with asthma from chlorofluorocarbon (CFC) albuterol to hydrofluoroalkane-134a (HFA) albuterol.",
+    "abstract": "METHODS: Patients with asthma stabilized on CFC albuterol during a 12-week safety and efficacy trial were randomized to either continue receiving CFC albuterol or to be switched to receive HFA albuterol in a yearlong safety and efficacy trial. Safety and efficacy were compared over the first 12 weeks of the yearlong trial between patients who had remained on CFC albuterol and those who had been switched to HFA albuterol. Bronchodilator efficacy was evaluated by serial spirometry for 6 hr after the patients self-administered the study drug in the clinic. Safety was assessed by measuring changes in pulse rate, blood pressure, and electrocardiogram (ECG) intervals after dosing with study drug, monitoring adverse events, and performing prestudy and poststudy laboratory testing and physical examinations.",
+    "population": [
+      "patients with asthma",
+      "Patients with asthma"
+    ],
+    "intervention_exposure": [
+      "chlorofluorocarbon (CFC) albuterol",
+      "hydrofluoroalkane-134a (HFA) albuterol",
+      "CFC albuterol",
+      "CFC albuterol",
+      "HFA albuterol",
+      "CFC albuterol",
+      "HFA albuterol"
+    ],
+    "comparison": [],
+    "outcome": [
+      "safety",
+      "efficacy",
+      "safety",
+      "efficacy",
+      "Safety",
+      "efficacy",
+      "Bronchodilator efficacy",
+      "serial spirometry",
+      "Safety",
+      "pulse rate",
+      "blood pressure",
+      "electrocardiogram (ECG)",
+      "adverse events",
+      "laboratory testing",
+      "physical examinations"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Patients with asthma",
+        "patients who had remained on CFC albuterol",
+        "patients who had been switched to HFA albuterol",
+        "the patients"
+      ],
+      "Intervention": [
+        "CFC albuterol",
+        "HFA albuterol",
+        "study drug"
+      ],
+      "Comparator": [
+        "CFC albuterol"
+      ],
+      "Outcome": [
+        "Bronchodilator efficacy was evaluated by serial spirometry for 6 hr after the patients self-administered the study drug in the clinic.",
+        "safety was assessed by measuring changes in pulse rate, blood pressure, and electrocardiogram (ECG) intervals after dosing with study drug, monitoring adverse events, and performing prestudy and poststudy laboratory testing and physical examinations."
+      ]
+    }
+  },
+  {
+    "title": "Behavioral and physiological effects of remifentanil and alfentanil in healthy volunteers.",
+    "abstract": "METHODS: Ten healthy volunteers were enrolled in a randomized, double-blinded, placebo-controlled, crossover trial in which they received an infusion of saline, remifentanil, or alfentanil for 120 min. The age-and weight-adjusted infusions (determined with STANPUMP, a computer modeling software package) were given to achieve three predicted constant plasma levels for 40 min each of remifentanil (0. 75, 1. 5, and 3 ng / ml) and alfentanil (16, 32, and 64 ng / ml). Mood forms and psychomotor tests were completed, and miosis was assessed, during and after the infusions. In addition, analgesia was tested at each dose level using a cold-pressor test.",
+    "population": [
+      "healthy volunteers",
+      "Ten healthy volunteers"
+    ],
+    "intervention_exposure": [
+      "remifentanil",
+      "alfentanil",
+      "remifentanil",
+      "alfentanil",
+      "40 min each of remifentanil",
+      "alfentanil"
+    ],
+    "comparison": [
+      "an infusion of saline"
+    ],
+    "outcome": [
+      "Mood forms",
+      "psychomotor tests",
+      "miosis",
+      "analgesia",
+      "a cold-pressor test"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Ten healthy volunteers"
+      ],
+      "Intervention": [
+        "an infusion of saline",
+        "remifentanil for 120 min",
+        "alfentanil for 120 min",
+        "remifentanil (0. 75, 1. 5, and 3 ng / ml)",
+        "alfentanil (16, 32, and 64 ng / ml)"
+      ],
+      "Comparator": [
+        "saline",
+        "placebo",
+        "a sham procedure",
+        "no treatment at all"
+      ],
+      "Outcome": [
+        "Mood forms and psychomotor tests were completed, and miosis was assessed, during and after the infusions.",
+        "analgesia was tested at each dose level using a cold-pressor test."
+      ]
+    }
+  },
+  {
+    "title": "Genotyping of CYP21, linked chromosome 6p markers, and a sex-specific gene in neonatal screening for congenital adrenal hyperplasia.",
+    "abstract": "METHODS: Blood-impregnated filter papers (Guthrie cards) from 603 randomly chosen New Zealand neonates were genotyped blind to 17-hydroxyprogesterone (17-OHP) levels. Another 50 samples from Swiss and North American infants with correlative hormonal data were also genotyped. DNA was extracted, and gene-specific PCR was performed. CYP21 PCR products were subjected to ligase detection reaction, simultaneously analyzing 9 CYP21 mutations; PCR products of other genes were subjected to direct gel analysis.",
+    "population": [],
+    "intervention_exposure": [
+      "Blood-impregnated filter papers (Guthrie cards)"
+    ],
+    "comparison": [],
+    "outcome": [
+      "DNA",
+      "gene-specific PCR",
+      "CYP21 PCR products",
+      "ligase detection reaction",
+      "9 CYP21 mutations",
+      "PCR products",
+      "direct gel analysis"
+    ],
+    "pico_directer": {
+      "Population": [
+        "New Zealand neonates",
+        "Swiss and North American infants"
+      ],
+      "Intervention": [
+        "blood-impregnated filter papers",
+        "17-hydroxyprogesterone levels",
+        "gene-specific PCR",
+        "ligase detection reaction",
+        "direct gel analysis"
+      ],
+      "Comparator": [
+        "blind to 17-hydroxyprogesterone (17-OHP) levels",
+        "no treatment at all"
+      ],
+      "Outcome": [
+        "17-hydroxyprogesterone (17-OHP) levels",
+        "CYP21 mutations",
+        "DNA was extracted, and gene-specific PCR was performed",
+        "ligase detection reaction",
+        "direct gel analysis"
+      ]
+    }
+  },
+  {
+    "title": "Piperacillin / tazobactam plus tobramycin versus ceftazidime plus tobramycin as empiric therapy for fever in severely neutropenic patients.",
+    "abstract": "METHODS: In this single-center study, patients who experienced a total of 247 febrile episodes were prospectively randomized to receive either our standard regimen, ceftazidime 3 g / day (1 g t. i. d.) plus tobramycin 3 mg / kg per day (1. 5 mg / kg b. i. d.), or piperacillin 12 g / day plus tazobactam 1. 5 g / day (4 g + 0. 5 g t. i. d.) plus tobramycin 3 mg / kg per day (1. 5 mg / kg b. i. d.). Vancomycin was added in all cases of persistent fever in the ceftazidime arm, but only when there was microbiologically documented resistance in the piperacillin / tazobactam arm.",
+    "population": [
+      "severely neutropenic patients",
+      "patients who experienced a total of 247 febrile episodes"
+    ],
+    "intervention_exposure": [
+      "Piperacillin",
+      "tazobactam",
+      "tobramycin",
+      "piperacillin",
+      "tazobactam",
+      "tobramycin"
+    ],
+    "comparison": [
+      "ceftazidime",
+      "tobramycin",
+      "standard regimen",
+      "ceftazidime",
+      "tobramycin"
+    ],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "patients who experienced a total of 247 febrile episodes",
+        "patients who were prospectively randomized to receive either our standard regimen"
+      ],
+      "Intervention": [
+        "ceftazidime 3 g / day (1 g t. i. d.)",
+        "tobramycin 3 mg / kg per day (1. 5 mg / kg b. i. d.)",
+        "piperacillin 12 g / day",
+        "tazobactam 1. 5 g / day (4 g + 0. 5 g t. i. d.)",
+        "vancomycin"
+      ],
+      "Comparator": [
+        "ceftazidime 3 g / day (1 g t. i. d.) plus tobramycin 3 mg / kg per day (1. 5 mg / kg b. i. d.)"
+      ],
+      "Outcome": [
+        "febrile episodes",
+        "persistent fever",
+        "microbiologically documented resistance",
+        "fever"
+      ]
+    }
+  },
+  {
+    "title": "Independent prognostic information provided by sphygmomanometrically determined pulse pressure and mean arterial pressure in patients with left ventricular dysfunction.",
+    "abstract": "METHODS: Pulse and mean arterial pressure were analyzed for their effect on mortality, adjusting for other modifiers of risk, using Cox proportional hazards regression analysis of data collected from 6, 781 patients randomized into the Studies of Left Ventricular Dysfunction trials.",
+    "population": [
+      "patients with left ventricular dysfunction",
+      "6, 781 patients randomized into the Studies of Left Ventricular Dysfunction trials"
+    ],
+    "intervention_exposure": [
+      "sphygmomanometrically determined pulse pressure",
+      "mean arterial pressure",
+      "Pulse",
+      "mean arterial pressure"
+    ],
+    "comparison": [],
+    "outcome": [
+      "mortality"
+    ],
+    "pico_directer": {
+      "Population": [
+        "6, 781 patients"
+      ],
+      "Intervention": [
+        "randomized into the Studies of Left Ventricular Dysfunction trials"
+      ],
+      "Comparator": [
+        "6, 781 patients randomized into the Studies of Left Ventricular Dysfunction trials"
+      ],
+      "Outcome": [
+        "mortality",
+        "pulse and mean arterial pressure"
+      ]
+    }
+  },
+  {
+    "title": "Rett syndrome: randomized controlled trial of L-carnitine.",
+    "abstract": "METHODS: To investigate whether L-carnitine might be of benefit in Rett syndrome, a randomized, placebo-controlled, double-blind crossover trial of L-carnitine has been completed in 35 subjects. Eight-week treatment phases were completed for both a placebo and L-carnitine. Outcome was measured by parents / caregivers and at medical follow-up using three established tools: the Rett Syndrome Motor Behavioral Assessment, the Hand Apraxia Scale, and the Patient Well-Being Index.",
+    "population": [
+      "35 subjects"
+    ],
+    "intervention_exposure": [
+      "L-carnitine",
+      "L-carnitine",
+      "L-carnitine",
+      "L-carnitine"
+    ],
+    "comparison": [
+      "a placebo"
+    ],
+    "outcome": [
+      "the Rett Syndrome Motor Behavioral Assessment",
+      "the Hand Apraxia Scale",
+      "the Patient Well-Being Index"
+    ],
+    "pico_directer": {
+      "Population": [
+        "35 subjects"
+      ],
+      "Intervention": [
+        "L-carnitine",
+        "a placebo"
+      ],
+      "Comparator": [
+        "a placebo",
+        "placebo"
+      ],
+      "Outcome": [
+        "Outcome was measured by parents / caregivers and at medical follow-up using three established tools: the Rett Syndrome Motor Behavioral Assessment, the Hand Apraxia Scale, and the Patient Well-Being Index"
+      ]
+    }
+  },
+  {
+    "title": "Naltrexone and communication skills in young children with autism.",
+    "abstract": "METHODS: Twenty-four children with autism, 3. 0 to 8. 3 years old (mean 5. 1) who were living at home and attending appropriate school programs, participated in a randomized, double-blind, placebo-controlled, crossover trial. Naltrexone, 1. 0 mg / kg, or placebo was administered daily for 2 weeks. Communication was evaluated from videotaped samples of seminaturalistic parent-child interaction. Child and parent language were assessed using similar measures.",
+    "population": [
+      "young children with autism",
+      "Twenty-four children with autism, 3. 0 to 8. 3 years old (mean 5. 1) who were living at home and attending appropriate school programs"
+    ],
+    "intervention_exposure": [
+      "Naltrexone",
+      "Naltrexone"
+    ],
+    "comparison": [
+      "placebo"
+    ],
+    "outcome": [
+      "Communication",
+      "Child",
+      "parent language"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Twenty-four children with autism, 3. 0 to 8. 3 years old (mean 5. 1) who were living at home and attending appropriate school programs,"
+      ],
+      "Intervention": [
+        "Naltrexone",
+        "1.0 mg / kg",
+        "daily for 2 weeks",
+        "placebo"
+      ],
+      "Comparator": [
+        "placebo",
+        "a sham procedure",
+        "no treatment at all"
+      ],
+      "Outcome": [
+        "Communication was evaluated from videotaped samples of seminaturalistic parent-child interaction",
+        "Child and parent language were assessed using similar measures."
+      ]
+    }
+  },
+  {
+    "title": "Long term response to therapy of chronic anti-HBe-positive hepatitis B is poor independent of type and schedule of interferon.",
+    "abstract": "METHODS: Seventy-two consecutive anti-HBe-positive chronic hepatitis B patients (59 male and 13 female, median age 41 yr) stratified by sex and histology were randomly allocated to three treatment arms. Twenty-seven patients (A) received 10 million units alpha-N1 IFN i. m. t. w. for 24 wk (total dose: 720 million units); 21 (B) received 9 million units alpha-2a IFN i. m. t. w. for 4 wk, followed by 18 million units for 12 wk and 9 million units for 8 wk (972 million units); 24 (C) received 2 alpha-2a IFN courses (9 million units i. m. t. w. for 16 and 12 wk separated by a 6-month interval [756 million units]). Primary response was defined by normal ALT and serum HBV-DNA levels below 10 pg / ml at the end of therapy and sustained response by normal ALT (tested monthly), undetectable HBV-DNA and IgM anti-HBc (< 7 I. U. Paul Ehrlich Institute) (tested every 3 months) during the posttreatment follow-up.",
+    "population": [
+      "Seventy-two consecutive anti-HBe-positive chronic hepatitis B patients (59 male and 13 female, median age 41 yr) stratified by sex and histology"
+    ],
+    "intervention_exposure": [
+      "10 million units alpha-N1 IFN",
+      "9 million units alpha-2a IFN",
+      "2 alpha-2a IFN courses"
+    ],
+    "comparison": [],
+    "outcome": [
+      "normal ALT",
+      "serum HBV-DNA levels below 10 pg / ml",
+      "sustained response by normal ALT",
+      "undetectable HBV-DNA",
+      "IgM anti-HBc"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Seventy-two consecutive anti-HBe-positive chronic hepatitis B patients",
+        "59 male and 13 female",
+        "median age 41 yr",
+        "stratified by sex and histology"
+      ],
+      "Intervention": [
+        "10 million units alpha-N1 IFN i. m. t. w. for 24 wk",
+        "9 million units alpha-2a IFN i. m. t. w. for 4 wk, followed by 18 million units for 12 wk and 9 million units for 8 wk",
+        "2 alpha-2a IFN courses (9 million units i. m. t. w. for 16 and 12 wk separated by a 6-month interval"
+      ],
+      "Comparator": [
+        "24 (C) received 2 alpha-2a IFN courses (9 million units i. m. t. w. for 16 and 12 wk separated by a 6-month interval [756 million units])."
+      ],
+      "Outcome": [
+        "normal ALT",
+        "serum HBV-DNA levels below 10 pg / ml",
+        "undetectable HBV-DNA",
+        "IgM anti-HBc (< 7 I. U. Paul Ehrlich Institute)"
+      ]
+    }
+  },
+  {
+    "title": "Adjuvant L-arginine treatment for in-vitro fertilization in poor responder patients.",
+    "abstract": "METHODS: A total of 34 patients undergoing assisted reproduction was divided in two groups according to different ovarian stimulation protocols: (i) flare-up gonadotrophin-releasing hormone analogue (GnRHa) plus elevated pure follicle stimulating hormone (pFSH) (n = 17); and (ii) flare-up GnRHa plus elevated pFSH plus oral L-arginine (n = 17). During the ovarian stimulation regimen, the patients were submitted to hormonal (oestradiol and growth hormone), ultrasonographic (follicular number and diameter, endometrial thickness) and Doppler (uterine and perifollicular arteries) evaluations. Furthermore, the plasma and follicular fluid concentrations of arginine, citrulline, nitrite / nitrate (NO2-/ NO3-), and insulin-like growth factor-1 (IGF-1) were assayed.",
+    "population": [
+      "A total of 34 patients undergoing assisted reproduction"
+    ],
+    "intervention_exposure": [
+      "Adjuvant L-arginine",
+      "different ovarian stimulation protocols",
+      "flare-up gonadotrophin-releasing hormone analogue (GnRHa)",
+      "elevated pure follicle stimulating hormone (pFSH)",
+      "flare-up GnRHa",
+      "elevated pFSH",
+      "oral L-arginine",
+      "the ovarian stimulation regimen"
+    ],
+    "comparison": [],
+    "outcome": [
+      "hormonal",
+      "oestradiol",
+      "growth hormone",
+      "ultrasonographic",
+      "follicular number",
+      "diameter",
+      "endometrial thickness",
+      "Doppler",
+      "uterine",
+      "perifollicular arteries",
+      "the plasma",
+      "follicular fluid concentrations",
+      "arginine",
+      "citrulline",
+      "nitrite",
+      "nitrate",
+      "(NO2-",
+      "NO3-)",
+      "insulin-like growth factor-1 (IGF-1)"
+    ],
+    "pico_directer": {
+      "Population": [
+        "patients undergoing assisted reproduction",
+        "patients undergoing assisted reproduction was divided in two groups",
+        "patients were submitted to hormonal evaluations",
+        "patients were submitted to ultrasonographic evaluations",
+        "patients were submitted to Doppler evaluations"
+      ],
+      "Intervention": [
+        "flare-up gonadotrophin-releasing hormone analogue (GnRHa)",
+        "elevated pure follicle stimulating hormone (pFSH)",
+        "oral L-arginine",
+        "hormonal (oestradiol and growth hormone)",
+        "ultrasonographic (follicular number and diameter, endometrial thickness)",
+        "Doppler (uterine and perifollicular arteries)",
+        "arginine",
+        "citrulline",
+        "nitrite / nitrate (NO2-/ NO3-)",
+        "insulin-like growth factor-1 (IGF-1)"
+      ],
+      "Comparator": [
+        "elevated pure follicle stimulating hormone (pFSH)"
+      ],
+      "Outcome": [
+        "oestradiol",
+        "growth hormone",
+        "follicular number",
+        "diameter",
+        "endometrial thickness",
+        "nitrite / nitrate (NO2-/ NO3-)",
+        "insulin-like growth factor-1 (IGF-1)"
+      ]
+    }
+  },
+  {
+    "title": "Delineation of cryptogenic Lennox-Gastaut syndrome and myoclonic astatic epilepsy using multiple correspondence analysis.",
+    "abstract": "METHODS: We applied MCA to a series of 72 children with no evidence of brain damage, starting epilepsy between 1 and 10 years, with two or more types of generalised seizures. We excluded patients with infantile spasms or typical absences. MCA was performed on all clinical and EEG parameters, first throughout follow-up, then restricted to the first year of the disease.",
+    "population": [
+      "72 children with no evidence of brain damage, starting epilepsy between 1 and 10 years, with two or more types of generalised seizures"
+    ],
+    "intervention_exposure": [
+      "multiple correspondence analysis",
+      "MCA",
+      "MCA"
+    ],
+    "comparison": [],
+    "outcome": [
+      "all clinical",
+      "EEG parameters"
+    ],
+    "pico_directer": {
+      "Population": [
+        "children with no evidence of brain damage, starting epilepsy between 1 and 10 years, with two or more types of generalised seizures"
+      ],
+      "Intervention": [
+        "MCA",
+        "MCA was performed on all clinical and EEG parameters"
+      ],
+      "Comparator": [
+        "We excluded patients with infantile spasms or typical absences."
+      ],
+      "Outcome": [
+        "follow-up",
+        "first year of the disease",
+        "clinical and EEG parameters"
+      ]
+    }
+  },
+  {
+    "title": "Use of the oral neuraminidase inhibitor oseltamivir in experimental human influenza: randomized controlled trials for prevention and treatment.",
+    "abstract": "METHODS: Two randomized, double-blind, placebo-controlled trials conducted between June and July 1997. Individual hotel rooms; 2 large US university medical schools. A total of 117 healthy adult volunteers (aged 18-40 years; median age, 21 years) who were susceptible (hemagglutination-inhibition antibody titer < or =1: 8). All subjects were inoculated intranasally with influenza A / Texas / 36 / 91 (H1N1) virus. For the prophylaxis study, oral oseltamivir (100 mg once daily [n = 12], 100 mg twice daily [n = 12], or matching placebo [n = 13], starting 26 hours before virus inoculation) was administered. For the treatment study, the same drug was given (20 mg, 100 mg, or 200 mg twice daily, 200 mg once daily, or matching placebo [n = 16], in each group starting 28 hours after inoculation). All regimens were continued for 5 days. Comparing placebo groups with pooled treatment groups, for prophylaxis, outcomes included frequency of infection and viral shedding; for treatment, viral shedding in titers.",
+    "population": [
+      "A total of 117 healthy adult volunteers (aged 18-40 years; median age, 21 years) who were susceptible (hemagglutination-inhibition antibody titer < or =1: 8)"
+    ],
+    "intervention_exposure": [
+      "the oral neuraminidase inhibitor oseltamivir",
+      "oral oseltamivir"
+    ],
+    "comparison": [
+      "matching placebo",
+      "matching placebo",
+      "placebo"
+    ],
+    "outcome": [
+      "frequency of infection",
+      "viral shedding",
+      "viral shedding in titers"
+    ],
+    "pico_directer": {
+      "Population": [
+        "healthy adult volunteers",
+        "individual hotel rooms; 2 large US university medical schools",
+        "healthy adult volunteers (aged 18-40 years; median age, 21 years)",
+        "healthy adult volunteers who were susceptible (hemagglutination-inhibition antibody titer < or =1: 8)"
+      ],
+      "Intervention": [],
+      "Comparator": [
+        "matching placebo",
+        "matching placebo [n = 13]",
+        "matching placebo [n = 16]"
+      ],
+      "Outcome": [
+        "frequency of infection",
+        "viral shedding",
+        "viral shedding in titers"
+      ]
+    }
+  },
+  {
+    "title": "Cholesterol-lowering effect of stanol ester in a US population of mildly hypercholesterolemic men and women: a randomized controlled trial.",
+    "abstract": "METHODS: After a run-in phase, 318 subjects were randomized to receive one of the following margarine-like spreads containing stanol ester or placebo for 8 weeks: EU 3 G: 1 g of stanol (ester form) per 8-g serving of a European formula 3 times a day; US 3 G: 1 g of stanol (ester form) per 8-g serving of a US reformulation 3 times a day; US 2 G: 0. 67 g of stanol (ester form) per 8-g serving of a US reformulation 3 times a day; or placebo spread.",
+    "population": [
+      "a US population of mildly hypercholesterolemic men and women",
+      "318 subjects"
+    ],
+    "intervention_exposure": [
+      "stanol ester",
+      "margarine-like spreads containing stanol ester",
+      "1 g of stanol",
+      "1 g of stanol",
+      "0. 67 g of stanol"
+    ],
+    "comparison": [
+      "placebo",
+      "placebo spread"
+    ],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "318 subjects",
+        "one of the following margarine-like spreads containing stanol ester or placebo for 8 weeks",
+        "EU 3 G: 1 g of stanol (ester form) per 8-g serving of a European formula 3 times a day; US 3 G: 1 g of stanol (ester form) per 8-g serving of a US reformulation 3 times a day; US 2 G: 0. 67 g of stanol (ester form) per 8-g serving of a US reformulation 3 times a day; or placebo spread"
+      ],
+      "Intervention": [
+        "1 g of stanol (ester form) per 8-g serving of a European formula 3 times a day",
+        "1 g of stanol (ester form) per 8-g serving of a US reformulation 3 times a day",
+        "0.67 g of stanol (ester form) per 8-g serving of a US reformulation 3 times a day",
+        "placebo spread"
+      ],
+      "Comparator": [
+        "placebo spread"
+      ],
+      "Outcome": []
+    }
+  },
+  {
+    "title": "Randomised controlled trial of patient triggered and conventional fast rate ventilation in neonatal respiratory distress syndrome.",
+    "abstract": "METHODS: Three hundred and eighty six preterm infants with birthweights from 1000 to 2000 g, and requiring ventilation for respiratory distress syndrome within 24 hours of birth, were randomised to receive either conventional or trigger ventilation with the SLE 2000 ventilator.",
+    "population": [
+      "Three hundred and eighty six preterm infants with birthweights from 1000 to 2000 g, and requiring ventilation for respiratory distress syndrome within 24 hours of birth"
+    ],
+    "intervention_exposure": [
+      "triggered",
+      "trigger ventilation",
+      "the SLE 2000 ventilator"
+    ],
+    "comparison": [
+      "conventional fast rate ventilation",
+      "conventional"
+    ],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "preterm infants with birthweights from 1000 to 2000 g, and requiring ventilation for respiratory distress syndrome within 24 hours of birth"
+      ],
+      "Intervention": [
+        "conventional ventilation",
+        "trigger ventilation with the SLE 2000 ventilator"
+      ],
+      "Comparator": [
+        "conventional or trigger ventilation with the SLE 2000 ventilator"
+      ],
+      "Outcome": [
+        "respiratory distress syndrome",
+        "birthweights from 1000 to 2000 g"
+      ]
+    }
+  },
+  {
+    "title": "Regression of left ventricular hypertrophy after stentless versus conventional aortic valve replacement.",
+    "abstract": "METHODS: Stentless (Freestyle, Toronto, n = 106) or conventional biological aortic valves (Carpentier-Edwards, n = 74) were evaluated prospectively.",
+    "population": [],
+    "intervention_exposure": [
+      "stentless",
+      "Stentless"
+    ],
+    "comparison": [
+      "conventional aortic valve replacement",
+      "conventional biological aortic valves"
+    ],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "Stentless (Freestyle, Toronto, n = 106) or conventional biological aortic valves (Carpentier-Edwards, n = 74) were evaluated prospectively."
+      ],
+      "Intervention": [
+        "Stentless",
+        "conventional biological aortic valves",
+        "Freestyle",
+        "Carpentier-Edwards"
+      ],
+      "Comparator": [
+        "conventional biological aortic valves"
+      ],
+      "Outcome": [
+        "evaluated prospectively",
+        "prospective"
+      ]
+    }
+  },
+  {
+    "title": "Computer-assisted instruction: an effective instructional method for HIV prevention education?.",
+    "abstract": "METHODS: Students enrolled in a Human Sexuality course (N = 152) were randomly assigned to one of three groups: CAI, Lecture, or No Intervention group. Participants in the CAI group reviewed a 1-hour long CAI program, participants in the Lecture group were presented with a 1-hour long lecture, and participants in the No Intervention group received no intervention. After completing the respective interventions, all participants completed the HIV questionnaire, which measured selected Social Cognitive Theory constructs associated with HIV preventive behaviors. MANCOVA, ANCOVA and Post Hoc analyses were utilized to test for significant differences among the three groups.",
+    "population": [
+      "Students enrolled in a Human Sexuality course (N = 152)"
+    ],
+    "intervention_exposure": [
+      "Computer-assisted instruction",
+      "CAI",
+      "Lecture",
+      "the CAI",
+      "a 1-hour long CAI program",
+      "the Lecture",
+      "1-hour long lecture"
+    ],
+    "comparison": [
+      "No Intervention",
+      "the No Intervention"
+    ],
+    "outcome": [
+      "the HIV questionnaire",
+      "selected Social Cognitive Theory constructs associated with HIV preventive behaviors"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Students enrolled in a Human Sexuality course",
+        "Participants in the CAI group",
+        "Participants in the Lecture group",
+        "Participants in the No Intervention group",
+        "all participants"
+      ],
+      "Intervention": [
+        "a 1-hour long CAI program",
+        "a 1-hour long lecture",
+        "no intervention"
+      ],
+      "Comparator": [
+        "No Intervention group",
+        "No Intervention"
+      ],
+      "Outcome": [
+        "After completing the respective interventions, all participants completed the HIV questionnaire, which measured selected Social Cognitive Theory constructs associated with HIV preventive behaviors."
+      ]
+    }
+  },
+  {
+    "title": "Photodynamic therapy with 5-aminolaevulinic acid or placebo for recalcitrant foot and hand warts: randomised double-blind trial.",
+    "abstract": "METHODS: Recalcitrant foot and hand warts were randomly assigned to six repetitive ALA-PDT or placebo-PDT interventions combined with standard treatment encompassing paring followed by a keratolytic (Verucid). Standardised photographs of each wart were taken before, during (week 7) and after treatment (weeks 14 and 18). The area of each wart compared with entry area was the primary outcome variable, measured from photographs by an evaluator unaware of treatment allocation for intervention. Pain intensity immediately and 24 h after each intervention was assessed by a five-point scale.",
+    "population": [],
+    "intervention_exposure": [
+      "Photodynamic therapy with 5-aminolaevulinic acid",
+      "ALA-PDT"
+    ],
+    "comparison": [
+      "placebo",
+      "placebo-PDT"
+    ],
+    "outcome": [
+      "Standardised photographs of each wart",
+      "The area of each wart compared with entry area",
+      "photographs",
+      "Pain intensity",
+      "a five-point scale"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Recalcitrant foot and hand warts were randomly assigned to six repetitive ALA-PDT or placebo-PDT interventions combined with standard treatment encompassing paring followed by a keratolytic (Verucid) the area of each wart compared with entry area was the primary outcome variable, measured from photographs by an evaluator unaware of treatment allocation for intervention. Pain intensity immediately and 24 h after each intervention was assessed by a five-point scale."
+      ],
+      "Intervention": [
+        "six repetitive ALA-PDT interventions",
+        "placebo-PDT interventions",
+        "standard treatment encompassing paring followed by a keratolytic (Verucid)"
+      ],
+      "Comparator": [
+        "placebo-PDT interventions",
+        "standard treatment encompassing paring followed by a keratolytic (Verucid)"
+      ],
+      "Outcome": [
+        "area of each wart compared with entry area",
+        "pain intensity",
+        "area of each wart compared with entry area was the primary outcome variable"
+      ]
+    }
+  },
+  {
+    "title": "Language, speech sound production, and cognition in three-year-old children in relation to otitis media in their first three years of life.",
+    "abstract": "METHODS: We enrolled 6350 healthy infants by 2 months of age who presented for primary care at 1 of 2 urban hospitals or 1 of 2 small town / rural and 4 suburban private pediatric practices. We intensively monitored the children' s middle ear status by pneumatic otoscopy, supplemented by tympanometry, throughout their first 3 years of life; we monitored the validity of the otoscopic observations on an ongoing basis; and we treated children for otitis media according to specified guidelines. Children who met specified minimum criteria regarding the persistence of MEE became eligible for a clinical trial in which they were assigned randomly to undergo tympanostomy tube placement either promptly or after a defined extended period if MEE remained present. From among those remaining, we selected randomly, within sociodemographic strata, a sample of 241 children who represented a spectrum of MEE experience from having no MEE to having MEE whose cumulative duration fell just short of meeting randomization criteria. In subjects so selected, the estimated duration of MEE ranged from none to 65. 6% of the first year of life and 44. 8% of the first 3 years of life. In these 241 children we assessed language development, speech sound production, and cognition at 3 years of age, using both formal tests and conversational samples.",
+    "population": [
+      "three-year-old children in relation to otitis media in their first three years of life",
+      "6350 healthy infants by 2 months of age who presented for primary care at 1 of 2 urban hospitals or 1 of 2 small town / rural and 4 suburban private pediatric practices",
+      "a sample of 241 children who represented a spectrum of MEE experience",
+      "241 children"
+    ],
+    "intervention_exposure": [
+      "tympanostomy tube placement either promptly",
+      "after a defined extended period if MEE remained present"
+    ],
+    "comparison": [],
+    "outcome": [
+      "language development",
+      "speech sound production",
+      "cognition at 3 years of age",
+      "formal tests",
+      "conversational samples"
+    ],
+    "pico_directer": {
+      "Population": [
+        "healthy infants by 2 months of age",
+        "children who presented for primary care at 1 of 2 urban hospitals or 1 of 2 small town / rural and 4 suburban private pediatric practices",
+        "children who met specified minimum criteria regarding the persistence of MEE",
+        "241 children who represented a spectrum of MEE experience from having no MEE to having MEE whose cumulative duration fell just short of meeting randomization criteria",
+        "subjects so selected, the estimated duration of MEE ranged from none to 65. 6% of the first year of life and 44. 8% of the first 3 years of life"
+      ],
+      "Intervention": [
+        "tympanostomy tube placement",
+        "treated children for otitis media according to specified guidelines",
+        "promptly or after a defined extended period"
+      ],
+      "Comparator": [
+        "no treatment at all"
+      ],
+      "Outcome": []
+    }
+  },
+  {
+    "title": "Does waiting matter? A randomized controlled trial of new non-urgent rheumatology out-patient referrals.",
+    "abstract": "METHODS: The study was a randomized controlled clinical study evaluating a' fast track' appointment with a 6-week target waiting time against an' ordinary' appointment in the main city out-patient clinic of the rheumatology service for the Lothian and Borders region (population approximately 1 million). Health status was measured using the SF12 physical and mental summary component T-scores and pain was measured with a 100 mm visual analogue pain scale. Secondary outcomes were health utility and perceived health both measured with the EuroQol instrument, mental health measured with the Hospital Anxiety and Depression scale, disability with the modified Health Assessment Questionnaire and economic costs measured from a societal perspective.",
+    "population": [],
+    "intervention_exposure": [
+      "waiting",
+      "new non-urgent rheumatology out-patient referrals",
+      "a' fast track' appointment"
+    ],
+    "comparison": [
+      "an' ordinary' appointment"
+    ],
+    "outcome": [
+      "Health status",
+      "the SF12 physical",
+      "mental summary component",
+      "T-scores",
+      "pain",
+      "a 100 mm visual analogue pain scale",
+      "health utility",
+      "perceived health",
+      "the EuroQol instrument",
+      "mental health",
+      "the Hospital Anxiety and Depression scale",
+      "disability",
+      "the modified Health Assessment Questionnaire",
+      "economic costs",
+      "a societal perspective"
+    ],
+    "pico_directer": {
+      "Population": [
+        "the Lothian and Borders region (population approximately 1 million)"
+      ],
+      "Intervention": [
+        "a fast track",
+        "an ordinary"
+      ],
+      "Comparator": [
+        "an ordinary appointment"
+      ],
+      "Outcome": [
+        "the SF12 physical and mental summary component T-scores",
+        "the 100 mm visual analogue pain scale",
+        "health utility",
+        "perceived health",
+        "the EuroQol instrument",
+        "mental health",
+        "the Hospital Anxiety and Depression scale",
+        "disability",
+        "the modified Health Assessment Questionnaire",
+        "economic costs"
+      ]
+    }
+  },
+  {
+    "title": "Epirubicin-based chemotherapy in metastatic breast cancer patients: role of dose-intensity and duration of treatment.",
+    "abstract": "METHODS: Four hundred seventeen anthracycline-naive MBC patients were randomized to receive one of the following regimens: arm A: 11 cycles of fluorouracil 500 mg / m (2), epirubicin 75 mg / m (2), and cyclophosphamide 500 mg / m (2) (FEC 75) every 21 days; arm B: four cycles of FEC 100 (same regimen but with epirubicin 100 mg / m (2)) then eight cycles of FEC 50 (epirubicin 50 mg / m (2)); and arm C: four cycles of FEC 100 then restart the same regimen at disease progression in case of prior response or stabilization.",
+    "population": [
+      "metastatic breast cancer patients",
+      "Four hundred seventeen anthracycline-naive MBC patients"
+    ],
+    "intervention_exposure": [
+      "Epirubicin-based chemotherapy",
+      "11 cycles of fluorouracil",
+      "epirubicin",
+      "cyclophosphamide",
+      "four cycles of FEC 100",
+      "eight cycles of FEC 50",
+      "four cycles of FEC 100"
+    ],
+    "comparison": [],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "Four hundred seventeen anthracycline-naive MBC patients"
+      ],
+      "Intervention": [
+        "11 cycles of fluorouracil 500 mg / m (2),",
+        "epirubicin 75 mg / m (2),",
+        "and cyclophosphamide 500 mg / m (2) (FEC 75)",
+        "four cycles of FEC 100 (same regimen but with epirubicin 100 mg / m (2)) then eight cycles of FEC 50 (epirubicin 50 mg / m (2))",
+        "four cycles of FEC 100 then restart the same regimen at disease progression in case of prior response or stabilization."
+      ],
+      "Comparator": [
+        "arm C: four cycles of FEC 100 then restart the same regimen at disease progression in case of prior response or stabilization."
+      ],
+      "Outcome": [
+        "disease progression",
+        "prior response or stabilization",
+        "disease progression in case of prior response or stabilization"
+      ]
+    }
+  },
+  {
+    "title": "Beta radiation as an adjunct to low-risk trabeculectomy.",
+    "abstract": "METHODS: A prospective randomized trial of 65 eyes was designed, with 31 eyes receiving 750 rads of intraoperative beta radiation (group 1), and 34 eyes receiving no supplementation (group 2).",
+    "population": [
+      "65 eyes"
+    ],
+    "intervention_exposure": [
+      "Beta radiation",
+      "750 rads of intraoperative beta radiation"
+    ],
+    "comparison": [
+      "no supplementation"
+    ],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "65 eyes",
+        "31 eyes",
+        "34 eyes"
+      ],
+      "Intervention": [
+        "750 rads of intraoperative beta radiation"
+      ],
+      "Comparator": [
+        "no supplementation"
+      ],
+      "Outcome": [
+        "no supplementation",
+        "750 rads of intraoperative beta radiation"
+      ]
+    }
+  },
+  {
+    "title": "Short-and long-term results after thrombolytic treatment of deep venous thrombosis.",
+    "abstract": "METHODS: A total of 250 patients averaging 40 years of age with acute DVT were randomized into five groups to receive full heparinization (1, 000 IU / h) and compression treatment, with four groups also administered locoregional tissue plasminogen activator (20 mg / day) or urokinase (100, 000 IU / day) or systemic streptokinase (3, 000, 000 IU daily) or urokinase (5, 000, 000 IU daily). All groups then received anticoagulation and compression treatment for one year. Primary efficacy criteria included the change after one year in the number of closed vein segments and the occurrence of postthrombotic syndrome.",
+    "population": [
+      "A total of 250 patients averaging 40 years of age with acute DVT"
+    ],
+    "intervention_exposure": [
+      "thrombolytic treatment",
+      "locoregional tissue plasminogen activator",
+      "urokinase",
+      "systemic streptokinase",
+      "urokinase"
+    ],
+    "comparison": [],
+    "outcome": [
+      "the number of closed vein segments",
+      "the occurrence of postthrombotic syndrome"
+    ],
+    "pico_directer": {
+      "Population": [
+        "A total of 250 patients",
+        "averaging 40 years of age with acute DVT"
+      ],
+      "Intervention": [
+        "full heparinization",
+        "heparinization (1, 000 IU / h)",
+        "compression treatment",
+        "locoregional tissue plasminogen activator (20 mg / day)",
+        "urokinase (100, 000 IU / day)",
+        "systemic streptokinase (3, 000, 000 IU daily)",
+        "urokinase (5, 000, 000 IU daily)"
+      ],
+      "Comparator": [
+        "full heparinization",
+        "anticoagulation",
+        "compression treatment"
+      ],
+      "Outcome": [
+        "the change after one year in the number of closed vein segments",
+        "the occurrence of postthrombotic syndrome"
+      ]
+    }
+  },
+  {
+    "title": "[Complication rate after gastrectomy and pouch reconstruction with Longmire interposition].",
+    "abstract": "METHODS: 49 patients who underwent gastrectomy with Longmire-Interposition with (n = 33) or without (n = 16) an additional pouch and 46 patients with a Roux-en-Y-reconstruction were analysed retrospectively. Complication rate and mortality were studied.",
+    "population": [],
+    "intervention_exposure": [
+      "gastrectomy and pouch reconstruction with Longmire interposition",
+      "gastrectomy with Longmire-Interposition with",
+      "without (n = 16) an additional pouch",
+      "a Roux-en-Y-reconstruction"
+    ],
+    "comparison": [],
+    "outcome": [
+      "Complication rate",
+      "mortality"
+    ],
+    "pico_directer": {
+      "Population": [
+        "49 patients who underwent gastrectomy",
+        "49 patients who underwent gastrectomy with Longmire-Interposition with (n = 33) or without (n = 16) an additional pouch",
+        "46 patients with a Roux-en-Y-reconstruction"
+      ],
+      "Intervention": [
+        "gastrectomy with Longmire-Interposition",
+        "an additional pouch",
+        "Roux-en-Y-reconstruction"
+      ],
+      "Comparator": [
+        "with (n = 33) or without (n = 16) an additional pouch"
+      ],
+      "Outcome": [
+        "complication rate",
+        "mortality"
+      ]
+    }
+  },
+  {
+    "title": "Perioperative blood transfusions, with or without allogeneic leucocytes, relate to survival, not to cancer recurrence.",
+    "abstract": "METHODS: Packed red cells without buffy coat (PC group) were compared with filtered, leucoreduced, red cells (LD group) in a randomized trial of 697 patients with colorectal carcinoma. Five-year survival and cancer recurrence rates were determined, with special emphasis on the location of recurrence.",
+    "population": [
+      "697 patients with colorectal carcinoma"
+    ],
+    "intervention_exposure": [
+      "Perioperative blood transfusions, with",
+      "without allogeneic leucocytes",
+      "Packed red cells without buffy coat",
+      "PC",
+      "filtered, leucoreduced, red cells",
+      "LD"
+    ],
+    "comparison": [],
+    "outcome": [
+      "Five-year survival",
+      "cancer recurrence rates",
+      "the location of recurrence"
+    ],
+    "pico_directer": {
+      "Population": [
+        "patients with colorectal carcinoma",
+        "697 patients"
+      ],
+      "Intervention": [
+        "Packed red cells without buffy coat",
+        "filtered, leucoreduced, red cells"
+      ],
+      "Comparator": [
+        "Packed red cells without buffy coat"
+      ],
+      "Outcome": [
+        "five-year survival",
+        "cancer recurrence rates"
+      ]
+    }
+  },
+  {
+    "title": "Interferential therapy electrode placement technique in acute low back pain: a preliminary investigation.",
+    "abstract": "METHODS: Single-blind, randomized, controlled trial with a 3-month follow-up. Outpatient physiotherapy departments in hospital and university settings. A random sample of 60 eligible patients with back pain (28 men, 32 women) were recruited by general practitioners and self-referral for physiotherapy treatment and randomly assigned to 1 of 3 groups. (1)\" IFT painful area\" and The Back Book, (2)\" IFT spinal nerve\" and The Back Book, and (3)\" Control,\" The Back Book only. Standardized IFT stimulation parameters were used: carrier frequency 3. 85 kHz; 140 Hz constant; pulse duration 130 micros; 30 minutes' duration. Pain Rating Index, Roland-Morris Disability Questionnaire (RMDQ), and EuroQol were completed by subjects pretreatment, at discharge, and 3-month follow-up.",
+    "population": [
+      "A random sample of 60 eligible patients with back pain (28 men, 32 women)"
+    ],
+    "intervention_exposure": [
+      "Interferential therapy electrode placement technique",
+      "IFT painful area",
+      "The Back Book",
+      "IFT spinal nerve",
+      "The Back Book"
+    ],
+    "comparison": [
+      "The Back Book only"
+    ],
+    "outcome": [
+      "Pain Rating Index",
+      "Roland-Morris Disability Questionnaire (RMDQ)",
+      "EuroQol"
+    ],
+    "pico_directer": {
+      "Population": [
+        "a random sample of 60 eligible patients with back pain",
+        "28 men, 32 women",
+        "eligible patients with back pain",
+        "general practitioners and self-referral for physiotherapy treatment"
+      ],
+      "Intervention": [
+        "IFT painful area",
+        "IFT spinal nerve",
+        "physiotherapy treatment",
+        "The Back Book",
+        "IFT stimulation parameters",
+        "carrier frequency 3. 85 kHz",
+        "140 Hz constant",
+        "pulse duration 130 micros",
+        "30 minutes' duration",
+        "Outpatient physiotherapy departments in hospital and university settings"
+      ],
+      "Comparator": [
+        "Control, The Back Book only"
+      ],
+      "Outcome": [
+        "Pain Rating Index",
+        "Roland-Morris Disability Questionnaire (RMDQ)",
+        "EuroQol"
+      ]
+    }
+  },
+  {
+    "title": "A randomized controlled trial assessing the health economics of realtime teledermatology compared with conventional care: an urban versus rural perspective.",
+    "abstract": "METHODS: One urban and one rural health centre were linked to a regional hospital in Northern Ireland by ISDN at 128 kbit / s. Over two years, 274 patients required a hospital outpatient dermatology referral--126 patients (46%) were randomized to a telemedicine consultation and 148 (54%) to a conventional hospital outpatient consultation.",
+    "population": [
+      "274 patients required a hospital outpatient dermatology referral--126 patients (46%)"
+    ],
+    "intervention_exposure": [
+      "realtime teledermatology",
+      "a telemedicine consultation"
+    ],
+    "comparison": [
+      "conventional care",
+      "a conventional hospital outpatient consultation"
+    ],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "274 patients",
+        "126 patients",
+        "148 patients"
+      ],
+      "Intervention": [
+        "telemedicine consultation",
+        "conventional hospital outpatient consultation"
+      ],
+      "Comparator": [
+        "conventional hospital outpatient consultation"
+      ],
+      "Outcome": [
+        "a hospital outpatient dermatology referral",
+        "a telemedicine consultation",
+        "a conventional hospital outpatient consultation"
+      ]
+    }
+  },
+  {
+    "title": "Clinical and microbial evaluation of a histatin-containing mouthrinse in humans with experimental gingivitis.",
+    "abstract": "METHODS: 159 periodontally healthy subjects abstained from oral hygiene procedures and self-administered either 0. 005%, 0. 01%, 0. 05% P-113 or placebo mouthrinse formulations twice daily over a four week treatment period. During this time, the safety, anti-plaque, and anti-gingivitis effects of P-113 were evaluated.",
+    "population": [
+      "humans with experimental gingivitis",
+      "159 periodontally healthy subjects"
+    ],
+    "intervention_exposure": [
+      "a histatin-containing mouthrinse",
+      "0. 005%",
+      "0. 01%",
+      "0. 05% P-113"
+    ],
+    "comparison": [
+      "placebo mouthrinse formulations"
+    ],
+    "outcome": [
+      "the safety",
+      "anti-plaque",
+      "anti-gingivitis effects of P-113"
+    ],
+    "pico_directer": {
+      "Population": [
+        "159 periodontally healthy subjects",
+        "159 periodontally healthy subjects abstained from oral hygiene procedures and self-administered either 0. 005%, 0. 01%, 0. 05% P-113 or placebo mouthrinse formulations twice daily over a four week treatment period"
+      ],
+      "Intervention": [
+        "0. 005% P-113",
+        "0. 01% P-113",
+        "0. 05% P-113",
+        "placebo mouthrinse formulations"
+      ],
+      "Comparator": [
+        "placebo"
+      ],
+      "Outcome": [
+        "the safety",
+        "the anti-plaque",
+        "the anti-gingivitis effects"
+      ]
+    }
+  },
+  {
+    "title": "Immune reconstitution after allogeneic marrow transplantation compared with blood stem cell transplantation.",
+    "abstract": "METHODS: Immune reconstitution was studied in 115 patients randomly assigned to receive either allogeneic marrow or filgrastim-mobilized blood stem cell transplantation.",
+    "population": [
+      "115 patients"
+    ],
+    "intervention_exposure": [
+      "allogeneic marrow transplantation",
+      "blood stem cell transplantation",
+      "allogeneic marrow",
+      "filgrastim-mobilized blood stem cell transplantation"
+    ],
+    "comparison": [],
+    "outcome": [
+      "Immune reconstitution"
+    ],
+    "pico_directer": {
+      "Population": [
+        "115 patients",
+        "patients randomly assigned to receive either allogeneic marrow or filgrastim-mobilized blood stem cell transplantation"
+      ],
+      "Intervention": [
+        "allogeneic marrow",
+        "filgrastim-mobilized blood stem cell transplantation"
+      ],
+      "Comparator": [
+        "allogeneic marrow",
+        "filgrastim-mobilized blood stem cell transplantation"
+      ],
+      "Outcome": [
+        "Immune reconstitution was studied in 115 patients randomly assigned to receive either allogeneic marrow or filgrastim-mobilized blood stem cell transplantation."
+      ]
+    }
+  },
+  {
+    "title": "Efficacy and tolerability of antibiotics in patients undergoing H. pylori eradication.",
+    "abstract": "METHODS: One hundred and ninety-three (193) H. pylori-positive patients were randomly assigned to one of the following 7-day treatments: Group A (N = 64): amoxicillin, clarithromycin and rabeprazole; Group B (N = 64): tinidazole, clarithromycin and ranitidine bismuth citrate; Group C (N = 65): tinidazole, clarithromycin and rabeprazole Eradication was assessed by 13C-Urea Breath Test 6-8 weeks after the end of the therapy. Not-eradicated patients underwent a second cycle with tinidazole, tetracycline, bismuth and rabeprazole. All patients were asked to complete a validated questionnaire regarding presence and intensity of drug side effects.",
+    "population": [
+      "patients undergoing H. pylori eradication",
+      "One hundred and ninety-three (193) H. pylori-positive patients"
+    ],
+    "intervention_exposure": [
+      "antibiotics",
+      "amoxicillin",
+      "clarithromycin",
+      "rabeprazole",
+      "tinidazole",
+      "clarithromycin",
+      "ranitidine bismuth citrate",
+      "tinidazole",
+      "clarithromycin",
+      "rabeprazole",
+      "tinidazole",
+      "tetracycline",
+      "bismuth",
+      "rabeprazole"
+    ],
+    "comparison": [],
+    "outcome": [
+      "Eradication",
+      "13C-Urea Breath Test",
+      "a validated questionnaire",
+      "presence",
+      "intensity of drug side effects"
+    ],
+    "pico_directer": {
+      "Population": [
+        "H. pylori-positive patients",
+        "patients",
+        "patients were randomly assigned to one of the following 7-day treatments",
+        "patients were asked to complete a validated questionnaire regarding presence and intensity of drug side effects"
+      ],
+      "Intervention": [
+        "7-day treatments",
+        "amoxicillin, clarithromycin and rabeprazole",
+        "tinidazole, clarithromycin and ranitidine bismuth citrate",
+        "tinidazole, clarithromycin and rabeprazole",
+        "tinidazole, tetracycline, bismuth and rabeprazole"
+      ],
+      "Comparator": [
+        "tinidazole, clarithromycin and rabeprazole"
+      ],
+      "Outcome": [
+        "Eradication was assessed by 13C-Urea Breath Test 6-8 weeks after the end of the therapy",
+        "presence and intensity of drug side effects",
+        "a second cycle with tinidazole, tetracycline, bismuth and rabeprazole"
+      ]
+    }
+  },
+  {
+    "title": "Rehabilitation outcomes following percutaneous coronary interventions (PCI).",
+    "abstract": "METHODS: Data were collected at time 1 (T (1)) during hospital admission, time 2 (T (2)) approximately 2 months post-PCI, and time 3 (T (3)) approximately 12 months post-PCI.",
+    "population": [],
+    "intervention_exposure": [
+      "percutaneous coronary interventions (PCI)",
+      "PCI",
+      "PCI"
+    ],
+    "comparison": [],
+    "outcome": [
+      "Data",
+      "hospital admission"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Data were collected at time 1 during hospital admission, time 2 approximately 2 months post-PCI, and time 3 approximately 12 months post-PCI."
+      ],
+      "Intervention": [
+        "PCI"
+      ],
+      "Comparator": [
+        "no treatment at all",
+        "a sham procedure",
+        "a placebo"
+      ],
+      "Outcome": [
+        "approximately 2 months post-PCI",
+        "approximately 12 months post-PCI"
+      ]
+    }
+  },
+  {
+    "title": "Is psychotherapy more effective when therapists disclose information about themselves?.",
+    "abstract": "METHODS: To test these competing positions, therapists at a university counseling center were instructed to increase the number of self-disclosures they made during treatment of one client and refrain from making self-disclosures during treatment of another client.",
+    "population": [
+      "therapists at a university counseling center"
+    ],
+    "intervention_exposure": [
+      "information about themselves",
+      "the number of self-disclosures",
+      "self-disclosures"
+    ],
+    "comparison": [],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "therapists at a university counseling center were instructed to increase the number of self-disclosures they made during treatment of one client and refrain from making self-disclosures during treatment of another client"
+      ],
+      "Intervention": [
+        "increase the number of self-disclosures they made during treatment of one client",
+        "refrain from making self-disclosures during treatment of another client"
+      ],
+      "Comparator": [
+        "refrain from making self-disclosures during treatment of another client"
+      ],
+      "Outcome": [
+        "the number of self-disclosures they made during treatment"
+      ]
+    }
+  },
+  {
+    "title": "Evaluation of a new computer intervention to teach people with autism or Asperger syndrome to recognize and predict emotions in others.",
+    "abstract": "METHODS: Two groups of 11 children (age 12-18) with autism or Asperger syndrome at two special schools participated: one group used the computer program for 10 half-hour sessions over 2 weeks.",
+    "population": [
+      "people with autism or Asperger syndrome",
+      "Two groups of 11 children (age 12-18) with autism or Asperger syndrome at two special schools"
+    ],
+    "intervention_exposure": [
+      "a new computer intervention",
+      "the computer program"
+    ],
+    "comparison": [],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "Two groups of 11 children (age 12-18) with autism or Asperger syndrome at two special schools"
+      ],
+      "Intervention": [
+        "the computer program for 10 half-hour sessions over 2 weeks"
+      ],
+      "Comparator": [
+        "one group used the computer program for 10 half-hour sessions over 2 weeks"
+      ],
+      "Outcome": [
+        "a score",
+        "the computer program for 10 half-hour sessions over 2 weeks"
+      ]
+    }
+  },
+  {
+    "title": "Prognostic significance of the dobutamine echocardiography test in idiopathic dilated cardiomyopathy.",
+    "abstract": "METHODS: From February 1, 1997, to October 1, 1999, 186 patients (131 men and 55 women, mean age 56 + /-12 years) with IDC, ejection fraction < 35%, and angiographically normal coronary arteries were studied by high-dose (up to 40 micro / kg / min) dobutamine echo in 6 centers, all quality controlled for stress echo reading.",
+    "population": [
+      "186 patients (131 men and 55 women, mean age 56 + /-12 years) with IDC, ejection fraction < 35%, and angiographically normal coronary arteries"
+    ],
+    "intervention_exposure": [
+      "the dobutamine echocardiography test",
+      "high-dose (up to 40 micro / kg / min) dobutamine echo"
+    ],
+    "comparison": [],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "186 patients",
+        "131 men and 55 women",
+        "mean age 56 + /-12 years",
+        "patients with IDC",
+        "patients with ejection fraction < 35%",
+        "patients with angiographically normal coronary arteries"
+      ],
+      "Intervention": [
+        "high-dose",
+        "dobutamine echo",
+        "up to 40 micro / kg / min"
+      ],
+      "Comparator": [
+        "high-dose (up to 40 micro / kg / min) dobutamine echo"
+      ],
+      "Outcome": [
+        "mean age 56 + /-12 years",
+        "ejection fraction < 35%"
+      ]
+    }
+  },
+  {
+    "title": "[Clinical application of irradiated drug-containing porcine-cornea to patients with ocular burns].",
+    "abstract": "METHODS: Fifty-five cases of patients with ocular burns (in 88 eyes) were randomly divided into treatment and control groups. Thirty cases in treatment group with 49 eyes were transplanted with irradiated drug-containing (ofloxacin, acetyl cysteine and reduced glutathione) porcine-cornea. 25 cases in control group with 39 eyes were treated with routine program.",
+    "population": [
+      "patients with ocular burns",
+      "Fifty-five cases of patients with ocular burns (in 88 eyes)"
+    ],
+    "intervention_exposure": [
+      "irradiated drug-containing porcine-cornea",
+      "irradiated drug-containing (ofloxacin, acetyl cysteine and reduced glutathione) porcine-cornea"
+    ],
+    "comparison": [
+      "routine program"
+    ],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "patients with ocular burns",
+        "patients",
+        "patients with ocular burns in 88 eyes",
+        "patients with ocular burns in treatment and control groups",
+        "cases of patients with ocular burns",
+        "cases of patients with ocular burns in treatment and control groups",
+        "cases of patients with ocular burns in treatment group with 49 eyes",
+        "cases of patients with ocular burns in control group with 39 eyes",
+        "patients with ocular burns (in 88 eyes)",
+        "patients with ocular burns in treatment group with 49 eyes",
+        "patients with ocular burns in control group with 39 eyes"
+      ],
+      "Intervention": [
+        "irradiated drug-containing porcine-cornea",
+        "ofloxacin",
+        "acetyl cysteine",
+        "reduced glutathione"
+      ],
+      "Comparator": [
+        "routine program"
+      ],
+      "Outcome": []
+    }
+  },
+  {
+    "title": "The interaction between propofol and clonidine for loss of consciousness.",
+    "abstract": "Clonidine premedication reduces the intraoperative requirement for opioids and volatile anesthetics. Clonidine also reduces the induction dose of IV anesthetics. There is no information, however, regarding the effect of oral clonidine premedication on the propofol blood concentrations required for loss of consciousness, and the interaction between propofol and clonidine. We randomly administered target effect-site concentrations of propofol ranging from 0. 5 to 5. 0 microg / mL by using computer-assisted target-controlled infusion to 3 groups of healthy male patients: Control (n = 35), 2. 5 microg / kg Clonidine (n = 36), and 5. 0 microg / kg Clonidine (n = 36) groups. Nothing was administered to the Control group. Clonidine (2. 5 or 5. 0 microg / kg) was administered orally 90 min before the induction of anesthesia in the Clonidine groups. After equilibration between the blood and effect-site for 15 min, a verbal command to open their eyes was given two times to the patients. Arterial blood samples for analysis of the serum propofol and clonidine concentrations were taken immediately before verbal commands were given. Measured serum propofol concentrations in equilibrium with the effect-site at which 50% of the patients did not respond to verbal commands (EC50 for loss of consciousness) were determined by logistic regression. The EC50 + /-SE values in the Control, 2. 5 microg / kg Clonidine, and 5. 0 microg / kg Clonidine groups were 2. 67 + /-0. 18, 1. 31 + /-0. 12, and 0. 91 + /-0. 13 microg / mL, respectively. The EC50 in the 2. 5 and 5. 0 microg / kg clonidine groups was significantly smaller than that in the Control group (P < 0. 001). The use of a response surface modeling analysis indicated that there was an additive interaction between measured arterial propofol and clonidine concentrations in relation to loss of consciousness. These results indicate that propofol and clonidine act additively for loss of consciousness.",
+    "population": [],
+    "intervention_exposure": [
+      "propofol",
+      "clonidine"
+    ],
+    "comparison": [],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "3 groups of healthy male patients",
+        "the Control group",
+        "the Clonidine groups",
+        "healthy male patients",
+        "the patients"
+      ],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": [
+        "EC50 for loss of consciousness",
+        "EC50 + /-SE values",
+        "EC50 in the Control, 2. 5 microg / kg Clonidine, and 5. 0 microg / kg Clonidine groups",
+        "the EC50 + /-SE values in the Control, 2. 5 microg / kg Clonidine, and 5. 0 microg / kg Clonidine groups were 2. 67 + /-0. 18, 1. 31 + /-0. 12, and 0. 91 + /-0. 13 microg / mL, respectively",
+        "the EC50 in the 2. 5 and 5. 0 microg / kg clonidine groups was significantly smaller than that in the Control group"
+      ]
+    }
+  },
+  {
+    "title": "Short-term intravenous antibiotic treatment of acute hematogenous bone and joint infection in children: a prospective randomized trial.",
+    "abstract": "METHODS: The treatment outcome was measured through a detailed scoring system that included the ability to eradicate infection, the functional status of the limb, and the radiographic appearance of the bone and joint.",
+    "population": [],
+    "intervention_exposure": [
+      "Short-term intravenous antibiotic treatment"
+    ],
+    "comparison": [],
+    "outcome": [
+      "a detailed scoring system"
+    ],
+    "pico_directer": {
+      "Population": [
+        "the participants involved in a medical study"
+      ],
+      "Intervention": [
+        "the treatment outcome was measured through a detailed scoring system that included the ability to eradicate infection, the functional status of the limb, and the radiographic appearance of the bone and joint."
+      ],
+      "Comparator": [
+        "no treatment at all"
+      ],
+      "Outcome": [
+        "the ability to eradicate infection",
+        "the functional status of the limb",
+        "the radiographic appearance of the bone and joint"
+      ]
+    }
+  },
+  {
+    "title": "Oat ingestion reduces systolic and diastolic blood pressure in patients with mild or borderline hypertension: a pilot trial.",
+    "abstract": "METHODS: This was a randomized, controlled, parallel-group pilot study designed to compare an oat cereal group (standardized to 5. 52 g / day beta-glucan) to a low-fiber cereal control group (less than 1. 0 g / day total fiber) over 6 weeks. A total of 18 hypertensive and hyperinsulinemic (= 10 U / mL or more) men and women completed the trial. Primary study outcomes were changes in systolic blood pressure (SBP) and diastolic blood pressure (DBP). Secondary outcomes included blood lipid, fasting glucose, and insulin levels and side effects related to elevated blood pressure and increased dietary fiber intake.",
+    "population": [
+      "patients with mild or borderline hypertension",
+      "A total of 18 hypertensive and hyperinsulinemic (= 10 U / mL or more) men and women"
+    ],
+    "intervention_exposure": [
+      "Oat ingestion",
+      "an oat cereal"
+    ],
+    "comparison": [
+      "a low-fiber cereal"
+    ],
+    "outcome": [
+      "systolic blood pressure (SBP)",
+      "diastolic blood pressure (DBP)",
+      "blood lipid",
+      "fasting glucose",
+      "insulin levels",
+      "side effects",
+      "elevated blood pressure",
+      "increased dietary fiber intake"
+    ],
+    "pico_directer": {
+      "Population": [
+        "a total of 18 hypertensive and hyperinsulinemic men and women",
+        "hypertensive and hyperinsulinemic men and women"
+      ],
+      "Intervention": [
+        "an oat cereal",
+        "standardized to 5.52 g / day beta-glucan",
+        "a low-fiber cereal",
+        "less than 1.0 g / day total fiber"
+      ],
+      "Comparator": [
+        "low-fiber cereal control group (less than 1. 0 g / day total fiber)"
+      ],
+      "Outcome": [
+        "changes in systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "blood lipid",
+        "fasting glucose",
+        "insulin levels",
+        "side effects related to elevated blood pressure and increased dietary fiber intake"
+      ]
+    }
+  },
+  {
+    "title": "Prolonged GnRH agonist and add-back therapy for symptomatic endometriosis: long-term follow-up.",
+    "abstract": "METHODS: This is a post-treatment follow-up analysis of a randomized, double-masked, placebo-controlled 52-week trial. All patients had received monthly leuprolide acetate and were randomized to one of four groups: A-daily placebo; B-daily norethindrone acetate 5 mg; C-daily norethindrone acetate 5 mg and conjugated equine estrogens 0. 625 mg; and D-daily norethindrone acetate 5 mg and conjugated equine estrogens 1. 25 mg. Of 201 patients enrolled in the initial trial, 123 completed at least 280 days of therapy and entered the follow-up period. Physical findings and symptoms were quantified, and lumbar spine bone mineral density was determined at intervals for up to 12 and 24 months post-therapy.",
+    "population": [
+      "201 patients enrolled in the initial trial, 123 completed at least 280 days of therapy and entered the follow-up period"
+    ],
+    "intervention_exposure": [
+      "Prolonged GnRH agonist",
+      "add-back therapy",
+      "daily norethindrone acetate",
+      "daily norethindrone acetate",
+      "conjugated equine estrogens",
+      "daily norethindrone acetate",
+      "conjugated equine estrogens"
+    ],
+    "comparison": [
+      "daily placebo"
+    ],
+    "outcome": [
+      "Physical findings",
+      "symptoms",
+      "lumbar spine bone mineral density"
+    ],
+    "pico_directer": {
+      "Population": [
+        "All patients",
+        "Of 201 patients enrolled in the initial trial",
+        "123 patients"
+      ],
+      "Intervention": [
+        "leuprolide acetate",
+        "daily placebo",
+        "norethindrone acetate 5 mg",
+        "daily norethindrone acetate 5 mg",
+        "conjugated equine estrogens 0. 625 mg",
+        "daily norethindrone acetate 5 mg and conjugated equine estrogens 1. 25 mg"
+      ],
+      "Comparator": [
+        "daily placebo"
+      ],
+      "Outcome": [
+        "physical findings and symptoms",
+        "lumbar spine bone mineral density",
+        "up to 12 and 24 months post-therapy"
+      ]
+    }
+  },
+  {
+    "title": "Do colonic short-chain fatty acids contribute to the long-term adaptation of blood lipids in subjects with type 2 diabetes consuming a high-fiber diet?.",
+    "abstract": "METHODS: Subjects with type 2 diabetes (n = 62) were randomly assigned to receive approximately 10% of energy from low-fiber breakfast cereal (LF diet), high-fiber breakfast cereal (HF diet), or monounsaturated fatty acids (MUFA diet) for 6 mo.",
+    "population": [
+      "subjects with type 2 diabetes",
+      "Subjects with type 2 diabetes (n = 62)"
+    ],
+    "intervention_exposure": [
+      "a high-fiber diet",
+      "low-fiber breakfast cereal (LF diet)",
+      "high-fiber breakfast cereal (HF diet)",
+      "monounsaturated fatty acids (MUFA diet)"
+    ],
+    "comparison": [],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "Subjects with type 2 diabetes"
+      ],
+      "Intervention": [
+        "receive approximately 10% of energy from low-fiber breakfast cereal",
+        "high-fiber breakfast cereal",
+        "monounsaturated fatty acids"
+      ],
+      "Comparator": [
+        "low-fiber breakfast cereal"
+      ],
+      "Outcome": [
+        "for 6 mo"
+      ]
+    }
+  },
+  {
+    "title": "Superior survival with capecitabine plus docetaxel combination therapy in anthracycline-pretreated patients with advanced breast cancer: phase III trial results.",
+    "abstract": "METHODS: Patients were randomized to 21-day cycles of oral capecitabine 1, 250 mg / m (2) twice daily on days 1 to 14 plus docetaxel 75 mg / m (2) on day 1 (n = 255) or to docetaxel 100 mg / m (2) on day 1 (n = 256).",
+    "population": [
+      "anthracycline-pretreated patients with advanced breast cancer"
+    ],
+    "intervention_exposure": [
+      "capecitabine plus docetaxel combination therapy",
+      "21-day cycles of oral capecitabine",
+      "docetaxel",
+      "docetaxel"
+    ],
+    "comparison": [],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "Patients were randomized to 21-day cycles of oral capecitabine 1, 250 mg / m (2) twice daily on days 1 to 14 plus docetaxel 75 mg / m (2) on day 1 (n = 255) or to docetaxel 100 mg / m (2) on day 1 (n = 256)"
+      ],
+      "Intervention": [
+        "21-day cycles of oral capecitabine 1, 250 mg / m (2) twice daily on days 1 to 14",
+        "docetaxel 75 mg / m (2) on day 1",
+        "docetaxel 100 mg / m (2) on day 1"
+      ],
+      "Comparator": [
+        "docetaxel 100 mg / m (2) on day 1"
+      ],
+      "Outcome": [
+        "a composite of",
+        "the specific score",
+        "the specific scale",
+        "the specific measurement tool",
+        "the specific clinical test",
+        "the desired result",
+        "the effectiveness of the treatment",
+        "the result of the study",
+        "the specific score, scale, measurement tool, or clinical test used to evaluate the desired result",
+        "the specific score, scale, measurement tool, or clinical test used to evaluate the effectiveness of the treatment",
+        "the specific score, scale, measurement tool, or clinical test used to evaluate the result of the study"
+      ]
+    }
+  },
+  {
+    "title": "Immunogenicity and reactogenicity of two regimens of diphtheria-tetanus-acellular pertussis-hepatitis B-inactivated polio and Haemophilus influenzae type b vaccines administered to infants primed at birth with hepatitis B vaccine.",
+    "abstract": "METHODS: One-half of the 150 healthy, full-term infants received a DTPa HBV-IPV-Hib vaccine at 1 1 / 2, 3 and 5 months of age; the other received a DTPa-IPV-Hib vaccine at 1 1 / 2, 3 and 5 months of age with separate HBV vaccine at 1 and 5 months of age.",
+    "population": [
+      "infants primed at birth with hepatitis B vaccine"
+    ],
+    "intervention_exposure": [
+      "diphtheria-tetanus-acellular pertussis-hepatitis B-inactivated polio",
+      "Haemophilus influenzae type b vaccines",
+      "a DTPa HBV-IPV-Hib vaccine",
+      "a DTPa-IPV-Hib vaccine",
+      "separate HBV vaccine"
+    ],
+    "comparison": [],
+    "outcome": [],
+    "pico_directer": {
+      "Population": [
+        "healthy, full-term infants",
+        "150 healthy, full-term infants",
+        "the 150 healthy, full-term infants"
+      ],
+      "Intervention": [
+        "a DTPa HBV-IPV-Hib vaccine",
+        "a DTPa-IPV-Hib vaccine",
+        "a separate HBV vaccine"
+      ],
+      "Comparator": [
+        "the other received a DTPa-IPV-Hib vaccine at 1 and 5 months of age with separate HBV vaccine at 1 and 5 months of age"
+      ],
+      "Outcome": [
+        "received a DTPa HBV-IPV-Hib vaccine at 1 1 / 2, 3 and 5 months of age",
+        "received a DTPa-IPV-Hib vaccine at 1 1 / 2, 3 and 5 months of age with separate HBV vaccine at 1 and 5 months of age"
+      ]
+    }
+  },
+  {
+    "title": "Long-term follow-up of a randomized trial of fludarabine-mitoxantrone, compared with cyclophosphamide, doxorubicin, vindesine, prednisone (CHVP), as first-line treatment of elderly patients with advanced, low-grade non-Hodgkin' s lymphoma before the era of monoclonal antibodies.",
+    "abstract": "METHODS: End points were remission rates [overall response (OR) and complete response (CR)], failure-free survival (FFS), survival and toxicity. One hundred and fifty-five patients were randomized, 144 were evaluable for safety and 142 for response. Each treatment arm was given as six monthly cycles, followed by three bimonthly cycles. FM comprised fludarabine (20 mg / m (2) i. v.), days 1-5, plus mitoxantrone (10 mg / m (2) i. v.), day 1. CHVP cycles comprised cyclophosphamide (750 mg / m (2) i. v. infusion), doxorubicin (25 mg / m (2) i. v.) and vindesine (3 mg / m (2) i. v.) on day 1, and prednisone (50 mg / m (2)) on days 1-5.",
+    "population": [
+      "elderly patients with advanced, low-grade non-Hodgkin' s lymphoma",
+      "One hundred and fifty-five patients"
+    ],
+    "intervention_exposure": [
+      "fludarabine",
+      "mitoxantrone",
+      "cyclophosphamide, doxorubicin, vindesine, prednisone (CHVP)",
+      "FM",
+      "fludarabine",
+      "mitoxantrone",
+      "CHVP",
+      "cyclophosphamide",
+      "doxorubicin",
+      "vindesine",
+      "prednisone"
+    ],
+    "comparison": [],
+    "outcome": [
+      "remission rates",
+      "overall response (OR)",
+      "complete response (CR)",
+      "failure-free survival (FFS)",
+      "survival",
+      "toxicity",
+      "safety",
+      "response"
+    ],
+    "pico_directer": {
+      "Population": [
+        "one hundred and fifty-five patients",
+        "144 were evaluable for safety and 142 for response"
+      ],
+      "Intervention": [
+        "FM comprised fludarabine (20 mg / m (2) i. v.), days 1-5, plus mitoxantrone (10 mg / m (2) i. v.), day 1",
+        "CHVP cycles comprised cyclophosphamide (750 mg / m (2) i. v. infusion), doxorubicin (25 mg / m (2) i. v.) and vindesine (3 mg / m (2) i. v.) on day 1, and prednisone (50 mg / m (2)) on days 1-5"
+      ],
+      "Comparator": [
+        "FM comprised fludarabine (20 mg / m (2) i. v.), days 1-5, plus mitoxantrone (10 mg / m (2) i. v.), day 1. CHVP cycles comprised cyclophosphamide (750 mg / m (2) i. v. infusion), doxorubicin (25 mg / m (2) i. v.) and vindesine (3 mg / m (2) i. v.) on day 1, and prednisone (50 mg / m (2)) on days 1-5."
+      ],
+      "Outcome": [
+        "remission rates",
+        "overall response (OR) and complete response (CR)",
+        "failure-free survival (FFS)",
+        "survival",
+        "toxicity"
+      ]
+    }
+  },
+  {
+    "title": "Reducing blood loss at open myomectomy using triple tourniquets: a randomised controlled trial.",
+    "abstract": "METHODS: A randomised controlled trial. Two University teaching hospitals. Twenty-eight patients with symptomatic fibroids and uterine sizes ranging from 14 to 24 weeks of gestation undergoing open myomectomy. A number 1 polyglactin suture was tied around the cervix to occlude the uterine arteries, and polythene tourniquets were tied around the infundibulopelvic ligament to obstruct the ovarian vessels. At the end of the procedure, the ovarian ties were released but the uterine artery suture remained in situ. Intra-operative blood loss, post-operative blood loss, blood transfusion rates, operative morbidity, uterine blood flow and ovarian function.",
+    "population": [
+      "Twenty-eight patients with symptomatic fibroids and uterine sizes ranging from 14 to 24 weeks of gestation undergoing open myomectomy"
+    ],
+    "intervention_exposure": [
+      "triple tourniquets",
+      "A number 1 polyglactin suture",
+      "polythene tourniquets"
+    ],
+    "comparison": [],
+    "outcome": [
+      "Intra-operative blood loss",
+      "post-operative blood loss",
+      "blood transfusion rates",
+      "operative morbidity",
+      "uterine blood flow",
+      "ovarian function"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Twenty-eight patients with symptomatic fibroids and uterine sizes ranging from 14 to 24 weeks of gestation"
+      ],
+      "Intervention": [
+        "open myomectomy",
+        "a number 1 polyglactin suture",
+        "polythene tourniquets",
+        "the uterine artery suture",
+        "the ovarian ties"
+      ],
+      "Comparator": [
+        "a number 1 polyglactin suture was tied around the cervix to occlude the uterine arteries, and polythene tourniquets were tied around the infundibulopelvic ligament to obstruct the ovarian vessels"
+      ],
+      "Outcome": [
+        "intra-operative blood loss",
+        "post-operative blood loss",
+        "blood transfusion rates",
+        "operative morbidity",
+        "uterine blood flow",
+        "ovarian function"
+      ]
+    }
+  },
+  {
+    "title": "Controlled clinical trial of IV cyclophosphamide versus IV methylprednisolone in severe neurological manifestations in systemic lupus erythematosus.",
+    "abstract": "METHODS: The study was a controlled clinical trial at two tertiary care centres of patients with SLE according to the ACR criteria, with incident (no more than 15 days) onset of severe NP manifestations such as seizures, optic neuritis, peripheral or cranial neuropathy, coma, brainstem disease, or transverse myelitis. Induction treatment with 3 g of IV methylprednisolone (MP) followed by either IV monthly cyclophosphamide (Cy) versus IV MP bimonthly every 4 months for 1 year and then IV Cy or IV MP every 3 months for another year. The primary end point was response to treatment: at least 20% improvement from basal conditions on clinical, laboratory, or specific neurological testing variables.",
+    "population": [
+      "patients with SLE according to the ACR criteria, with incident (no more than 15 days) onset of severe NP manifestations such as seizures, optic neuritis, peripheral or cranial neuropathy, coma, brainstem disease, or transverse myelitis"
+    ],
+    "intervention_exposure": [
+      "IV cyclophosphamide",
+      "IV methylprednisolone",
+      "3 g of IV methylprednisolone (MP)",
+      "IV monthly cyclophosphamide (Cy)",
+      "IV MP",
+      "IV Cy",
+      "IV MP"
+    ],
+    "comparison": [],
+    "outcome": [
+      "response to treatment",
+      "clinical",
+      "laboratory",
+      "specific neurological testing variables"
+    ],
+    "pico_directer": {
+      "Population": [
+        "patients with SLE",
+        "patients with incident (no more than 15 days) onset of severe NP manifestations",
+        "patients with SLE according to the ACR criteria"
+      ],
+      "Intervention": [
+        "3 g of IV methylprednisolone",
+        "IV monthly cyclophosphamide",
+        "IV MP bimonthly every 4 months",
+        "IV Cy or IV MP",
+        "IV MP every 3 months"
+      ],
+      "Comparator": [
+        "IV MP bimonthly every 4 months for 1 year and then IV MP every 3 months for another year"
+      ],
+      "Outcome": [
+        "at least 20% improvement from basal conditions",
+        "clinical, laboratory, or specific neurological testing variables"
+      ]
+    }
+  },
+  {
+    "title": "Effect of a nutritional supplement containing vitamin E, selenium, vitamin c and coenzyme Q10 on serum PSA in patients with hormonally untreated carcinoma of the prostate: a randomised placebo-controlled study.",
+    "abstract": "METHODS: Eighty patients were randomised to receive a daily supplement with either vitamin E, selenium, vitamin C, coenzyme Q10 (intervention group) or placebo over 21 weeks. Serum levels of PSA were assessed at baseline (-2,-1, 0 weeks) and after 6, 13, 19, 20 and 21 weeks. Mean changes in log serum level of PSA, testosterone, dihydrotestosterone, luteinizing hormone and sex hormone binding globulin over 21 weeks between the verum and the placebo group were compared by analysis of covariance.",
+    "population": [
+      "patients with hormonally untreated carcinoma of the prostate",
+      "Eighty patients"
+    ],
+    "intervention_exposure": [
+      "a nutritional supplement",
+      "vitamin E",
+      "selenium",
+      "vitamin c",
+      "coenzyme Q10",
+      "a daily supplement with",
+      "vitamin",
+      "selenium",
+      "vitamin C",
+      "coenzyme Q10",
+      "the verum"
+    ],
+    "comparison": [
+      "placebo",
+      "the placebo"
+    ],
+    "outcome": [
+      "Serum levels of PSA",
+      "log serum level of PSA",
+      "testosterone",
+      "dihydrotestosterone",
+      "luteinizing hormone",
+      "sex hormone binding globulin"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Eighty patients"
+      ],
+      "Intervention": [
+        "a daily supplement with either vitamin E",
+        "selenium",
+        "vitamin C",
+        "coenzyme Q10",
+        "a daily supplement with either vitamin E, selenium, vitamin C, coenzyme Q10 or placebo"
+      ],
+      "Comparator": [
+        "placebo"
+      ],
+      "Outcome": [
+        "mean changes in log serum level of PSA",
+        "mean changes in log serum level of testosterone",
+        "mean changes in log serum level of dihydrotestosterone",
+        "mean changes in log serum level of luteinizing hormone",
+        "mean changes in log serum level of sex hormone binding globulin"
+      ]
+    }
+  },
+  {
+    "title": "A comparison of the efficacy of heparinized and nonheparinized solutions for maintenance of perioperative radial arterial catheter patency and subsequent occlusion.",
+    "abstract": "METHODS: Two-hundred patients were randomized into 2 groups to receive heparinized (group H, n = 100) or nonheparinized (group S, n = 100) flush solutions. Radial and ulnar blood flows were assessed using Doppler probe and pulse oximetry before, just after, and 24 h after decannulation by the same investigator. The cannulation site was examined for complications such as hematoma, nerve injury, and infection.",
+    "population": [
+      "Two-hundred patients"
+    ],
+    "intervention_exposure": [
+      "heparinized",
+      "nonheparinized solutions",
+      "heparinized",
+      "nonheparinized (group S, n = 100) flush solutions"
+    ],
+    "comparison": [],
+    "outcome": [
+      "Radial",
+      "ulnar blood flows",
+      "Doppler probe",
+      "pulse oximetry",
+      "The cannulation site",
+      "complications",
+      "hematoma",
+      "nerve injury",
+      "infection"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Two-hundred patients",
+        "Two hundred patients were randomized into 2 groups to receive heparinized (group H, n = 100) or nonheparinized (group S, n = 100) flush solutions"
+      ],
+      "Intervention": [
+        "heparinized flush solutions",
+        "nonheparinized flush solutions"
+      ],
+      "Comparator": [
+        "nonheparinized flush solutions"
+      ],
+      "Outcome": [
+        "Radial and ulnar blood flows",
+        "hematoma",
+        "nerve injury",
+        "infection"
+      ]
+    }
+  },
+  {
+    "title": "Calcium acetate versus calcium carbonate as phosphate binders in hemodialysis patients.",
+    "abstract": "METHODS: All patients were dialyzed against the same calcium dialyzate (1. 62 mmol / l). The serum analytical tests included: calcium corrected to total protein, P, PTH (intact molecule) and bicarbonate. The study was divided into the following periods: P0: baseline measurements; P1: washout (withdrawal of AH for 15 days); P2: random allocation to CA and CC treatment at doses equivalent to 75 mEq of elemental calcium, stratified according to previous doses of AH (2 months); P3: adjustment of doses until control P (2 months).",
+    "population": [
+      "hemodialysis patients"
+    ],
+    "intervention_exposure": [
+      "Calcium acetate",
+      "calcium carbonate",
+      "calcium dialyzate",
+      "CA",
+      "CC"
+    ],
+    "comparison": [],
+    "outcome": [
+      "The serum analytical tests",
+      "calcium corrected to total protein",
+      "P",
+      "PTH",
+      "(intact molecule)",
+      "bicarbonate"
+    ],
+    "pico_directer": {
+      "Population": [
+        "all patients",
+        "baseline measurements",
+        "washout (withdrawal of AH for 15 days)",
+        "random allocation to CA and CC treatment at doses equivalent to 75 mEq of elemental calcium, stratified according to previous doses of AH (2 months)",
+        "control P (2 months)"
+      ],
+      "Intervention": [
+        "CA and CC treatment",
+        "AH for 15 days",
+        "AH (2 months)",
+        "doses of elemental calcium",
+        "CA and CC treatment at doses equivalent to 75 mEq of elemental calcium",
+        "adjustment of doses until control P (2 months)"
+      ],
+      "Comparator": [
+        "the same calcium dialyzate (1. 62 mmol / l)"
+      ],
+      "Outcome": [
+        "calcium corrected to total protein",
+        "P",
+        "PTH (intact molecule)",
+        "bicarbonate"
+      ]
+    }
+  },
+  {
+    "title": "Outcome at 7 years of children diagnosed with autism at age 2: predictive validity of assessments conducted at 2 and 3 years of age and pattern of symptom change over time.",
+    "abstract": "METHODS: Twenty-six children diagnosed with autism at age 2 were re-assessed at ages 3 and 7 years. At each age symptom severity, cognitive and language assessments were completed.",
+    "population": [
+      "children diagnosed with autism at age 2",
+      "Twenty-six children diagnosed with autism at age 2"
+    ],
+    "intervention_exposure": [],
+    "comparison": [],
+    "outcome": [
+      "symptom severity",
+      "cognitive",
+      "language assessments"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Twenty-six children diagnosed with autism at age 2",
+        "Twenty-six children",
+        "children diagnosed with autism at age 2",
+        "children diagnosed with autism",
+        "children at age 2",
+        "children with autism at age 2",
+        "children with autism"
+      ],
+      "Intervention": [],
+      "Comparator": [
+        "Twenty-six children diagnosed with autism at age 2 were re-assessed at ages 3 and 7 years. At each age symptom severity, cognitive and language assessments were completed."
+      ],
+      "Outcome": [
+        "symptom severity",
+        "cognitive and language assessments",
+        "cognitive assessments",
+        "language assessments"
+      ]
+    }
+  },
+  {
+    "title": "Problem-based learning: is anatomy a casualty?.",
+    "abstract": "METHODS: Testing was done using a Questionnaire in a\" True / False\" format. There were 80 students in each group. There was no penalty for an incorrect answer. The test was performed under examination conditions. Papers were marked under blind conditions. Results were analysed using a Student' s t test analysis.",
+    "population": [],
+    "intervention_exposure": [],
+    "comparison": [],
+    "outcome": [
+      "a Questionnaire in a\" True / False\" format"
+    ],
+    "pico_directer": {
+      "Population": [
+        "80 students in each group",
+        "students"
+      ],
+      "Intervention": [
+        "Testing was done using a Questionnaire in a True / False format"
+      ],
+      "Comparator": [
+        "no penalty for an incorrect answer",
+        "no treatment at all"
+      ],
+      "Outcome": []
+    }
+  },
+  {
+    "title": "Effects of home strength training and stretching versus stretching alone after lumbar disk surgery: a randomized study with a 1-year follow-up.",
+    "abstract": "METHODS: Randomized controlled trial. Departments of physical medicine and rehabilitation and orthopedics at a Finnish hospital. Patients (N=126) were randomized into either a combined strength training and stretching group (STG, n=65) or a control group (CG, n=61). The STG was instructed to perform strength training and both the STG and CG were instructed in the same stretching and stabilization exercises for 12 months. Pain on the visual analog scale (VAS), the Oswestry and the Million disability indexes, isometric and dynamic trunk muscle strength, mobility in the lumbar spine, and straight-leg raising were measured.",
+    "population": [
+      "Patients (N=126)"
+    ],
+    "intervention_exposure": [
+      "home strength training and stretching",
+      "a combined strength training and stretching"
+    ],
+    "comparison": [
+      "stretching alone"
+    ],
+    "outcome": [
+      "Pain",
+      "the visual analog scale (VAS)",
+      "the Oswestry and the Million disability indexes",
+      "isometric",
+      "dynamic trunk muscle strength",
+      "mobility in the lumbar spine",
+      "straight-leg raising"
+    ],
+    "pico_directer": {
+      "Population": [
+        "Patients (N=126)",
+        "Patients were randomized into either a combined strength training and stretching group (STG, n=65) or a control group (CG, n=61)",
+        "Patients were instructed to perform strength training and both the patients and the control group were instructed in the same stretching and stabilization exercises for 12 months"
+      ],
+      "Intervention": [
+        "combined strength training and stretching",
+        "strength training",
+        "stretching and stabilization exercises"
+      ],
+      "Comparator": [
+        "a control group"
+      ],
+      "Outcome": [
+        "Pain on the visual analog scale (VAS)",
+        "the Oswestry and the Million disability indexes",
+        "isometric and dynamic trunk muscle strength",
+        "mobility in the lumbar spine",
+        "straight-leg raising"
+      ]
+    }
+  },
+  {
+    "title": "Enhancement of blood glucose lowering effect of a sulfonylurea when coadministered with an ACE inhibitor: results of a glucose-clamp study.",
+    "abstract": "METHODS: A double-blind crossover study with nine healthy normotensive volunteers (age 27 + /-3 y, BMI 23. 3 + /-2. 0 kg m (-2); mean + /-SD)-randomly assigned to a 3-day treatment of either 5 mg enalapril or placebo. In the morning of the fourth day, volunteers orally received 3. 5 mg glibenclamide together with either 10 mg enalapril or placebo. Blood glucose levels of volunteers were allowed to fall by 10% from fasting levels and were kept constant thereafter by employing a Biostator-based euglycemic glucose clamp.",
+    "population": [
+      "nine healthy normotensive volunteers (age 27 + /-3 y, BMI 23. 3 + /-2. 0 kg m (-2); mean + /-SD)"
+    ],
+    "intervention_exposure": [
+      "a sulfonylurea",
+      "an ACE inhibitor",
+      "5 mg enalapril",
+      "3. 5 mg glibenclamide",
+      "10 mg enalapril"
+    ],
+    "comparison": [
+      "placebo",
+      "placebo"
+    ],
+    "outcome": [
+      "Blood glucose levels",
+      "a Biostator-based euglycemic glucose clamp"
+    ],
+    "pico_directer": {
+      "Population": [
+        "nine healthy normotensive volunteers",
+        "healthy normotensive volunteers"
+      ],
+      "Intervention": [
+        "a 3-day treatment of either 5 mg enalapril or placebo",
+        "10 mg enalapril or placebo",
+        "3.5 mg glibenclamide together with either 10 mg enalapril or placebo"
+      ],
+      "Comparator": [
+        "a 3-day treatment of either placebo",
+        "a placebo"
+      ],
+      "Outcome": [
+        "mean + /-SD",
+        "10% from fasting levels",
+        "constant thereafter by employing a Biostator-based euglycemic glucose clamp"
+      ]
+    }
+  }
+]
