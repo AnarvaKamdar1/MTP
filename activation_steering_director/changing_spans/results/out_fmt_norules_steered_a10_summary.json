@@ -1,0 +1,42 @@
+{
+    "num_prediction_records": 215,
+    "num_ground_truth_articles": 250,
+    "num_matched_records": 215,
+    "num_unmatched_prediction_records": 0,
+    "num_ground_truth_articles_without_prediction": 35,
+    "ground_truth_mapping": {
+        "Population": "population",
+        "Intervention": "intervention_exposure",
+        "Comparator": "comparison",
+        "Outcome": "outcome"
+    },
+    "prediction_field": "pico_directer",
+    "metric": "Token-overlap Precision/Recall/F1 using set-based tokenization",
+    "categories": {
+        "P": {
+            "precision": 0.43156952761603923,
+            "recall": 0.5474889948132733,
+            "f1": 0.3966602292792143
+        },
+        "I": {
+            "precision": 0.456604094245504,
+            "recall": 0.5906735732444331,
+            "f1": 0.43762425111913095
+        },
+        "C": {
+            "precision": 0.29354629866257775,
+            "recall": 0.9227648578811369,
+            "f1": 0.28683870429136465
+        },
+        "O": {
+            "precision": 0.5400998996083634,
+            "recall": 0.844474045676191,
+            "f1": 0.5371844120589818
+        }
+    },
+    "overall": {
+        "precision": 0.4304549550331211,
+        "recall": 0.7263503679037586,
+        "f1": 0.41457689918717294
+    }
+}
