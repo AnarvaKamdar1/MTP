@@ -1,0 +1,11 @@
+Idea 1:
+
+Experiment 1 -> Zero shot in context learning prompt to LLM and get results
+Experiment 2 -> Second pass giving back the response and asking the LLM to refine it
+Analysis ->
+  analyse the extractions. 
+  case 1 : genuine improvement in scores (go ahead with Idea 2)
+  case 2 : degredation of responses
+  case 3 : similar performance
+  case 4 : 
+
