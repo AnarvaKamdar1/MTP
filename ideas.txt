@@ -7,5 +7,354 @@ Analysis ->
   case 1 : genuine improvement in scores (go ahead with Idea 2)
   case 2 : degredation of responses
   case 3 : similar performance
-  case 4 : 
+  case 4 : flipping results (earlier correct extractions worse while incorrect ones get refined)
+
+Experiment 3 -> Learned error detection, detect type of errors (boundary error, missing entity, wrong entity, correct prediction). Challenge is to come up with the type of possible errors and how to calssify them.
+Experiment 4 -> Through this learned error, we will pass it in some form to the base model again which then tunes to produce better results.
+
+Idea 2: RAIN
+Since this came for genuine improvement of the scores, maybe we can try to do RAIN-style continuous prompting. Keep repeating the prompting and generation until we reach a specific threshold value (such as F1 score or something). We can also define the improvement between 2 subsequent passes and stop when the improvement rate falls below say 3% or goes stagnant or worsens.
+
+Idea 3: eaGER - Entropy Aware Generation for Adaptive Inference and CoT based methods
+I would propose a working method called Boundary-Aware Adaptive Thinking (BAAT). This is just a provisional name, not a novelty claim. The key change is to stop measuring uncertainty only at the level of the next generated token and instead measure uncertainty about the extracted entities and their boundaries. Consider an abstract containing: "Adults with severe pneumonia received Drug A for 14 days."
+Suppose the model predicts:
+- Population: Adults with pneumonia
+- Intervention: Drug A
+- Duration: 14 days
+The model might be highly confident in the Intervention span but uncertain whether the Population span should include severe. A generic thinking budget spends computation on the entire response. A boundary-aware method would direct extra computation toward the Population span.
+
+Idea 4: Student Teacher Architecture (Semi Supervised)
+Teacher model predicts the initial pass. This is refined by the student model and given back. The teacher model trained on labelled data, uses it to label the validation data. The student data gets the validation data and its respective responses that the teacher model made. Next, the student model learns about refining the outputs to match the ground truths. Since the teacher model already has substantial work done, the student has to only slightly correct them.
+
+Idea 5:
+There are 3 representations involved here. Let there be a generation model G, a classifier model C and our data D having abstracts. R1 is the ground truth given acting as our reference. G predicts on the data giving us R2 representation. And given the abstract, the classfier C assigns a label to each of the tokens from [P,I,C,O,none]. We have 3 representations and we form links between them as (R1-R2) and (R1-R3). With this, we want R2 and R3 to shift towards R1. And specifically, our aim is that R2 leans and relies on R3 to get close to R1. So, given the abstract we first use C as a means to correctly identify spans or tokens that correspond to say Population. Then using them as a reference, R2 generates the actual responses.
+
+I think this is a promising direction, and it is more concrete than simply asking the generation model to think or refine its answer repeatedly.
+
+The key idea is that you are separating PICO identification from PICO generation:
+- Classifier \(C\) identifies where the PICO information is located in the abstract.
+- Generation model \(G\) uses those identified spans as guidance to determine what the final PICO extraction should be.
+- Ground truth \(R_1\) supervises both models, but is not available during inference.
+This gives you a classifier-guided generation framework. The interesting part is not merely having two models; it is making the generation model explicitly depend on the token-level evidence identified by the classifier.
+1. Formalizing your three representations
+Let the dataset contain abstracts:
+\[
+D=\{d_1,d_2,\ldots,d_n\}
+\]
+
+For each abstract \(d_i\), define:
+
+\(R_1\): Ground-truth representation
+
+The gold PICO annotations, including the relevant phrases or spans and their categories.
+
+\(R_2\): Generation representation
+
+The output produced by \(G\):
+\[
+R_2=G(d_i)
+\]
+
+For example:
+Population: patients with pneumonia
+Intervention: antibiotic treatment
+Comparison: placebo
+Outcome: mortality
+
+
+\(R_3\): Classifier representation
+
+The token-level predictions produced by \(C\):
+\[
+R_3=C(d_i)
+\]
+
+For example:
+Token	Predicted label
+patients	P
+with	P
+pneumonia	P
+received	None
+antibiotic	I
+treatment	I
+placebo	C
+mortality	O
+
+Here, \(P,I,C,O\) denote Population, Intervention, Comparison and Outcome.
+
+Your two relationships are:
+\[
+R_1 \leftrightarrow R_2
+\]
+
+\[
+R_1 \leftrightarrow R_3
+\]
+
+The first supervises the generation model; the second supervises the classifier.
+
+But your additional objective is:
+\[
+\boxed{R_2 \text{ should be guided by } R_3}
+\]
+
+In other words, the classifier is not just another model whose performance you report. Its predictions become an explicit source of evidence for generation.
+2. How the proposed architecture would work
+Input abstract \(D\)
+
+Original biomedical abstract
+
+Classifier \(C\)
+
+Token-level classification
+
+\(R_3\)
+
+PICO spans and labels
+
+
+
+Generation model \(G\)
+
+PICO generation
+
+Initial \(R_2\)
+
+Generated PICO output
+
+
+
+
+Classifier-guided generation
+
+Abstract + predicted PICO spans + labels
+
+Guided \(R_2\) generation / refinement
+
+Final PICO representation
+
+Classifier-guided generation output
+
+
+Conceptual architecture. The initial generation branch is optional: you can also directly condition G on the abstract and R3.
+I would actually recommend starting with the simpler version:
+\[
+R_3=C(D)
+\]
+
+\[
+R_2=G(D,R_3)
+\]
+
+That is, give the generation model both the original abstract and the classifier's predicted PICO spans.
+
+For example, the prompt to \(G\) could contain:
+Abstract:
+[Original abstract]
+
+Classifier-identified Population spans:
+["patients with pneumonia", "adults"]
+
+Classifier-identified Intervention spans:
+["antibiotic treatment"]
+
+Classifier-identified Comparison spans:
+["placebo"]
+
+Classifier-identified Outcome spans:
+["mortality"]
+
+Task:
+Generate the final PICO extraction using the abstract
+and the classifier-identified spans as supporting evidence.
+Verify that each selected phrase is supported by the abstract.
+Do not blindly copy incorrect or irrelevant classifier predictions.
+
+
+This gives \(G\) a more structured starting point than the abstract alone.
+3. How do we make both representations move towards \(R_1\)?
+This is probably the most important part of your proposal.
+
+You can formulate the training objective using three components.
+
+A. Generation supervision: \(R_2\) towards \(R_1\)
+
+Train \(G\) to produce the gold PICO output:
+\[
+\mathcal{L}_{G}=
+\mathcal{L}_{gen}(G(D),R_1)
+\]
+
+This is your standard generation loss.
+
+B. Classification supervision: \(R_3\) towards \(R_1\)
+
+Train \(C\) to assign the correct token-level labels:
+\[
+\mathcal{L}_{C}=
+-\sum_{t=1}^{T}\log P_C(y_t\mid D)
+\]
+
+where \(y_t\) is the gold PICO label for token \(t\).
+
+C. Consistency between \(R_2\) and \(R_3\)
+
+This is where your proposal becomes more interesting.
+
+The generation model should produce phrases that are consistent with the classifier's identified spans.
+
+You could introduce a consistency objective:
+\[
+\mathcal{L}_{cons}=
+\mathcal{D}(R_2,R_3)
+\]
+
+where \(\mathcal{D}\) measures disagreement between the generated entities and the classifier's token-level predictions.
+
+For example:
+- If \(C\) identifies "patients with pneumonia" as Population, \(G\) should not generate "patients with asthma" as Population.
+- If \(C\) identifies "mortality" as Outcome, \(G\) should not omit it without a reason.
+- If \(G\) generates a phrase that the classifier labels as None, that disagreement should be examined.
+Your combined objective could be:
+\[
+\boxed{
+\mathcal{L}=
+\lambda_1\mathcal{L}_{G}
++\lambda_2\mathcal{L}_{C}
++\lambda_3\mathcal{L}_{cons}
+}
+\]
+
+There is one important distinction, though: if \(G\) and \(C\) are separate models, this objective does not automatically make them learn from each other. You need to implement the consistency term or explicitly condition \(G\) on \(C\)'s outputs. Otherwise, you simply have two independently trained models.
+
+I would initially keep the classifier frozen while training or evaluating the generation component. That makes it easier to establish whether classifier guidance actually helps.
+4. Some important problems to consider
+I see four issues that you should address before developing this further.
+
+Problem 1: The classifier might be wrong.
+
+Suppose the abstract contains:
+Patients with severe pneumonia were administered antibiotic treatment.
+
+But the classifier incorrectly identifies "severe pneumonia" as Population and misses "patients".
+
+The generation model could inherit that error.
+
+Therefore, you should not force \(G\) to blindly copy \(R_3\). Instead, treat classifier predictions as evidence that \(G\) can verify against the original abstract.
+
+A useful extension would be to provide confidence scores for each predicted token or span.
+
+Problem 2: Token classification and PICO extraction are not exactly equivalent.
+
+Your current labels are:
+\[
+[P,I,C,O,None]
+\]
+
+However, I would recommend using BIO-style labels:
+\[
+[B\text{-}P,I\text{-}P,B\text{-}I,I\text{-}I,\ldots,O]
+\]
+
+Here, \(B\) and \(I\) represent the beginning and continuation of an entity.
+
+This matters because you want to identify exact spans, not just identify which tokens belong to a broad category.
+
+You should also account for multiple entities per category, overlapping annotations if present in your dataset, and potentially discontinuous spans.
+
+Problem 3: Training-time and inference-time mismatch.
+
+This is particularly important.
+
+During training, you have access to \(R_1\). You could give the gold spans to \(G\), but at inference, you only have \(R_3\).
+
+If you train \(G\) exclusively using gold spans, it may struggle when it receives imperfect classifier predictions.
+
+My recommendation:
+- Train \(C\) using gold token labels.
+- Train \(G\) using a mixture of gold spans and predicted spans from \(C\).
+- Gradually increase the proportion of predicted spans.
+- Include some deliberately corrupted spans to make \(G\) robust to classifier mistakes.
+This is a form of scheduled exposure to imperfect classifier outputs.
+
+Problem 4: The classifier could become a bottleneck.
+
+If \(C\) misses an entire Population span, and \(G\) relies too heavily on \(C\), the final extraction may also miss it.
+
+This is why I would retain the original abstract as an input to \(G\), rather than giving it only the classifier's extracted spans.
+
+5. Where could the actual research contribution lie?
+I would distinguish three versions of your proposal.
+Version	Method	Research strength
+Version 1	Classifier identifies spans; generator uses them	A reasonable baseline architecture
+Version 2	Generator uses classifier predictions with confidence and can reject or correct them	More interesting
+Version 3	Generator learns when to trust, modify, or override classifier predictions using gold-supervised feedback	Strongest direction to investigate
+
+I particularly like Version 3.
+
+Think about what happens when the two models disagree.
+
+For example:
+Example: disagreement between the models
+
+CLASSIFIER \(C\)
+Population: "patients with pneumonia"
+GENERATOR \(G\)
+Population: "patients with severe pneumonia"
+
+What should happen?
+
+The generator should examine the original abstract and decide whether "severe" is part of the gold Population annotation, rather than automatically accepting either representation.
+Desired behaviour
+Evidence-grounded resolution of disagreements.
+
+This creates a potentially useful research question:
+
+Can a generation model learn to selectively trust and correct token-level PICO predictions rather than treating them as hard constraints?
+
+You could make this more explicit by defining a trust or correction mechanism:
+\[
+R_2^{*}=G(D,R_3,\mathbf{w})
+\]
+
+where \(\mathbf{w}\) represents the degree of trust assigned to the classifier's predictions.
+
+For instance, a high-confidence Population span might receive greater weight, while a low-confidence span might trigger further examination of the abstract.
+
+Importantly, confidence alone should not determine correctness. You could learn the trust mechanism using training examples where classifier predictions are compared against gold annotations.
+6. How I would experimentally test this
+I would not immediately train a joint architecture. First, establish whether the central assumption is true: classifier-identified spans help a generation model extract PICO more accurately.
+Experiment	Configuration	Purpose
+E1	\(G(D)\)	Original zero-shot baseline
+E2	\(G(D,R_1)\)	Gold spans supplied to G; upper-bound reference
+E3	\(G(D,R_3)\)	Predicted classifier spans supplied to G
+E4	\(G(D,R_3,\text{confidence})\)	Confidence-guided generation
+E5	\(G(D,R_3)\) with selective correction	Generator can reject or modify classifier predictions
+E6	Jointly trained / consistency-based model	Test whether explicit alignment adds value
+
+E2 is particularly useful. It tells you how well the generator could perform if the classifier supplied perfect spans. The difference between E2 and E3 indicates how much performance is lost due to classifier errors and their propagation.
+
+For evaluation, I would retain your existing exact-match PICO metrics and additionally measure:
+- Classifier token-level precision, recall and F1.
+- Exact span-level precision, recall and F1.
+- Generator performance with and without classifier guidance.
+- Classifier error propagation rate.
+- Percentage of classifier errors corrected by the generator.
+- Percentage of initially correct extractions damaged by the generator.
+The last two measurements are particularly important for your proposed approach.
+
+7. My overall assessment
+Worth investigating
+I think this is a stronger direction to experiment with than simply adding another refinement pass to the generation model.
+
+The central distinction is:
+- In ordinary generation, the model has to identify relevant evidence and generate the extraction simultaneously.
+- In your approach, a dedicated classifier first identifies candidate evidence, and the generator uses that evidence to produce the final structured extraction.
+However, I would not yet claim that the architecture itself is novel. Classifier-guided generation, cascaded extraction and token-level evidence conditioning have related precedents. The potentially more distinctive contribution is the learned interaction between the classifier and generator: when to trust the classifier, when to correct it, and when to search the abstract for evidence it missed.
+
+My recommendation is to begin with E1, E2 and E3. Those three experiments will tell you whether the central hypothesis is worth pursuing before you invest in consistency training or a learned trust mechanism.
+
+One question that will determine the next architectural step: Are you envisioning \(C\) as a separately fine-tuned token-classification model (such as BERT/BioBERT), or do you want to use another LLM as the classifier?
+
+
 
