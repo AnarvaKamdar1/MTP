@@ -1,0 +1,1478 @@
+[
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "span_text": "randomized patients with CKD",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the primary outcome in a clinical trial."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "span_text": "randomized patients with CKD",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the clinical trial design and its focus on patients with CKD."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "span_text": "randomized patients with CKD",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the semantic concept of 'randomized controlled trials' in the context of medical research."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "span_text": "randomized patients with CKD",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to understand the reasoning behind the study's conclusion."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "span_text": "20 mg simvastatin plus 10 mg ezetimibe daily",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the effectiveness of a combination therapy in reducing cardiovascular events."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "span_text": "20 mg simvastatin plus 10 mg ezetimibe daily",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the clinical trial's focus on assessing the impact of statins and ezetimibe on cardiovascular outcomes."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "span_text": "20 mg simvastatin plus 10 mg ezetimibe daily",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the semantic task of identifying the key elements of a clinical trial, such as the treatment groups and their respective interventions."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "span_text": "20 mg simvastatin plus 10 mg ezetimibe daily",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and correct any errors in the reasoning process."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "span_text": "matching placebo",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the effectiveness of a new drug in treating a specific medical condition."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "span_text": "matching placebo",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of the effectiveness of a new drug against a placebo in treating depression."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "span_text": "matching placebo",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the concept of a clinical trial, specifically a randomized, double-blind, placebo-controlled study."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "span_text": "matching placebo",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to understand the reasoning behind the study's conclusion."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "span_text": "vascular access occlusive events, defined as any access revision procedure, access thrombosis, removal of an old dialysis access, or formation of new permanent dialysis access",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and analyzing the vascular access occlusive events in patients undergoing hemodialysis."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "span_text": "vascular access occlusive events, defined as any access revision procedure, access thrombosis, removal of an old dialysis access, or formation of new permanent dialysis access",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the study's focus on the impact of a specific drug on vascular access occlusive events."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "span_text": "vascular access occlusive events, defined as any access revision procedure, access thrombosis, removal of an old dialysis access, or formation of new permanent dialysis access",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the semantic task of identifying and extracting key information related to the study's objectives and methodology."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "span_text": "vascular access occlusive events, defined as any access revision procedure, access thrombosis, removal of an old dialysis access, or formation of new permanent dialysis access",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to understand the reasoning behind the study's design and its implications."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "span_text": "Consecutive postmenopausal women (N=130; mean age SD, 65. 4414. 7y) with mild CVI",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the primary outcome in a clinical trial."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "span_text": "Consecutive postmenopausal women (N=130; mean age SD, 65. 4414. 7y) with mild CVI",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the clinical trial design and its objectives."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "span_text": "Consecutive postmenopausal women (N=130; mean age SD, 65. 4414. 7y) with mild CVI",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting key elements from a medical research abstract."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "span_text": "Consecutive postmenopausal women (N=130; mean age SD, 65. 4414. 7y) with mild CVI",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to understand the context of the study, focusing on the participants and the conditions they were subjected to."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "span_text": "mixed KT-compression treatment following KT recommendations for gastrocnemius muscle enhancement and functional correction of the ankle, and adding 2 tapes to simulate traditional compression bandages",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the effectiveness of a mixed KT-compression treatment in reducing plantar fasciitis symptoms."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "span_text": "mixed KT-compression treatment following KT recommendations for gastrocnemius muscle enhancement and functional correction of the ankle, and adding 2 tapes to simulate traditional compression bandages",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of two treatment methods for plantar fasciitis."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "span_text": "mixed KT-compression treatment following KT recommendations for gastrocnemius muscle enhancement and functional correction of the ankle, and adding 2 tapes to simulate traditional compression bandages",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the semantic task of identifying and understanding the causal relationships between the treatment and the outcomes in the study."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "span_text": "mixed KT-compression treatment following KT recommendations for gastrocnemius muscle enhancement and functional correction of the ankle, and adding 2 tapes to simulate traditional compression bandages",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to understand the reasoning behind the study's design and the rationale for its methodology."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "span_text": "sham KT",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "The task involves measuring the activation of specific muscles during a rehabilitation exercise."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "span_text": "sham KT",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison between the effects of real and sham KT on knee pain."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "span_text": "sham KT",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents a semantic task that involves understanding and interpreting the meaning of the study's findings."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "span_text": "sham KT",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to simulate the physiological effects of a treatment, specifically the impact of KT on muscle activity."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "span_text": "sham KT",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "The task involves measuring the activation of specific muscles during a rehabilitation exercise."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "span_text": "sham KT",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison between the effects of real and sham KT on knee pain."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "span_text": "sham KT",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents a semantic task that involves understanding and interpreting the meaning of the study's findings."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "span_text": "sham KT",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to simulate the physiological effects of a treatment, specifically the impact of KT on muscle activity."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "ROAM",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "The activation is associated with the task of identifying the most significant factors influencing the outcomes of the study."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "ROAM",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the methodology and findings of a study on the effectiveness of a new treatment for depression."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "ROAM",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the semantic concept of 'medical research methodology', specifically focusing on the design and execution of randomized controlled trials."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "ROAM",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to integrate a new concept into its existing framework."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "gait",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the most effective treatment for patients with Parkinson's disease."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "gait",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the treatment and the improvement in balance and gait."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "gait",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the semantic task of identifying and categorizing the specific medical conditions and treatments mentioned in the text."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "gait",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to predict the likelihood of a specific outcome based on the given data."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "pain",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the impact of a new treatment on patient-reported outcomes."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "pain",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the treatment and the outcomes."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "pain",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the semantic concept of analyzing the impact of a treatment on various health-related outcomes."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "pain",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to predict the impact of a new treatment on patient-reported outcomes."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "perimeter of right and left lower limb",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the most significant predictors of the outcome variable."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "perimeter of right and left lower limb",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the detailed description of the study's methodology and the specific measurements taken."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "perimeter of right and left lower limb",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing the key elements of a medical study."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "perimeter of right and left lower limb",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to predict the likelihood of a specific medical condition based on the input data."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "quality of life",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the effectiveness of a treatment."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "quality of life",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of outcomes between two different treatment groups."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "quality of life",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the semantic task of identifying and extracting key information from a medical study."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "span_text": "quality of life",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to understand the relationship between the input data and the output predictions."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "span_text": "A random sample of 60 eligible patients with back pain (28 men, 32 women) were recruited by general practitioners and self-referral for physiotherapy treatment",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the effectiveness of physiotherapy treatments for back pain."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "span_text": "A random sample of 60 eligible patients with back pain (28 men, 32 women) were recruited by general practitioners and self-referral for physiotherapy treatment",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of two treatment methods for back pain."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "span_text": "A random sample of 60 eligible patients with back pain (28 men, 32 women) were recruited by general practitioners and self-referral for physiotherapy treatment",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the semantic task of identifying and extracting the key elements of a study, such as the study design, population, and interventions."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "span_text": "A random sample of 60 eligible patients with back pain (28 men, 32 women) were recruited by general practitioners and self-referral for physiotherapy treatment",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to understand the reasoning behind the study's design and methodology."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "IFT painful area",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "The activation is associated with the task of identifying the specific intervention in the study."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "IFT painful area",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the intervention details, specifically the IFT technique applied to the painful area."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "IFT painful area",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the task of identifying and extracting specific semantic concepts from the text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "IFT painful area",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and understand the key elements of the study design."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "IFT spinal nerve",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the most effective treatment for chronic low back pain."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "IFT spinal nerve",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of the effectiveness of different treatment methods."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "IFT spinal nerve",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the concept of 'intervention' in the context of a study on pain management."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "IFT spinal nerve",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and correct any errors in the activation pattern to ensure accurate interpretation of the data."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "Control",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the control group in the study."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "Control",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of outcomes between the two treatment groups and the control group."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "Control",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the semantic concept of 'control group' in the context of a clinical trial."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "Control",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to understand the relationship between the treatment and the outcome in the study."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the primary outcome measures in a study."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of the effectiveness of two different treatment methods."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting specific medical conditions from the text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and correct any inconsistencies in the activation pattern."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the primary outcome measures in a study."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of the effectiveness of two different treatment methods."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting specific medical conditions from the text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and correct any inconsistencies in the activation pattern."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the primary outcome measures in a study."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of the effectiveness of two different treatment methods."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting specific medical conditions from the text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "span_text": "The Back Book",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and correct any inconsistencies in the activation pattern."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "span_text": "The Back Book only",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the most effective treatment for anxiety."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "span_text": "The Back Book only",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of treatment outcomes between two groups."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "span_text": "The Back Book only",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and distinguishing between different treatment groups in the study."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "span_text": "The Back Book only",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and correct any biases in its reasoning process."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Pain Rating Index",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of evaluating the effectiveness of a treatment."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Pain Rating Index",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of pain levels between two treatment groups."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Pain Rating Index",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the semantic concept of 'pain relief' and the task of 'assessing the effectiveness of treatment'."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Pain Rating Index",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and correct any errors in its reasoning process."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Roland-Morris Disability Questionnaire (RMDQ)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the effectiveness of a treatment program."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Roland-Morris Disability Questionnaire (RMDQ)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of outcomes between two treatment groups."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Roland-Morris Disability Questionnaire (RMDQ)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting key information from a medical study, specifically focusing on the outcomes and results."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Roland-Morris Disability Questionnaire (RMDQ)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to understand the relationship between the treatment and the outcomes, possibly to optimize the treatment plan."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "EuroQol",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the impact of a treatment on patient-reported outcomes."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "EuroQol",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the patient-reported outcomes, specifically the EQ-5D-5L and EQ-VAS."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "EuroQol",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the semantic concept of 'health outcomes' in the context of a study."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "span_text": "EuroQol",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to integrate a new variable into its existing framework."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "span_text": "nine healthy normotensive volunteers (age 27 + /-3 y, BMI 23. 3 + /-2. 0 kg m (-2); mean + /-SD)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the subject of the sentence."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "span_text": "nine healthy normotensive volunteers (age 27 + /-3 y, BMI 23. 3 + /-2. 0 kg m (-2); mean + /-SD)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the methodology and design of the study, including the use of a crossover design and the inclusion of nine healthy volunteers."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "span_text": "nine healthy normotensive volunteers (age 27 + /-3 y, BMI 23. 3 + /-2. 0 kg m (-2); mean + /-SD)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the semantic concept of 'clinical trial design', specifically focusing on the methodology and structure of the study."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "span_text": "nine healthy normotensive volunteers (age 27 + /-3 y, BMI 23. 3 + /-2. 0 kg m (-2); mean + /-SD)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to understand the reasoning behind the study's design and methodology."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "5 mg enalapril",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the drug name in the text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "5 mg enalapril",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of the effects of two different dosages of enalapril on blood pressure."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "5 mg enalapril",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the key elements of a study, such as the treatment and control groups, and their respective outcomes."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "5 mg enalapril",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and understand the key elements of the study, such as the drug tested and its dosage."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "placebo",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the subject's emotional state."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "placebo",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the study's focus on the effects of a specific supplement on depression symptoms."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "placebo",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the semantic concept of a clinical trial, specifically focusing on the effects of a new drug on depression."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "placebo",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to understand the relationship between the placebo effect and the outcomes of the study."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "placebo",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the subject's emotional state."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "placebo",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the study's focus on the effects of a specific supplement on depression symptoms."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "placebo",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the semantic concept of a clinical trial, specifically focusing on the effects of a new drug on depression."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "placebo",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to understand the relationship between the placebo effect and the outcomes of the study."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "3. 5 mg glibenclamide",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the drug that was administered to the patient."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "3. 5 mg glibenclamide",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the sequence of events in a clinical trial."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "3. 5 mg glibenclamide",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the task of identifying and extracting specific medical information from a clinical trial report."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "3. 5 mg glibenclamide",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and correct any inconsistencies or errors in the data."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "10 mg enalapril",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the impact of enalapril on the pharmacokinetics of metoprolol."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "10 mg enalapril",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the effect of enalapril on the pharmacokinetics of metoprolol."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "10 mg enalapril",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and understanding the causal relationships between the variables in the study."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "span_text": "10 mg enalapril",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to understand the relationship between the drug and the physiological response it elicits."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the subject's emotional state."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the study's focus on the effects of a specific supplement on depression symptoms."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the concept of a double-blind, randomized, placebo-controlled trial in the context of a study on a new drug."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to understand the relationship between the placebo effect and the outcomes of the study."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the subject's emotional state."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the study's focus on the effects of a specific supplement on depression symptoms."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the concept of a double-blind, randomized, placebo-controlled trial in the context of a study on a new drug."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to understand the relationship between the placebo effect and the outcomes of the study."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Blood glucose levels",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "The task involves analyzing the data collected from the study to determine the effects of the drug on glucose levels."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Blood glucose levels",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the impact of the drug on glucose metabolism in patients with type 2 diabetes."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Blood glucose levels",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the concept of a controlled experiment, where variables are manipulated to observe their effects on the outcome."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Blood glucose levels",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to understand the relationship between the drug and the physiological response in the study."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "span_text": "Thirty-six children with an autism spectrum disorder (5-17 years old) accompanied by severe tantrums, aggression, or self-injurious behavior",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the main subject of the study."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "span_text": "Thirty-six children with an autism spectrum disorder (5-17 years old) accompanied by severe tantrums, aggression, or self-injurious behavior",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the clinical trial design, including the patient population and the interventions being tested."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "span_text": "Thirty-six children with an autism spectrum disorder (5-17 years old) accompanied by severe tantrums, aggression, or self-injurious behavior",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the semantic concept of 'clinical trial design', specifically focusing on the methodology and structure of the study."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "span_text": "Thirty-six children with an autism spectrum disorder (5-17 years old) accompanied by severe tantrums, aggression, or self-injurious behavior",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to understand the context of the study, particularly the inclusion criteria for participants."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "8-week open-label treatment with risperidone",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the effectiveness of risperidone in treating social withdrawal in adolescents."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "8-week open-label treatment with risperidone",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the treatment of children with autism spectrum disorder using risperidone."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "8-week open-label treatment with risperidone",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the task of identifying and extracting the key elements of a study, such as the treatment, participants, and outcomes."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "8-week open-label treatment with risperidone",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to understand the reasoning behind the study's conclusion."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "16 weeks",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the effectiveness of a treatment over time."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "16 weeks",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the effectiveness of the treatment in reducing symptoms."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "16 weeks",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the task of identifying and extracting the duration of the study period from the text."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "16 weeks",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to understand the reasoning behind the study's conclusion."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "3 weeks of taper",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of evaluating the effectiveness of a treatment for depression."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "3 weeks of taper",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of two treatment regimens for depression."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "3 weeks of taper",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents a semantic task of identifying and categorizing the different treatment groups in the study."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "3 weeks of taper",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to simulate a scenario where a treatment is being tested against a placebo."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "5 weeks of placebo only",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of predicting the effectiveness of a treatment regimen."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "5 weeks of placebo only",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the duration of the treatment period."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "5 weeks of placebo only",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the concept of a treatment plan, specifically a structured approach to managing depression."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "5 weeks of placebo only",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to determine the optimal duration of treatment for the best patient outcomes."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "continuing use of risperidone",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the effectiveness of risperidone in treating schizophrenia."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "continuing use of risperidone",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of outcomes between two treatment groups."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "continuing use of risperidone",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the key elements of a study's methodology and findings."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "span_text": "continuing use of risperidone",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to understand the reasoning behind the decision to continue or discontinue risperidone treatment."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo only",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of predicting the effectiveness of a treatment in a clinical trial."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo only",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the comparison of treatment outcomes between two groups."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo only",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the concept of a treatment effect over time, specifically the change in symptoms from the initial treatment to the follow-up period."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "span_text": "placebo only",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to determine the optimal time to initiate treatment based on the patient's response to the initial dose."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Relapse was defined as a significant deterioration of symptoms based on clinical judgment and a parent questionnaire",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of analyzing the effectiveness of a treatment regimen in a clinical trial."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Relapse was defined as a significant deterioration of symptoms based on clinical judgment and a parent questionnaire",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the clinical trial results, particularly the outcomes related to the effectiveness of the treatment."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Relapse was defined as a significant deterioration of symptoms based on clinical judgment and a parent questionnaire",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "The activation represents the concept of a clinical trial, specifically a randomized, double-blind, placebo-controlled study."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "span_text": "Relapse was defined as a significant deterioration of symptoms based on clinical judgment and a parent questionnaire",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to understand the reasoning behind the study's design and methodology."
+  }
+]

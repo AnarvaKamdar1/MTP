@@ -1,0 +1,1602 @@
+[
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting the Participant entity from the text."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the identification of participants in the events described."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Participant entity from the text."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to extract and understand the key elements of the sentence, focusing on the participants involved."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing participants in a conversation."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the identification of participants in the conversation."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing named entities within a sentence."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and extract the subject of the sentence from the given text."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting information about interventions from medical literature."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Intervention and the Outcome in the context of the study."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Intervention concept from the text."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and extract the Intervention entity from the text."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing the intent in user queries."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the presence of an event that involves a person and a location."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting specific semantic elements, such as the 'Intent' (I) in the given text."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the most relevant information from the text."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting the Control element from a sentence."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Control and the Outcome in the context of the study."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Control element from a sentence."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the Control Variable from the given sentence."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "The activation is associated with the task of identifying and categorizing the context in which a sentence is used."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the context of the conversation, particularly the speaker's intent to apologize."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing the context in which a sentence is used."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and categorize the context in which the word 'contribute' is used."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the Outcome in medical research articles."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Outcome and the Study."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Outcome variable from medical records."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and extract the Outcome variable from the given text."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing the intent of the user's message."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the presence of a specific type of event, namely an accident."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing the intent of the user's message."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the 'Outcome' (O) from the given sentence."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting the Participant entity from the text."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the identification of participants in the events described."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Participant entity from the text."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to extract and understand the key elements of the sentence, focusing on the participants involved."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing participants in a conversation."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the identification of participants in the conversation."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing named entities within a sentence."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and extract the subject of the sentence from the given text."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting information about interventions from medical literature."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Intervention and the Outcome in the context of the study."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Intervention concept from the text."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and extract the Intervention entity from the text."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing the intent in user queries."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the presence of an event that involves a person and a location."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting specific semantic elements, such as the 'Intent' (I) in the given text."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the most relevant information from the text."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting the Control element from a sentence."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Control and the Outcome in the context of the study."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Control element from a sentence."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the Control Variable from the given sentence."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "The activation is associated with the task of identifying and categorizing the context in which a sentence is used."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the context of the conversation, particularly the speaker's intent to apologize."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing the context in which a sentence is used."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and categorize the context in which the word 'contribute' is used."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the Outcome in medical research articles."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Outcome and the Study."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Outcome variable from medical records."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and extract the Outcome variable from the given text."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing the intent of the user's message."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the presence of a specific type of event, namely an accident."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing the intent of the user's message."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the 'Outcome' (O) from the given sentence."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting the Participant entity from the text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the identification of participants in the events described."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Participant entity from the text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to extract and understand the key elements of the sentence, focusing on the participants involved."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing participants in a conversation."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the identification of participants in the conversation."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing named entities within a sentence."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and extract the subject of the sentence from the given text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting information about interventions from medical literature."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Intervention and the Outcome in the context of the study."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Intervention concept from the text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and extract the Intervention entity from the text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing the intent in user queries."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the presence of an event that involves a person and a location."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting specific semantic elements, such as the 'Intent' (I) in the given text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the most relevant information from the text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting the Control element from a sentence."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Control and the Outcome in the context of the study."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Control element from a sentence."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the Control Variable from the given sentence."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "The activation is associated with the task of identifying and categorizing the context in which a sentence is used."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the context of the conversation, particularly the speaker's intent to apologize."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing the context in which a sentence is used."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and categorize the context in which the word 'contribute' is used."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the Outcome in medical research articles."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Outcome and the Study."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Outcome variable from medical records."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and extract the Outcome variable from the given text."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing the intent of the user's message."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the presence of a specific type of event, namely an accident."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing the intent of the user's message."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the 'Outcome' (O) from the given sentence."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting the Participant entity from the text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the identification of participants in the events described."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Participant entity from the text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to extract and understand the key elements of the sentence, focusing on the participants involved."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing participants in a conversation."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the identification of participants in the conversation."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing named entities within a sentence."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and extract the subject of the sentence from the given text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting information about interventions from medical literature."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Intervention and the Outcome in the context of the study."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Intervention concept from the text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and extract the Intervention entity from the text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing the intent in user queries."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the presence of an event that involves a person and a location."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting specific semantic elements, such as the 'Intent' (I) in the given text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the most relevant information from the text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting the Control element from a sentence."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Control and the Outcome in the context of the study."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Control element from a sentence."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the Control Variable from the given sentence."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "The activation is associated with the task of identifying and categorizing the context in which a sentence is used."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the context of the conversation, particularly the speaker's intent to apologize."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing the context in which a sentence is used."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and categorize the context in which the word 'contribute' is used."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the Outcome in medical research articles."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Outcome and the Study."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Outcome variable from medical records."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and extract the Outcome variable from the given text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing the intent of the user's message."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the presence of a specific type of event, namely an accident."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing the intent of the user's message."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the 'Outcome' (O) from the given sentence."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting the Participant entity from the text."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the identification of participants in the events described."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Participant entity from the text."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A01",
+    "span_text": "Participant",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to extract and understand the key elements of the sentence, focusing on the participants involved."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing participants in a conversation."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the identification of participants in the conversation."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing named entities within a sentence."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "probe_id": "A02",
+    "span_text": "(P)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and extract the subject of the sentence from the given text."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting information about interventions from medical literature."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Intervention and the Outcome in the context of the study."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Intervention concept from the text."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A03",
+    "span_text": "Intervention",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and extract the Intervention entity from the text."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing the intent in user queries."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the presence of an event that involves a person and a location."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting specific semantic elements, such as the 'Intent' (I) in the given text."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "probe_id": "A04",
+    "span_text": "(I)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the most relevant information from the text."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and extracting the Control element from a sentence."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Control and the Outcome in the context of the study."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Control element from a sentence."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A05",
+    "span_text": "Control",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the Control Variable from the given sentence."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "The activation is associated with the task of identifying and categorizing the context in which a sentence is used."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the context of the conversation, particularly the speaker's intent to apologize."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing the context in which a sentence is used."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "probe_id": "A06",
+    "span_text": "(C)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The model is attempting to identify and categorize the context in which the word 'contribute' is used."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying the Outcome in medical research articles."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the relationship between the Outcome and the Study."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and extracting the Outcome variable from medical records."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A07",
+    "span_text": "Outcome",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests that the model is attempting to identify and extract the Outcome variable from the given text."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q1",
+    "question": "What task is this activation associated with?",
+    "answer": "This activation is associated with the task of identifying and categorizing the intent of the user's message."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q2",
+    "question": "What semantic information is most strongly represented here?",
+    "answer": "The semantic information most strongly represented is the presence of a specific type of event, namely an accident."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q3",
+    "question": "What semantic concept or task does this activation represent?",
+    "answer": "This activation represents the task of identifying and categorizing the intent of the user's message."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "probe_id": "A08",
+    "span_text": "(O)",
+    "qid": "Q4",
+    "question": "What does this activation suggest the model is trying to do here?",
+    "answer": "The activation suggests the model is attempting to identify and extract the 'Outcome' (O) from the given sentence."
+  }
+]

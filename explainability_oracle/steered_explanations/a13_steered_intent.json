@@ -1,0 +1,482 @@
+[
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the PICO element 'Population' from the given text."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the identified linguistic phenomena."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed analysis of the linguistic differences between the original and the paraphrased sentences."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the PICO element 'C' from the provided medical research paper."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the relevant information."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed analysis of the impact of AI on the job market."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the PICO element 'Intervention' from the provided medical research paper."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the results of the analysis."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed analysis of the impact of a new policy on public health outcomes."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the PICO element 'Outcome' from the provided medical research paper."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the selected features."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed explanation of the process of converting a matrix into reduced row echelon form."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the 'location' element from the PICO framework."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the extracted information."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed explanation of how to extract and analyze street names from a given text."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the PICO element 'Intervention' from the provided medical research paper."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the information about the new species."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed analysis of the impact of climate change on the migration patterns of a specific bird species."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the 'Outcome' element from the provided medical records."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed analysis of a sentence, identifying and explaining any instances of passive voice."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the 'P' element, which is the problem or issue that the policy aims to address."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a sentence that is grammatically correct but semantically nonsensical."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the 'P' element, which stands for 'Population' in the PICO framework."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the extracted information."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed analysis of the visual elements in a photograph, focusing on the use of color."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the PICO element 'Intervention' from the provided medical research paper."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed analysis of a specific type of weather phenomenon."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the 'Prognosis' element from the medical records."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the information provided."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed analysis of the ethical considerations involved in using AI for predictive policing."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the PICO element 'Intervention' from the provided medical research paper."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a poem that explores the theme of solitude and the quiet moments of reflection."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the 'Population' element from the provided text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the entity and its corresponding label."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed analysis of the grammatical structure of a sentence."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the 'Outcome' element from the legal document."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the contract details."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed explanation of the legal and procedural aspects of a court case."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the PICO element 'C' from the provided text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the coordinates of the boundaries."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed analysis of the visual patterns and structures within the provided image."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the PICO element 'C' from the provided text."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the product details."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a product review that includes a hidden message."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the 'Outcome' element from the PICO framework."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the results of the query."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed explanation of the process of identifying and removing duplicate entries from a dataset."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the PICO element 'Intervention' from the provided text."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the results of the analysis."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed analysis of a specific moment in a film, focusing on the lighting and shadows."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the PICO element 'Outcome' from the provided medical literature."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object containing the extracted entities and their corresponding labels."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a sentence that contains a grammatical error."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q1",
+    "question": "What PICO element will the assistant extract?",
+    "answer": "The assistant will extract the 'Population' element from the PICO framework."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q2",
+    "question": "Is the assistant about to output a JSON object?",
+    "answer": "Yes, the assistant is about to output a JSON object."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q3",
+    "question": "What is the assistant about to write?",
+    "answer": "The assistant is about to write a detailed explanation of the concept of 'non-place' in urban studies."
+  }
+]

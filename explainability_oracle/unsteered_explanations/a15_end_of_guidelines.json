@@ -1,0 +1,642 @@
+[
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to extract and list all the nouns from the user's input."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules, such as identifying the subject and object, and to avoid including prepositions."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Population' by specifying the demographic group being studied."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of clinical guidelines for medical professionals."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to provide responses that are concise and strictly adhere to the specified format."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only includes relevant information and excludes any extraneous details."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the 'Context' element of PICO."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of guidelines for medical coding."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to ensure that its responses are concise and free from any unnecessary details."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only provides information about the chemical properties of substances."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'I' (Intervention) in the context of medical research."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of guidelines for medical coding, not clinical guidelines."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to ensure its responses are free from any bias or subjective language."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to avoid using acronyms and to provide full explanations for any abbreviations."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Intervention'."
+  },
+  {
+    "doc": 193,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of clinical guidelines."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to extract and list all the nouns from the user's input."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules, such as identifying the subject and object, and to avoid including prepositions."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Population' by specifying the demographic group being studied."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of clinical guidelines."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to provide responses that are concise and strictly adhere to the specified format."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules to ensure its responses are concise and free from unnecessary details."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Outcome'."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of clinical guidelines for the treatment of hypertension."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to extract only the most relevant information from the text, focusing on key details."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only provides information about the chemical elements and their properties."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Outcome'."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of guidelines for medical coding, not clinical guidelines."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to ensure its responses are free from any bias or subjective language."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only provides information from the specified sources."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Intervention'."
+  },
+  {
+    "doc": 198,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of clinical guidelines."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to extract and list all the nouns from the user's input."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules, such as identifying the subject and object, and to avoid including prepositions."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Population' by specifying the demographic group being studied."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of clinical guidelines."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to provide responses that are concise and strictly adhere to the specified format."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules to ensure its responses are concise and free from unnecessary details."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Outcome'."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of guidelines for medical coding."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to extract only the essential information from the text, focusing on the key elements."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only includes the most relevant information and excludes any extraneous details."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Outcome'."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of guidelines for medical coding, not clinical guidelines."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to ensure its responses are free from any bias or subjective language."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only provides information from the specified sources and adheres to the given guidelines."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Intervention'."
+  },
+  {
+    "doc": 27,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of clinical guidelines."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to extract and list all the nouns from the user's input."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules, such as identifying the subject and object, and to avoid including prepositions."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Population' by specifying the demographic group being studied."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of clinical guidelines for medical professionals."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to provide responses that are concise and strictly adhere to the specified format."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only includes relevant information and excludes any extraneous details."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the 'Context' element of PICO."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of guidelines for medical coding."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to ensure that its responses are concise and free from any unnecessary details."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only includes the most relevant information and excludes any extraneous details."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Outcome'."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of guidelines for medical coding, not clinical guidelines."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to ensure its responses are free from any bias or subjective language."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only provides information from the title of a book."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Intervention'."
+  },
+  {
+    "doc": 61,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of clinical guidelines."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to extract and list all the nouns from the user's input."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules, such as identifying the subject and object, and to avoid including prepositions."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Population' by specifying the demographic group being studied."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "p",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of clinical guidelines."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to provide responses that are concise and devoid of any superfluous details."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only includes relevant information and excludes any extraneous details."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the 'Context' element of PICO."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "i",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of guidelines for medical coding."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to ensure that its responses are concise and free from any unnecessary details."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only includes relevant information and avoids unnecessary details."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Outcome'."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "c",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of guidelines for medical coding, not clinical guidelines."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q1",
+    "question": "What instructions is the assistant following?",
+    "answer": "The assistant is following instructions to ensure its responses are free from any bias or subjective language."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q2",
+    "question": "What rules has the assistant been told to follow?",
+    "answer": "The assistant is instructed to follow specific rules that ensure it only provides information from the title of a book."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q3",
+    "question": "What PICO element do these instructions describe?",
+    "answer": "The instructions describe the PICO element 'Intervention'."
+  },
+  {
+    "doc": 75,
+    "layer": 18,
+    "element": "o",
+    "qid": "Q4",
+    "question": "Is this text a set of clinical guidelines?",
+    "answer": "No, the text is a set of clinical guidelines."
+  }
+]
