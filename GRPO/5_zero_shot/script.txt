@@ -1,0 +1,16 @@
+import json
+from metrics import aggregate_metrics, ELEMENT_ORDER
+
+with open('outputs/zeroshot_test_predictions.json') as f:
+    rows = json.load(f)
+preds = [r['prediction'] for r in rows]
+golds = [r['gold'] for r in rows]
+results = aggregate_metrics(preds, golds)
+
+print(f\"{'Element':<14}{'Precision':>10}{'Recall':>10}{'F1':>10}\")
+for e in ELEMENT_ORDER:
+    r = results[e]
+    print(f\"{e:<14}{r['precision']:>10.3f}{r['recall']:>10.3f}{r['f1']:>10.3f}\")
+print(f\"{'Overall (macro F1)':<14}{'':>10}{'':>10}{results['overall']['f1']:>10.3f}\")
+
+"rint('saved -> outputs/zeroshot_report.json') as f:

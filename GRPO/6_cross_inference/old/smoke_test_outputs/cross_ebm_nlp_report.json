@@ -1,0 +1,43 @@
+{
+  "input_path": "EBM_NLP_ground_truth.jsonl",
+  "checkpoint_dir_template": "../outputs_{element}/{subdir}",
+  "checkpoint_subdir": "phase3_best_keyword_model",
+  "n_docs": 5,
+  "results": {
+    "Population": {
+      "precision": 0.23076923076923078,
+      "recall": 0.15,
+      "f1": 0.18181818181818185,
+      "tp": 3,
+      "fp": 10,
+      "fn": 17
+    },
+    "Intervention": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333,
+      "tp": 8,
+      "fp": 16,
+      "fn": 16
+    },
+    "Comparator": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "tp": 1,
+      "fp": 1,
+      "fn": 0
+    },
+    "Outcome": {
+      "precision": 0.3142857142857143,
+      "recall": 0.275,
+      "f1": 0.29333333333333333,
+      "tp": 11,
+      "fp": 24,
+      "fn": 29
+    },
+    "overall": {
+      "f1": 0.3687878787878788
+    }
+  }
+}

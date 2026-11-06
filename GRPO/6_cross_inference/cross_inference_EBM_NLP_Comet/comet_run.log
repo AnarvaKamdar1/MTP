@@ -1,0 +1,53 @@
+nohup: ignoring input
+[cross_inference] loaded 2076 documents from cross_inference_EBM_NLP_Comet/EBM_NLP_Comet_ground_truth.jsonl
+[cross_inference] elements run and scored: ['Population', 'Intervention', 'Outcome'] (no Comparator)
+[cross_inference] Population: loading keyword checkpoint outputs_Population/phase3_best_keyword_model
+[cross_inference] Population: generated 2076 keyword hints
+[cross_inference] Population: 200/2076 extractions done
+[cross_inference] Population: 400/2076 extractions done
+[cross_inference] Population: 600/2076 extractions done
+[cross_inference] Population: 800/2076 extractions done
+[cross_inference] Population: 1000/2076 extractions done
+[cross_inference] Population: 1200/2076 extractions done
+[cross_inference] Population: 1400/2076 extractions done
+[cross_inference] Population: 1600/2076 extractions done
+[cross_inference] Population: 1800/2076 extractions done
+[cross_inference] Population: 2000/2076 extractions done
+[cross_inference] Population: 2076/2076 extractions done
+[cross_inference] Population: completions cached -> cross_inference_EBM_NLP_Comet/outputs/cross_comet_per_doc_completions_Population.json
+[cross_inference] Intervention: loading keyword checkpoint outputs_Intervention/phase3_best_keyword_model
+[cross_inference] Intervention: generated 2076 keyword hints
+[cross_inference] Intervention: 200/2076 extractions done
+[cross_inference] Intervention: 400/2076 extractions done
+[cross_inference] Intervention: 600/2076 extractions done
+[cross_inference] Intervention: 800/2076 extractions done
+[cross_inference] Intervention: 1000/2076 extractions done
+[cross_inference] Intervention: 1200/2076 extractions done
+[cross_inference] Intervention: 1400/2076 extractions done
+[cross_inference] Intervention: 1600/2076 extractions done
+[cross_inference] Intervention: 1800/2076 extractions done
+[cross_inference] Intervention: 2000/2076 extractions done
+[cross_inference] Intervention: 2076/2076 extractions done
+[cross_inference] Intervention: completions cached -> cross_inference_EBM_NLP_Comet/outputs/cross_comet_per_doc_completions_Intervention.json
+[cross_inference] Outcome: loading keyword checkpoint outputs_Outcome/phase3_best_keyword_model
+[cross_inference] Outcome: generated 2076 keyword hints
+[cross_inference] Outcome: 200/2076 extractions done
+[cross_inference] Outcome: 400/2076 extractions done
+[cross_inference] Outcome: 600/2076 extractions done
+[cross_inference] Outcome: 800/2076 extractions done
+[cross_inference] Outcome: 1000/2076 extractions done
+[cross_inference] Outcome: 1200/2076 extractions done
+[cross_inference] Outcome: 1400/2076 extractions done
+[cross_inference] Outcome: 1600/2076 extractions done
+[cross_inference] Outcome: 1800/2076 extractions done
+[cross_inference] Outcome: 2000/2076 extractions done
+[cross_inference] Outcome: 2076/2076 extractions done
+[cross_inference] Outcome: completions cached -> cross_inference_EBM_NLP_Comet/outputs/cross_comet_per_doc_completions_Outcome.json
+
+Element        Precision    Recall        F1
+Population         0.131     0.336     0.188
+Intervention       0.275     0.353     0.309
+Outcome            0.233     0.283     0.256
+[cross_inference] metrics saved -> cross_inference_EBM_NLP_Comet/outputs/cross_comet_report.json
+[cross_inference] per-doc CSV saved -> cross_inference_EBM_NLP_Comet/outputs/cross_comet_per_doc.csv
+[cross_inference] predictions saved -> cross_inference_EBM_NLP_Comet/outputs/cross_comet_per_doc_predictions.json

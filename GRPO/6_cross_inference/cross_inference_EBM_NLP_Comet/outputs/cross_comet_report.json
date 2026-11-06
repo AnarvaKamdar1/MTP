@@ -1,0 +1,38 @@
+{
+  "input_path": "cross_inference_EBM_NLP_Comet/EBM_NLP_Comet_ground_truth.jsonl",
+  "checkpoint_dir_template": "outputs_{element}/{subdir}",
+  "checkpoint_subdir": "phase3_best_keyword_model",
+  "elements": [
+    "Population",
+    "Intervention",
+    "Outcome"
+  ],
+  "n_docs": 2076,
+  "max_new_tokens_big": 200,
+  "results": {
+    "Population": {
+      "precision": 0.13058419243986255,
+      "recall": 0.336283185840708,
+      "f1": 0.18811881188118812,
+      "tp": 228,
+      "fp": 1518,
+      "fn": 450
+    },
+    "Intervention": {
+      "precision": 0.27488938053097345,
+      "recall": 0.35273243435060325,
+      "f1": 0.30898352502331367,
+      "tp": 497,
+      "fp": 1311,
+      "fn": 912
+    },
+    "Outcome": {
+      "precision": 0.23347483323226198,
+      "recall": 0.28267254038179146,
+      "f1": 0.25572899368980406,
+      "tp": 385,
+      "fp": 1264,
+      "fn": 977
+    }
+  }
+}
