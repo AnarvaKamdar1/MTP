@@ -1,0 +1,14 @@
+# Only these 4 are missing from the server's existing env (huggingface_hub,
+# fsspec, jinja2, etc. are already satisfied as transitive deps).
+#
+# Check your CUDA driver version first: `nvidia-smi` (top-right corner).
+# Then install torch matching it, e.g. for CUDA 12.4:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# or for CUDA 12.1:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# If unsure, plain `pip install torch` from PyPI now ships CUDA runtimes
+# bundled and works on most 12.x drivers.
+torch>=2.2
+transformers>=4.46
+accelerate>=0.34
+sentencepiece
