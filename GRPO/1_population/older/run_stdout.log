@@ -1,0 +1,239 @@
+nohup: ignoring input
+2026-09-28 00:36:38  Running stages: ['phase2_test_baseline', 'sft', 'phase3', 'phase4', 'phase4_best', 'phase5']
+2026-09-28 00:36:38  Config: group_size=4 temperature=0.8 epochs=4 lr=1e-05 beta0=0.02 kl_target=0.2 limit=None grad_accum_steps=8 sft_epochs=3 sft_lr=2e-05 seed=0
+2026-09-28 00:36:38  Phase 3 is TRUE online GRPO: the 8B model is queried epochs x docs x group_size times now, not once. Expect roughly 4x the wall-clock time of a single Phase-1+Phase-2-style pass over the same documents.
+2026-09-28 00:36:38  ========================================================================
+2026-09-28 00:36:38  STAGE: phase2_test_baseline
+2026-09-28 00:36:38  ========================================================================
+[phase1] 8/50 docs done
+[phase1] 16/50 docs done
+[phase1] 24/50 docs done
+[phase1] 32/50 docs done
+[phase1] 40/50 docs done
+[phase1] 48/50 docs done
+[phase1] 50/50 docs done
+[phase1] saved -> outputs/phase1_test_keywords_base.json
+[phase2] 4/50 generations done
+[phase2] 8/50 generations done
+[phase2] 12/50 generations done
+[phase2] 16/50 generations done
+[phase2] 20/50 generations done
+[phase2] 24/50 generations done
+[phase2] 28/50 generations done
+[phase2] 32/50 generations done
+[phase2] 36/50 generations done
+[phase2] 40/50 generations done
+[phase2] 44/50 generations done
+[phase2] 48/50 generations done
+[phase2] 50/50 generations done
+[phase2] saved -> outputs/phase2_test_predictions.json
+2026-09-28 00:38:21  STAGE phase2_test_baseline done in 102.8s
+2026-09-28 00:38:21  ========================================================================
+2026-09-28 00:38:21  STAGE: sft
+2026-09-28 00:38:21  ========================================================================
+SFT: 400/400 docs converted to (prompt, gold Population span) training pairs from data/train.txt
+SFT epoch 1/3 batch 20/50 -- running mean loss 0.3530 (3s elapsed)
+SFT epoch 1/3 batch 40/50 -- running mean loss 0.2534 (5s elapsed)
+SFT epoch 1/3 batch 50/50 -- running mean loss 0.2335 (7s elapsed)
+SFT epoch 1/3 DONE -- mean loss 0.2335, 7s
+SFT epoch 2/3 batch 20/50 -- running mean loss 0.0888 (3s elapsed)
+SFT epoch 2/3 batch 40/50 -- running mean loss 0.0800 (5s elapsed)
+SFT epoch 2/3 batch 50/50 -- running mean loss 0.0885 (7s elapsed)
+SFT epoch 2/3 DONE -- mean loss 0.0885, 7s
+SFT epoch 3/3 batch 20/50 -- running mean loss 0.0665 (3s elapsed)
+SFT epoch 3/3 batch 40/50 -- running mean loss 0.0663 (5s elapsed)
+SFT epoch 3/3 batch 50/50 -- running mean loss 0.0689 (6s elapsed)
+SFT epoch 3/3 DONE -- mean loss 0.0689, 6s
+SFT complete -- warm-started policy saved -> outputs/sft_keyword_model
+2026-09-28 00:38:49  STAGE sft done in 28.5s
+2026-09-28 00:38:49  ========================================================================
+2026-09-28 00:38:49  STAGE: phase3
+2026-09-28 00:38:49  ========================================================================
+GRPO: 400 docs x 4 epochs x group_size=4 = 6400 total 8B-model calls (vs. 1600 for a single pass)
+adaptive KL enabled: beta0=0.02, kl_target=0.2, k_beta=0.1 (DSP Eq. 7-8) -- beta will be re-tuned every optimizer step
+training reward shaping: 0.1 weight on a dense has-any-span bonus, blended with exact-match F1 (training reward only -- eval/dev-selection still use plain exact-match F1)
+held-out dev validation: 50 docs from data/dev.txt, used for best-epoch selection (one greedy pass per epoch, not trained on)
+[epoch 1] doc 20/400 -- running mean reward 0.6506, beta 0.01930 (81s elapsed)
+[epoch 1] doc 40/400 -- running mean reward 0.6737, beta 0.01891 (154s elapsed)
+[epoch 1] doc 60/400 -- running mean reward 0.6325, beta 0.01853 (220s elapsed)
+[epoch 1] doc 80/400 -- running mean reward 0.5896, beta 0.01890 (295s elapsed)
+[epoch 1] doc 100/400 -- running mean reward 0.5843, beta 0.01852 (388s elapsed)
+[epoch 1] doc 120/400 -- running mean reward 0.5955, beta 0.01814 (456s elapsed)
+[epoch 1] doc 140/400 -- running mean reward 0.6266, beta 0.01778 (514s elapsed)
+[epoch 1] doc 160/400 -- running mean reward 0.6319, beta 0.01742 (579s elapsed)
+[epoch 1] doc 180/400 -- running mean reward 0.6498, beta 0.01708 (651s elapsed)
+[epoch 1] doc 200/400 -- running mean reward 0.6577, beta 0.01607 (727s elapsed)
+[epoch 1] doc 220/400 -- running mean reward 0.6612, beta 0.01544 (799s elapsed)
+[epoch 1] doc 240/400 -- running mean reward 0.6633, beta 0.01512 (863s elapsed)
+[epoch 1] doc 260/400 -- running mean reward 0.6654, beta 0.01452 (946s elapsed)
+[epoch 1] doc 280/400 -- running mean reward 0.6618, beta 0.01417 (1016s elapsed)
+[epoch 1] doc 300/400 -- running mean reward 0.6569, beta 0.01403 (1110s elapsed)
+[epoch 1] doc 320/400 -- running mean reward 0.6534, beta 0.01348 (1181s elapsed)
+[epoch 1] doc 340/400 -- running mean reward 0.6539, beta 0.01359 (1287s elapsed)
+[epoch 1] doc 360/400 -- running mean reward 0.6574, beta 0.01420 (1368s elapsed)
+[epoch 1] doc 380/400 -- running mean reward 0.6625, beta 0.01364 (1429s elapsed)
+[epoch 1] doc 400/400 -- running mean reward 0.6668, beta 0.01419 (1496s elapsed)
+[epoch 1] DONE -- mean training reward 0.6668, mean loss -0.0138, mean KL 0.1947, 50 optimizer steps, 330/400 docs had zero reward variance, 1496s
+[epoch 1] held-out dev reward 0.5464
+[epoch 1] new best (dev reward 0.5464) -> saved to outputs/phase3_best_keyword_model
+[epoch 2] doc 20/400 -- running mean reward 0.6131, beta 0.01384 (76s elapsed)
+[epoch 2] doc 40/400 -- running mean reward 0.6190, beta 0.01411 (154s elapsed)
+[epoch 2] doc 60/400 -- running mean reward 0.6442, beta 0.01411 (218s elapsed)
+[epoch 2] doc 80/400 -- running mean reward 0.6662, beta 0.01454 (290s elapsed)
+[epoch 2] doc 100/400 -- running mean reward 0.6486, beta 0.01513 (358s elapsed)
+[epoch 2] doc 120/400 -- running mean reward 0.6471, beta 0.01544 (426s elapsed)
+[epoch 2] doc 140/400 -- running mean reward 0.6454, beta 0.01574 (487s elapsed)
+[epoch 2] doc 160/400 -- running mean reward 0.6471, beta 0.01638 (556s elapsed)
+[epoch 2] doc 180/400 -- running mean reward 0.6524, beta 0.01671 (613s elapsed)
+[epoch 2] doc 200/400 -- running mean reward 0.6513, beta 0.01738 (682s elapsed)
+[epoch 2] doc 220/400 -- running mean reward 0.6350, beta 0.01738 (761s elapsed)
+[epoch 2] doc 240/400 -- running mean reward 0.6367, beta 0.01772 (831s elapsed)
+[epoch 2] doc 260/400 -- running mean reward 0.6368, beta 0.01844 (899s elapsed)
+[epoch 2] doc 280/400 -- running mean reward 0.6331, beta 0.01957 (979s elapsed)
+[epoch 2] doc 300/400 -- running mean reward 0.6357, beta 0.01996 (1038s elapsed)
+[epoch 2] doc 320/400 -- running mean reward 0.6365, beta 0.02077 (1109s elapsed)
+[epoch 2] doc 340/400 -- running mean reward 0.6263, beta 0.02118 (1183s elapsed)
+[epoch 2] doc 360/400 -- running mean reward 0.6156, beta 0.02248 (1259s elapsed)
+[epoch 2] doc 380/400 -- running mean reward 0.6128, beta 0.02293 (1325s elapsed)
+[epoch 2] doc 400/400 -- running mean reward 0.6113, beta 0.02338 (1391s elapsed)
+[epoch 2] DONE -- mean training reward 0.6113, mean loss -0.0169, mean KL 1.5085, 50 optimizer steps, 349/400 docs had zero reward variance, 1391s
+[epoch 2] held-out dev reward 0.4378
+[epoch 3] doc 20/400 -- running mean reward 0.6447, beta 0.02385 (73s elapsed)
+[epoch 3] doc 40/400 -- running mean reward 0.6270, beta 0.02531 (152s elapsed)
+[epoch 3] doc 60/400 -- running mean reward 0.6065, beta 0.02582 (206s elapsed)
+[epoch 3] doc 80/400 -- running mean reward 0.6127, beta 0.02686 (286s elapsed)
+[epoch 3] doc 100/400 -- running mean reward 0.6138, beta 0.02795 (359s elapsed)
+[epoch 3] doc 120/400 -- running mean reward 0.6082, beta 0.02908 (441s elapsed)
+[epoch 3] doc 140/400 -- running mean reward 0.6287, beta 0.02906 (519s elapsed)
+[epoch 3] doc 160/400 -- running mean reward 0.6243, beta 0.03084 (599s elapsed)
+[epoch 3] doc 180/400 -- running mean reward 0.6192, beta 0.03209 (707s elapsed)
+[epoch 3] doc 200/400 -- running mean reward 0.6087, beta 0.03405 (805s elapsed)
+[epoch 3] doc 220/400 -- running mean reward 0.6267, beta 0.03543 (895s elapsed)
+[epoch 3] doc 240/400 -- running mean reward 0.6398, beta 0.03760 (996s elapsed)
+[epoch 3] doc 260/400 -- running mean reward 0.6311, beta 0.03912 (1108s elapsed)
+[epoch 3] doc 280/400 -- running mean reward 0.6268, beta 0.04151 (1191s elapsed)
+[epoch 3] doc 300/400 -- running mean reward 0.6119, beta 0.04319 (1309s elapsed)
+[epoch 3] doc 320/400 -- running mean reward 0.6115, beta 0.04583 (1426s elapsed)
+[epoch 3] doc 340/400 -- running mean reward 0.6115, beta 0.04768 (1543s elapsed)
+[epoch 3] doc 360/400 -- running mean reward 0.6145, beta 0.05060 (1661s elapsed)
+[epoch 3] doc 380/400 -- running mean reward 0.6103, beta 0.05265 (1777s elapsed)
+[epoch 3] doc 400/400 -- running mean reward 0.6097, beta 0.05587 (1888s elapsed)
+[epoch 3] DONE -- mean training reward 0.6097, mean loss 0.0426, mean KL 1.4279, 50 optimizer steps, 293/400 docs had zero reward variance, 1888s
+[epoch 3] held-out dev reward 0.4107
+[epoch 4] doc 20/400 -- running mean reward 0.5002, beta 0.05813 (117s elapsed)
+[epoch 4] doc 40/400 -- running mean reward 0.4949, beta 0.06168 (233s elapsed)
+[epoch 4] doc 60/400 -- running mean reward 0.5406, beta 0.06418 (345s elapsed)
+[epoch 4] doc 80/400 -- running mean reward 0.5536, beta 0.06810 (458s elapsed)
+[epoch 4] doc 100/400 -- running mean reward 0.5648, beta 0.07086 (547s elapsed)
+[epoch 4] doc 120/400 -- running mean reward 0.5748, beta 0.07519 (660s elapsed)
+[epoch 4] doc 140/400 -- running mean reward 0.5640, beta 0.07823 (775s elapsed)
+[epoch 4] doc 160/400 -- running mean reward 0.5697, beta 0.08302 (877s elapsed)
+[epoch 4] doc 180/400 -- running mean reward 0.5678, beta 0.08637 (982s elapsed)
+[epoch 4] doc 200/400 -- running mean reward 0.5751, beta 0.09166 (1064s elapsed)
+[epoch 4] doc 220/400 -- running mean reward 0.5809, beta 0.09536 (1174s elapsed)
+[epoch 4] doc 240/400 -- running mean reward 0.5818, beta 0.09921 (1283s elapsed)
+[epoch 4] doc 260/400 -- running mean reward 0.5893, beta 0.10322 (1394s elapsed)
+[epoch 4] doc 280/400 -- running mean reward 0.5995, beta 0.10954 (1499s elapsed)
+[epoch 4] doc 300/400 -- running mean reward 0.5946, beta 0.11397 (1624s elapsed)
+[epoch 4] doc 320/400 -- running mean reward 0.5962, beta 0.12094 (1729s elapsed)
+[epoch 4] doc 340/400 -- running mean reward 0.5895, beta 0.12583 (1823s elapsed)
+[epoch 4] doc 360/400 -- running mean reward 0.5938, beta 0.13353 (1931s elapsed)
+[epoch 4] doc 380/400 -- running mean reward 0.5918, beta 0.13892 (2037s elapsed)
+[epoch 4] doc 400/400 -- running mean reward 0.5869, beta 0.14743 (2147s elapsed)
+[epoch 4] DONE -- mean training reward 0.5869, mean loss 0.1212, mean KL 1.4217, 50 optimizer steps, 235/400 docs had zero reward variance, 2147s
+[epoch 4] held-out dev reward 0.4227
+saved trained policy (final, epoch 4) -> outputs/phase3_trained_keyword_model
+best epoch by dev reward: 1 (reward 0.5464) -> outputs/phase3_best_keyword_model
+2026-09-28 02:40:17  STAGE phase3 done in 7287.9s
+2026-09-28 02:40:17  ========================================================================
+2026-09-28 02:40:17  STAGE: phase4
+2026-09-28 02:40:17  ========================================================================
+[phase4] generating refined keywords with the trained 0.5B model ...
+[phase1] 8/50 docs done
+[phase1] 16/50 docs done
+[phase1] 24/50 docs done
+[phase1] 32/50 docs done
+[phase1] 40/50 docs done
+[phase1] 48/50 docs done
+[phase1] 50/50 docs done
+[phase1] saved -> outputs/phase4_test_keywords.json
+[phase4] generating final predictions with the 8B model ...
+[phase2] 4/50 generations done
+[phase2] 8/50 generations done
+[phase2] 12/50 generations done
+[phase2] 16/50 generations done
+[phase2] 20/50 generations done
+[phase2] 24/50 generations done
+[phase2] 28/50 generations done
+[phase2] 32/50 generations done
+[phase2] 36/50 generations done
+[phase2] 40/50 generations done
+[phase2] 44/50 generations done
+[phase2] 48/50 generations done
+[phase2] 50/50 generations done
+[phase2] saved -> outputs/phase4_test_predictions.json
+[phase4] done -> outputs/phase4_test_predictions.json
+2026-09-28 02:42:14  STAGE phase4 done in 117.3s
+2026-09-28 02:42:14  ========================================================================
+2026-09-28 02:42:14  STAGE: phase4_best
+2026-09-28 02:42:14  ========================================================================
+[phase4] generating refined keywords with the trained 0.5B model ...
+[phase1] 8/50 docs done
+[phase1] 16/50 docs done
+[phase1] 24/50 docs done
+[phase1] 32/50 docs done
+[phase1] 40/50 docs done
+[phase1] 48/50 docs done
+[phase1] 50/50 docs done
+[phase1] saved -> outputs/phase_best_test_keywords.json
+[phase4] generating final predictions with the 8B model ...
+[phase2] 4/50 generations done
+[phase2] 8/50 generations done
+[phase2] 12/50 generations done
+[phase2] 16/50 generations done
+[phase2] 20/50 generations done
+[phase2] 24/50 generations done
+[phase2] 28/50 generations done
+[phase2] 32/50 generations done
+[phase2] 36/50 generations done
+[phase2] 40/50 generations done
+[phase2] 44/50 generations done
+[phase2] 48/50 generations done
+[phase2] 50/50 generations done
+[phase2] saved -> outputs/phase_best_test_predictions.json
+[phase4] done -> outputs/phase_best_test_predictions.json
+2026-09-28 02:43:56  STAGE phase4_best done in 102.1s
+2026-09-28 02:43:56  ========================================================================
+2026-09-28 02:43:56  STAGE: phase5
+2026-09-28 02:43:56  ========================================================================
+
+== BEFORE GRPO (Phase 2, base 0.5B keywords) ==
+Element        Precision    Recall        F1
+Population         0.200     0.458     0.278
+Intervention       0.256     0.158     0.196
+Comparator         0.276     0.296     0.286
+Outcome            0.317     0.220     0.260
+Overall (macro F1)                         0.255
+
+== AFTER GRPO (Phase 4, final-epoch trained 0.5B keywords) ==
+Element        Precision    Recall        F1
+Population         0.198     0.542     0.291
+Intervention       0.311     0.165     0.216
+Comparator         0.120     0.111     0.115
+Outcome            0.455     0.212     0.289
+Overall (macro F1)                         0.228
+
+After vs. before overall macro-F1 change: -0.0272
+
+== BEST (Phase 4, best-tracked-epoch checkpoint) ==
+Element        Precision    Recall        F1
+Population         0.439     0.750     0.554
+Intervention       0.281     0.180     0.219
+Comparator         0.269     0.259     0.264
+Outcome            0.524     0.364     0.430
+Overall (macro F1)                         0.367
+Best vs. before overall macro-F1 change: +0.1119
+Best vs. after (final epoch) overall macro-F1 change: +0.1391
+[phase5] saved -> outputs/phase5_report.json
+2026-09-28 02:43:56  STAGE phase5 done in 0.0s
+2026-09-28 02:43:56  ALL DONE in 127.3 min

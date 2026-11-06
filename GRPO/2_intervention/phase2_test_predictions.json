@@ -1,0 +1,1931 @@
+[
+  {
+    "doc_id": 0,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: Patients with asthma stabilized on CFC albuterol during a 12 - week safety and efficacy trial  \nIntervention: CFC albuterol  \nComparator: HFA albuterol  \nOutcome: serial spirometry | changes in pulse rate | blood pressure | electrocardiogram (ECG) intervals | adverse events | prestudy and poststudy laboratory testing | physical examinations",
+    "prediction": {
+      "Population": [
+        "Patients with asthma stabilized on CFC albuterol during a 12 - week safety and efficacy trial"
+      ],
+      "Intervention": [
+        "CFC albuterol"
+      ],
+      "Comparator": [
+        "HFA albuterol"
+      ],
+      "Outcome": [
+        "serial spirometry",
+        "changes in pulse rate",
+        "blood pressure",
+        "electrocardiogram (ECG) intervals",
+        "adverse events",
+        "prestudy and poststudy laboratory testing",
+        "physical examinations"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "patients with asthma",
+        "Patients with asthma"
+      ],
+      "Intervention": [
+        "chlorofluorocarbon (CFC) albuterol",
+        "hydrofluoroalkane - 134a (HFA) albuterol",
+        "CFC albuterol",
+        "CFC albuterol",
+        "HFA albuterol",
+        "CFC albuterol",
+        "HFA albuterol"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "safety",
+        "efficacy",
+        "safety",
+        "efficacy",
+        "Safety",
+        "efficacy",
+        "Bronchodilator efficacy",
+        "serial spirometry",
+        "Safety",
+        "pulse rate",
+        "blood pressure",
+        "electrocardiogram (ECG)",
+        "adverse events",
+        "laboratory testing",
+        "physical examinations"
+      ]
+    },
+    "reward": 0.21764705882352942,
+    "reward_element": 0.4
+  },
+  {
+    "doc_id": 1,
+    "sample_idx": 0,
+    "keywords": "Behavioral and physiological effects of remifentanil and alfentanil in healthy volunteers | none",
+    "raw_completion": "Population: Ten healthy volunteers | none | none | none",
+    "prediction": {
+      "Population": [
+        "Ten healthy volunteers",
+        "none",
+        "none",
+        "none"
+      ],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "healthy volunteers",
+        "Ten healthy volunteers"
+      ],
+      "Intervention": [
+        "remifentanil",
+        "alfentanil",
+        "remifentanil",
+        "alfentanil",
+        "40 min each of remifentanil",
+        "alfentanil"
+      ],
+      "Comparator": [
+        "an infusion of saline"
+      ],
+      "Outcome": [
+        "Mood forms",
+        "psychomotor tests",
+        "miosis",
+        "analgesia",
+        "a cold - pressor test"
+      ]
+    },
+    "reward": 0.125,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 2,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: Blood - impregnated filter papers (Guthrie cards) from 603 randomly chosen New Zealand neonates | Another 50 samples from Swiss and North American infants with correlative hormonal data\n\nIntervention: gene - specific PCR | direct gel analysis\n\nComparator: none\n\nOutcome: none",
+    "prediction": {
+      "Population": [
+        "Blood - impregnated filter papers (Guthrie cards) from 603 randomly chosen New Zealand neonates",
+        "Another 50 samples from Swiss and North American infants with correlative hormonal data"
+      ],
+      "Intervention": [
+        "gene - specific PCR",
+        "direct gel analysis"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "Blood - impregnated filter papers (Guthrie cards)"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "DNA",
+        "gene - specific PCR",
+        "CYP21 PCR products",
+        "ligase detection reaction",
+        "9 CYP21 mutations",
+        "PCR products",
+        "direct gel analysis"
+      ]
+    },
+    "reward": 0.25,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 3,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: patients who experienced a total of 247 febrile episodes  \nIntervention: ceftazidime 3 g / day (1 g t. i. d.) plus tobramycin 3 mg / kg per day (1. 5 mg / kg b. i. d.)  \nComparator: piperacillin 12 g / day plus tazobactam 1. 5 g / day (4 g + 0. 5 g t. i. d.) plus tobramycin 3 mg / kg per day (1. 5 mg / kg b. i. d.)  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "patients who experienced a total of 247 febrile episodes"
+      ],
+      "Intervention": [
+        "ceftazidime 3 g / day (1 g t. i. d.) plus tobramycin 3 mg / kg per day (1. 5 mg / kg b. i. d.)"
+      ],
+      "Comparator": [
+        "piperacillin 12 g / day plus tazobactam 1. 5 g / day (4 g + 0. 5 g t. i. d.) plus tobramycin 3 mg / kg per day (1. 5 mg / kg b. i. d.)"
+      ],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "severely neutropenic patients",
+        "patients who experienced a total of 247 febrile episodes"
+      ],
+      "Intervention": [
+        "Piperacillin",
+        "tazobactam",
+        "tobramycin",
+        "piperacillin",
+        "tazobactam",
+        "tobramycin"
+      ],
+      "Comparator": [
+        "ceftazidime",
+        "tobramycin",
+        "standard regimen",
+        "ceftazidime",
+        "tobramycin"
+      ],
+      "Outcome": []
+    },
+    "reward": 0.41666666666666663,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 4,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes the following entities:\n\n- Pulse pressure\n- Mean arterial pressure\n\nNone of the other elements in the abstract are relevant to the Intervention component.",
+    "raw_completion": "Population: patients with left ventricular dysfunction  \nIntervention: none  \nComparator: none  \nOutcome: mortality",
+    "prediction": {
+      "Population": [
+        "patients with left ventricular dysfunction"
+      ],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": [
+        "mortality"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "patients with left ventricular dysfunction",
+        "6, 781 patients randomized into the Studies of Left Ventricular Dysfunction trials"
+      ],
+      "Intervention": [
+        "sphygmomanometrically determined pulse pressure",
+        "mean arterial pressure",
+        "Pulse",
+        "mean arterial pressure"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "mortality"
+      ]
+    },
+    "reward": 0.6666666666666666,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 5,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes: \n- \"randomized\" - indicates that the study is randomised\n- \"controlled\" - indicates that the study is conducted under controlled conditions\n- \"",
+    "raw_completion": "Population: 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35 subjects | 35",
+    "prediction": {
+      "Population": [
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35 subjects",
+        "35"
+      ],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "35 subjects"
+      ],
+      "Intervention": [
+        "L - carnitine",
+        "L - carnitine",
+        "L - carnitine",
+        "L - carnitine"
+      ],
+      "Comparator": [
+        "a placebo"
+      ],
+      "Outcome": [
+        "the Rett Syndrome Motor Behavioral Assessment",
+        "the Hand Apraxia Scale",
+        "the Patient Well - Being Index"
+      ]
+    },
+    "reward": 0.16666666666666666,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 6,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: Twenty - four children with autism, 3. 0 to 8. 3 years old (mean 5. 1) who were living at home and attending appropriate school programs  \nIntervention: Naltrexone, 1. 0 mg / kg  \nComparator: placebo  \nOutcome: Communication | Child and parent language",
+    "prediction": {
+      "Population": [
+        "Twenty - four children with autism, 3. 0 to 8. 3 years old (mean 5. 1) who were living at home and attending appropriate school programs"
+      ],
+      "Intervention": [
+        "Naltrexone, 1. 0 mg / kg"
+      ],
+      "Comparator": [
+        "placebo"
+      ],
+      "Outcome": [
+        "Communication",
+        "Child and parent language"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "young children with autism",
+        "Twenty - four children with autism, 3. 0 to 8. 3 years old (mean 5. 1) who were living at home and attending appropriate school programs"
+      ],
+      "Intervention": [
+        "Naltrexone",
+        "Naltrexone"
+      ],
+      "Comparator": [
+        "placebo"
+      ],
+      "Outcome": [
+        "Communication",
+        "Child",
+        "parent language"
+      ]
+    },
+    "reward": 0.5166666666666666,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 7,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: Seventy - two consecutive anti - HBe - positive chronic hepatitis B patients (59 male and 13 female, median age 41 yr) stratified by sex and histology  \nIntervention: 10 million units alpha - N1 IFN i. m. t. w. for 24 wk | 9 million units alpha - 2a IFN i. m. t. w. for 4 wk, followed by 18 million units for 12 wk and 9 million units for 8 wk | 2 alpha - 2a IFN courses (9 million units i. m. t. w. for 16 and 12 wk separated by a 6 - month interval  \nComparator: none  \nOutcome: normal ALT | serum HBV - DNA levels below 10 pg / ml | normal ALT (tested monthly) | undetectable HBV - DNA | IgM anti - HBc",
+    "prediction": {
+      "Population": [
+        "Seventy - two consecutive anti - HBe - positive chronic hepatitis B patients (59 male and 13 female, median age 41 yr) stratified by sex and histology"
+      ],
+      "Intervention": [
+        "10 million units alpha - N1 IFN i. m. t. w. for 24 wk",
+        "9 million units alpha - 2a IFN i. m. t. w. for 4 wk, followed by 18 million units for 12 wk and 9 million units for 8 wk",
+        "2 alpha - 2a IFN courses (9 million units i. m. t. w. for 16 and 12 wk separated by a 6 - month interval"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "normal ALT",
+        "serum HBV - DNA levels below 10 pg / ml",
+        "normal ALT (tested monthly)",
+        "undetectable HBV - DNA",
+        "IgM anti - HBc"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "Seventy - two consecutive anti - HBe - positive chronic hepatitis B patients (59 male and 13 female, median age 41 yr) stratified by sex and histology"
+      ],
+      "Intervention": [
+        "10 million units alpha - N1 IFN",
+        "9 million units alpha - 2a IFN",
+        "2 alpha - 2a IFN courses"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "normal ALT",
+        "serum HBV - DNA levels below 10 pg / ml",
+        "sustained response by normal ALT",
+        "undetectable HBV - DNA",
+        "IgM anti - HBc"
+      ]
+    },
+    "reward": 0.7000000000000001,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 8,
+    "sample_idx": 0,
+    "keywords": "Adjuvant L - arginine treatment | none",
+    "raw_completion": "Population: A total of 34 patients undergoing assisted reproduction | none  \nIntervention: oral L - arginine | flare - up gonadotrophin - releasing hormone analogue (GnRHa) plus elevated pure follicle stimulating hormone (pFSH) | flare - up GnRHa plus elevated pFSH plus oral L - arginine  \nComparator: none  \nOutcome: oestradiol | growth hormone | follicular number | follicular diameter | endometrial thickness | uterine arteries | perifollicular arteries | arginine | citrulline | nitrite / nitrate (NO2 - / NO3 -) | insulin - like growth factor - 1 (IGF - 1)",
+    "prediction": {
+      "Population": [
+        "A total of 34 patients undergoing assisted reproduction",
+        "none"
+      ],
+      "Intervention": [
+        "oral L - arginine",
+        "flare - up gonadotrophin - releasing hormone analogue (GnRHa) plus elevated pure follicle stimulating hormone (pFSH)",
+        "flare - up GnRHa plus elevated pFSH plus oral L - arginine"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "oestradiol",
+        "growth hormone",
+        "follicular number",
+        "follicular diameter",
+        "endometrial thickness",
+        "uterine arteries",
+        "perifollicular arteries",
+        "arginine",
+        "citrulline",
+        "nitrite / nitrate (NO2 - / NO3 -)",
+        "insulin - like growth factor - 1 (IGF - 1)"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "A total of 34 patients undergoing assisted reproduction"
+      ],
+      "Intervention": [
+        "Adjuvant L - arginine",
+        "different ovarian stimulation protocols",
+        "flare - up gonadotrophin - releasing hormone analogue (GnRHa)",
+        "elevated pure follicle stimulating hormone (pFSH)",
+        "flare - up GnRHa",
+        "elevated pFSH",
+        "oral L - arginine",
+        "the ovarian stimulation regimen"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "hormonal",
+        "oestradiol",
+        "growth hormone",
+        "ultrasonographic",
+        "follicular number",
+        "diameter",
+        "endometrial thickness",
+        "Doppler",
+        "uterine",
+        "perifollicular arteries",
+        "the plasma",
+        "follicular fluid concentrations",
+        "arginine",
+        "citrulline",
+        "nitrite",
+        "nitrate",
+        "(NO2 -",
+        "NO3 -)",
+        "insulin - like growth factor - 1 (IGF - 1)"
+      ]
+    },
+    "reward": 0.5954545454545455,
+    "reward_element": 0.18181818181818182
+  },
+  {
+    "doc_id": 9,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: a series of 72 children with no evidence of brain damage, starting epilepsy between 1 and 10 years, with two or more types of generalised seizures  \nIntervention: MCA  \nComparator: none  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "a series of 72 children with no evidence of brain damage, starting epilepsy between 1 and 10 years, with two or more types of generalised seizures"
+      ],
+      "Intervention": [
+        "MCA"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "72 children with no evidence of brain damage, starting epilepsy between 1 and 10 years, with two or more types of generalised seizures"
+      ],
+      "Intervention": [
+        "multiple correspondence analysis",
+        "MCA",
+        "MCA"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "all clinical",
+        "EEG parameters"
+      ]
+    },
+    "reward": 0.41666666666666663,
+    "reward_element": 0.6666666666666666
+  },
+  {
+    "doc_id": 10,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: a randomised controlled trial | a randomised controlled trial  \nIntervention: None  \nComparator: None  \nOutcome: None",
+    "prediction": {
+      "Population": [
+        "a randomised controlled trial",
+        "a randomised controlled trial"
+      ],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "blood - sugar testing"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.5,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 11,
+    "sample_idx": 0,
+    "keywords": "oral neuraminidase inhibitor oseltamivir, 100 mg once daily, 100 mg twice daily, 20 mg, 100 mg, 200 mg, 200 mg",
+    "raw_completion": "Population: healthy adult volunteers (aged 18 - 40 years; median age, 21 years) who were susceptible (hemagglutination - inhibition antibody titer < or =1: 8) | 117 healthy adult volunteers (aged 18 - 40 years; median age, 21 years) who were susceptible (hemagglutination - inhibition antibody titer < or =1: 8) | 117 healthy adult volunteers (aged 18 - 40 years; median age, 21 years) | healthy adult volunteers (aged 18 - 40 years; median age, 21 years) who were susceptible (hemagglutination - inhibition antibody titer < or =1: 8) | healthy adult volunteers (aged 18 - 40 years; median age, 21 years) | 117 healthy adult volunteers (aged",
+    "prediction": {
+      "Population": [
+        "healthy adult volunteers (aged 18 - 40 years; median age, 21 years) who were susceptible (hemagglutination - inhibition antibody titer < or =1: 8)",
+        "117 healthy adult volunteers (aged 18 - 40 years; median age, 21 years) who were susceptible (hemagglutination - inhibition antibody titer < or =1: 8)",
+        "117 healthy adult volunteers (aged 18 - 40 years; median age, 21 years)",
+        "healthy adult volunteers (aged 18 - 40 years; median age, 21 years) who were susceptible (hemagglutination - inhibition antibody titer < or =1: 8)",
+        "healthy adult volunteers (aged 18 - 40 years; median age, 21 years)",
+        "117 healthy adult volunteers (aged"
+      ],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "A total of 117 healthy adult volunteers (aged 18 - 40 years; median age, 21 years) who were susceptible (hemagglutination - inhibition antibody titer < or =1: 8)"
+      ],
+      "Intervention": [
+        "the oral neuraminidase inhibitor oseltamivir",
+        "oral oseltamivir"
+      ],
+      "Comparator": [
+        "matching placebo",
+        "matching placebo",
+        "placebo"
+      ],
+      "Outcome": [
+        "frequency of infection",
+        "viral shedding",
+        "viral shedding in titers"
+      ]
+    },
+    "reward": 0.0,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 12,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes various types of interventions including dietary changes, lifestyle modifications, and pharmaceutical agents.",
+    "raw_completion": "Population: After a run - in phase, 318 subjects were randomized to receive one of the following margarine - like spreads containing stanol ester or placebo for 8 weeks | 318 subjects | 318 subjects were randomized to receive one of the following margarine - like spreads containing stanol ester or placebo for 8 weeks\n\nIntervention: EU 3 G: 1 g of stanol (ester form) per 8 - g serving of a European formula 3 times a day | US 3 G: 1 g of stanol (ester form) per 8 - g serving of a US reformulation 3 times a day | US 2 G: 0. 67 g of stanol (ester form) per 8 - g serving of a US reformulation 3 times a day | placebo spread\n\nComparator: placebo spread\n\nOutcome: none",
+    "prediction": {
+      "Population": [
+        "After a run - in phase, 318 subjects were randomized to receive one of the following margarine - like spreads containing stanol ester or placebo for 8 weeks",
+        "318 subjects",
+        "318 subjects were randomized to receive one of the following margarine - like spreads containing stanol ester or placebo for 8 weeks"
+      ],
+      "Intervention": [
+        "EU 3 G: 1 g of stanol (ester form) per 8 - g serving of a European formula 3 times a day",
+        "US 3 G: 1 g of stanol (ester form) per 8 - g serving of a US reformulation 3 times a day",
+        "US 2 G: 0. 67 g of stanol (ester form) per 8 - g serving of a US reformulation 3 times a day",
+        "placebo spread"
+      ],
+      "Comparator": [
+        "placebo spread"
+      ],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "a US population of mildly hypercholesterolemic men and women",
+        "318 subjects"
+      ],
+      "Intervention": [
+        "stanol ester",
+        "margarine - like spreads containing stanol ester",
+        "1 g of stanol",
+        "1 g of stanol",
+        "0. 67 g of stanol"
+      ],
+      "Comparator": [
+        "placebo",
+        "placebo spread"
+      ],
+      "Outcome": []
+    },
+    "reward": 0.5166666666666666,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 13,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes both the name of the intervention and the method used to administer it.",
+    "raw_completion": "Population: Three hundred and eighty six preterm infants with birthweights from 1000 to 2000 g, and requiring ventilation for respiratory distress syndrome within 24 hours of birth  \nIntervention: conventional fast rate ventilation  \nComparator: trigger ventilation  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "Three hundred and eighty six preterm infants with birthweights from 1000 to 2000 g, and requiring ventilation for respiratory distress syndrome within 24 hours of birth"
+      ],
+      "Intervention": [
+        "conventional fast rate ventilation"
+      ],
+      "Comparator": [
+        "trigger ventilation"
+      ],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "Three hundred and eighty six preterm infants with birthweights from 1000 to 2000 g, and requiring ventilation for respiratory distress syndrome within 24 hours of birth"
+      ],
+      "Intervention": [
+        "triggered",
+        "trigger ventilation",
+        "the SLE 2000 ventilator"
+      ],
+      "Comparator": [
+        "conventional fast rate ventilation",
+        "conventional"
+      ],
+      "Outcome": []
+    },
+    "reward": 0.5,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 14,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: Stentless (Freestyle, Toronto, n = 106) or conventional biological aortic valves (Carpentier - Edwards, n = 74)  \nIntervention: Stentless (Freestyle, Toronto, n = 106)  \nComparator: conventional biological aortic valves (Carpentier - Edwards, n = 74)  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "Stentless (Freestyle, Toronto, n = 106) or conventional biological aortic valves (Carpentier - Edwards, n = 74)"
+      ],
+      "Intervention": [
+        "Stentless (Freestyle, Toronto, n = 106)"
+      ],
+      "Comparator": [
+        "conventional biological aortic valves (Carpentier - Edwards, n = 74)"
+      ],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "stentless",
+        "Stentless"
+      ],
+      "Comparator": [
+        "conventional aortic valve replacement",
+        "conventional biological aortic valves"
+      ],
+      "Outcome": []
+    },
+    "reward": 0.25,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 15,
+    "sample_idx": 0,
+    "keywords": "CAI | Lecture | No Intervention | none",
+    "raw_completion": "Population: Students enrolled in a Human Sexuality course (N = 152)  \nIntervention: CAI program | 1 - hour long CAI program | 1 - hour long lecture | no intervention  \nComparator: Lecture | No Intervention group | none  \nOutcome: HIV questionnaire | selected Social Cognitive Theory constructs associated with HIV preventive behaviors",
+    "prediction": {
+      "Population": [
+        "Students enrolled in a Human Sexuality course (N = 152)"
+      ],
+      "Intervention": [
+        "CAI program",
+        "1 - hour long CAI program",
+        "1 - hour long lecture",
+        "no intervention"
+      ],
+      "Comparator": [
+        "Lecture",
+        "No Intervention group",
+        "none"
+      ],
+      "Outcome": [
+        "HIV questionnaire",
+        "selected Social Cognitive Theory constructs associated with HIV preventive behaviors"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "Students enrolled in a Human Sexuality course (N = 152)"
+      ],
+      "Intervention": [
+        "Computer - assisted instruction",
+        "CAI",
+        "Lecture",
+        "the CAI",
+        "a 1 - hour long CAI program",
+        "the Lecture",
+        "1 - hour long lecture"
+      ],
+      "Comparator": [
+        "No Intervention",
+        "the No Intervention"
+      ],
+      "Outcome": [
+        "the HIV questionnaire",
+        "selected Social Cognitive Theory constructs associated with HIV preventive behaviors"
+      ]
+    },
+    "reward": 0.42045454545454547,
+    "reward_element": 0.18181818181818182
+  },
+  {
+    "doc_id": 16,
+    "sample_idx": 0,
+    "keywords": "photodynamic therapy | 5-aminolaevulinic acid | placebo | recalcitrant foot and hand warts | randomised double-blind trial",
+    "raw_completion": "Population: recalcitrant foot and hand warts  \nIntervention: six repetitive ALA - PDT | placebo - PDT | paring | keratolytic (Verucid)  \nComparator: none  \nOutcome: area of each wart compared with entry area | pain intensity | five - point scale",
+    "prediction": {
+      "Population": [
+        "recalcitrant foot and hand warts"
+      ],
+      "Intervention": [
+        "six repetitive ALA - PDT",
+        "placebo - PDT",
+        "paring",
+        "keratolytic (Verucid)"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "area of each wart compared with entry area",
+        "pain intensity",
+        "five - point scale"
+      ]
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "Photodynamic therapy with 5 - aminolaevulinic acid",
+        "ALA - PDT"
+      ],
+      "Comparator": [
+        "placebo",
+        "placebo - PDT"
+      ],
+      "Outcome": [
+        "Standardised photographs of each wart",
+        "The area of each wart compared with entry area",
+        "photographs",
+        "Pain intensity",
+        "a five - point scale"
+      ]
+    },
+    "reward": 0.0625,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 17,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: We enrolled 6350 healthy infants by 2 months of age who presented for primary care at 1 of 2 urban hospitals or 1 of 2 small town / rural and 4 suburban private pediatric practices | Children who met specified minimum criteria regarding the persistence of MEE became eligible for a clinical trial in which they were assigned randomly to undergo tympanostomy tube placement either promptly or after a defined extended period if MEE remained present | we selected randomly, within sociodemographic strata, a sample of 241 children who represented a spectrum of MEE experience from having no MEE to having MEE whose cumulative duration fell just short of meeting randomization criteria\n\nIntervention: tympanostomy tube placement\n\nComparator: none\n\nOutcome: language development | speech sound production | cognition | formal tests | conversational samples",
+    "prediction": {
+      "Population": [
+        "We enrolled 6350 healthy infants by 2 months of age who presented for primary care at 1 of 2 urban hospitals or 1 of 2 small town / rural and 4 suburban private pediatric practices",
+        "Children who met specified minimum criteria regarding the persistence of MEE became eligible for a clinical trial in which they were assigned randomly to undergo tympanostomy tube placement either promptly or after a defined extended period if MEE remained present",
+        "we selected randomly, within sociodemographic strata, a sample of 241 children who represented a spectrum of MEE experience from having no MEE to having MEE whose cumulative duration fell just short of meeting randomization criteria"
+      ],
+      "Intervention": [
+        "tympanostomy tube placement"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "language development",
+        "speech sound production",
+        "cognition",
+        "formal tests",
+        "conversational samples"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "three - year - old children in relation to otitis media in their first three years of life",
+        "6350 healthy infants by 2 months of age who presented for primary care at 1 of 2 urban hospitals or 1 of 2 small town / rural and 4 suburban private pediatric practices",
+        "a sample of 241 children who represented a spectrum of MEE experience",
+        "241 children"
+      ],
+      "Intervention": [
+        "tympanostomy tube placement either promptly",
+        "after a defined extended period if MEE remained present"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "language development",
+        "speech sound production",
+        "cognition at 3 years of age",
+        "formal tests",
+        "conversational samples"
+      ]
+    },
+    "reward": 0.45000000000000007,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 18,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: a 6 - week target waiting time | an' ordinary' appointment in the main city out - patient clinic of the rheumatology service for the Lothian and Borders region (population approximately 1 million) | the main city out - patient clinic of the rheumatology service for the Lothian and Borders region (population approximately 1 million)\n\nIntervention: a' fast track' appointment with a 6 - week target waiting time\n\nComparator: an' ordinary' appointment in the main city out - patient clinic of the rheumatology service for the Lothian and Borders region (population approximately 1 million)\n\nOutcome: the SF12 physical and mental summary component T - scores | pain with a 100 mm visual analogue pain scale | health utility and perceived health both measured with the EuroQol instrument | mental health measured with the Hospital Anxiety and Depression scale | disability with the modified Health Assessment Questionnaire | economic costs measured from a societal perspective",
+    "prediction": {
+      "Population": [
+        "a 6 - week target waiting time",
+        "an' ordinary' appointment in the main city out - patient clinic of the rheumatology service for the Lothian and Borders region (population approximately 1 million)",
+        "the main city out - patient clinic of the rheumatology service for the Lothian and Borders region (population approximately 1 million)"
+      ],
+      "Intervention": [
+        "a' fast track' appointment with a 6 - week target waiting time"
+      ],
+      "Comparator": [
+        "an' ordinary' appointment in the main city out - patient clinic of the rheumatology service for the Lothian and Borders region (population approximately 1 million)"
+      ],
+      "Outcome": [
+        "the SF12 physical and mental summary component T - scores",
+        "pain with a 100 mm visual analogue pain scale",
+        "health utility and perceived health both measured with the EuroQol instrument",
+        "mental health measured with the Hospital Anxiety and Depression scale",
+        "disability with the modified Health Assessment Questionnaire",
+        "economic costs measured from a societal perspective"
+      ]
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "waiting",
+        "new non - urgent rheumatology out - patient referrals",
+        "a' fast track' appointment"
+      ],
+      "Comparator": [
+        "an' ordinary' appointment"
+      ],
+      "Outcome": [
+        "Health status",
+        "the SF12 physical",
+        "mental summary component",
+        "T - scores",
+        "pain",
+        "a 100 mm visual analogue pain scale",
+        "health utility",
+        "perceived health",
+        "the EuroQol instrument",
+        "mental health",
+        "the Hospital Anxiety and Depression scale",
+        "disability",
+        "the modified Health Assessment Questionnaire",
+        "economic costs",
+        "a societal perspective"
+      ]
+    },
+    "reward": 0.0,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 19,
+    "sample_idx": 0,
+    "keywords": "Epirubicin-based chemotherapy | Fec 75 | Arm A | 11 cycles of Fec 500 mg/m (2) every 21 days | Arm B | Four cycles of Fec 100",
+    "raw_completion": "Population: Four hundred seventeen anthracycline - naive MBC patients  \nIntervention: 11 cycles of fluorouracil 500 mg / m (2), epirubicin 75 mg / m (2), and cyclophosphamide 500 mg / m (2) (FEC 75) every 21 days | four cycles of FEC 100 (same regimen but with epirubicin 100 mg / m (2)) then eight cycles of FEC 50 (epirubicin 50 mg / m (2)) | four cycles of FEC 100 then restart the same regimen at disease progression in case of prior response or stabilization  \nComparator: none  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "Four hundred seventeen anthracycline - naive MBC patients"
+      ],
+      "Intervention": [
+        "11 cycles of fluorouracil 500 mg / m (2), epirubicin 75 mg / m (2), and cyclophosphamide 500 mg / m (2) (FEC 75) every 21 days",
+        "four cycles of FEC 100 (same regimen but with epirubicin 100 mg / m (2)) then eight cycles of FEC 50 (epirubicin 50 mg / m (2))",
+        "four cycles of FEC 100 then restart the same regimen at disease progression in case of prior response or stabilization"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "metastatic breast cancer patients",
+        "Four hundred seventeen anthracycline - naive MBC patients"
+      ],
+      "Intervention": [
+        "Epirubicin - based chemotherapy",
+        "11 cycles of fluorouracil",
+        "epirubicin",
+        "cyclophosphamide",
+        "four cycles of FEC 100",
+        "eight cycles of FEC 50",
+        "four cycles of FEC 100"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.6666666666666666,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 20,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: 65 eyes  \nIntervention: 750 rads of intraoperative beta radiation  \nComparator: no supplementation  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "65 eyes"
+      ],
+      "Intervention": [
+        "750 rads of intraoperative beta radiation"
+      ],
+      "Comparator": [
+        "no supplementation"
+      ],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "65 eyes"
+      ],
+      "Intervention": [
+        "Beta radiation",
+        "750 rads of intraoperative beta radiation"
+      ],
+      "Comparator": [
+        "no supplementation"
+      ],
+      "Outcome": []
+    },
+    "reward": 0.9166666666666666,
+    "reward_element": 0.6666666666666666
+  },
+  {
+    "doc_id": 21,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: A total of 250 patients averaging 40 years of age with acute DVT  \nIntervention: full heparinization (1, 000 IU / h) and compression treatment | locoregional tissue plasminogen activator (20 mg / day) | urokinase (100, 000 IU / day) | systemic streptokinase (3, 000, 000 IU daily) | urokinase (5, 000, 000 IU daily)  \nComparator: none  \nOutcome: the change after one year in the number of closed vein segments | the occurrence of postthrombotic syndrome",
+    "prediction": {
+      "Population": [
+        "A total of 250 patients averaging 40 years of age with acute DVT"
+      ],
+      "Intervention": [
+        "full heparinization (1, 000 IU / h) and compression treatment",
+        "locoregional tissue plasminogen activator (20 mg / day)",
+        "urokinase (100, 000 IU / day)",
+        "systemic streptokinase (3, 000, 000 IU daily)",
+        "urokinase (5, 000, 000 IU daily)"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "the change after one year in the number of closed vein segments",
+        "the occurrence of postthrombotic syndrome"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "A total of 250 patients averaging 40 years of age with acute DVT"
+      ],
+      "Intervention": [
+        "thrombolytic treatment",
+        "locoregional tissue plasminogen activator",
+        "urokinase",
+        "systemic streptokinase",
+        "urokinase"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "the number of closed vein segments",
+        "the occurrence of postthrombotic syndrome"
+      ]
+    },
+    "reward": 0.625,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 22,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It can be either a single drug or a combination of drugs. The interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or",
+    "raw_completion": "Population: none  \nIntervention: none  \nComparator: none  \nOutcome: none",
+    "prediction": {
+      "Population": [],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "New therapeutic approaches"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.75,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 23,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: 49 patients who underwent gastrectomy with Longmire - Interposition with (n = 33) or without (n = 16) an additional pouch  \nIntervention: gastrectomy with Longmire - Interposition  \nComparator: Roux - en - Y - reconstruction  \nOutcome: complication rate, mortality",
+    "prediction": {
+      "Population": [
+        "49 patients who underwent gastrectomy with Longmire - Interposition with (n = 33) or without (n = 16) an additional pouch"
+      ],
+      "Intervention": [
+        "gastrectomy with Longmire - Interposition"
+      ],
+      "Comparator": [
+        "Roux - en - Y - reconstruction"
+      ],
+      "Outcome": [
+        "complication rate, mortality"
+      ]
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "gastrectomy and pouch reconstruction with Longmire interposition",
+        "gastrectomy with Longmire - Interposition with",
+        "without (n = 16) an additional pouch",
+        "a Roux - en - Y - reconstruction"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "Complication rate",
+        "mortality"
+      ]
+    },
+    "reward": 0.0,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 24,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: patients with colorectal carcinoma  \nIntervention: Packed red cells without buffy coat  \nComparator: filtered, leucoreduced, red cells  \nOutcome: Five - year survival | cancer recurrence rates",
+    "prediction": {
+      "Population": [
+        "patients with colorectal carcinoma"
+      ],
+      "Intervention": [
+        "Packed red cells without buffy coat"
+      ],
+      "Comparator": [
+        "filtered, leucoreduced, red cells"
+      ],
+      "Outcome": [
+        "Five - year survival",
+        "cancer recurrence rates"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "697 patients with colorectal carcinoma"
+      ],
+      "Intervention": [
+        "Perioperative blood transfusions, with",
+        "without allogeneic leucocytes",
+        "Packed red cells without buffy coat",
+        "PC",
+        "filtered, leucoreduced, red cells",
+        "LD"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "Five - year survival",
+        "cancer recurrence rates",
+        "the location of recurrence"
+      ]
+    },
+    "reward": 0.27142857142857146,
+    "reward_element": 0.2857142857142857
+  },
+  {
+    "doc_id": 25,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. Interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or therapies.",
+    "raw_completion": "Population: none  \nIntervention: none  \nComparator: none  \nOutcome: rhythmical arm swing | H - reflex | soleus H - reflex",
+    "prediction": {
+      "Population": [],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": [
+        "rhythmical arm swing",
+        "H - reflex",
+        "soleus H - reflex"
+      ]
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "the soleus H - reflex"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.5,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 26,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes:\n\n- \"Interferential therapy\" \n- \"Electrode placement\"\n- \"Pain rating index\"\n- \"Roland-Morris Disability Questionnaire\"",
+    "raw_completion": "Population: A random sample of 60 eligible patients with back pain (28 men, 32 women)  \nIntervention: \"IFT painful area\" and The Back Book | \"IFT spinal nerve\" and The Back Book | Standardized IFT stimulation parameters | carrier frequency 3. 85 kHz | 140 Hz constant | pulse duration 130 micros | 30 minutes' duration  \nComparator: The Back Book only  \nOutcome: Pain Rating Index | Roland - Morris Disability Questionnaire (RMDQ) | EuroQol | pretreatment | at discharge | 3 - month follow - up",
+    "prediction": {
+      "Population": [
+        "A random sample of 60 eligible patients with back pain (28 men, 32 women)"
+      ],
+      "Intervention": [
+        "\"IFT painful area\" and The Back Book",
+        "\"IFT spinal nerve\" and The Back Book",
+        "Standardized IFT stimulation parameters",
+        "carrier frequency 3. 85 kHz",
+        "140 Hz constant",
+        "pulse duration 130 micros",
+        "30 minutes' duration"
+      ],
+      "Comparator": [
+        "The Back Book only"
+      ],
+      "Outcome": [
+        "Pain Rating Index",
+        "Roland - Morris Disability Questionnaire (RMDQ)",
+        "EuroQol",
+        "pretreatment",
+        "at discharge",
+        "3 - month follow - up"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "A random sample of 60 eligible patients with back pain (28 men, 32 women)"
+      ],
+      "Intervention": [
+        "Interferential therapy electrode placement technique",
+        "IFT painful area",
+        "The Back Book",
+        "IFT spinal nerve",
+        "The Back Book"
+      ],
+      "Comparator": [
+        "The Back Book only"
+      ],
+      "Outcome": [
+        "Pain Rating Index",
+        "Roland - Morris Disability Questionnaire (RMDQ)",
+        "EuroQol"
+      ]
+    },
+    "reward": 0.6666666666666666,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 27,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. Interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or therapies.",
+    "raw_completion": "Population: primary molars | root canal filling materials | calcium hydroxide | zinc oxide eugenol  \nIntervention: root canal filling materials | calcium hydroxide | zinc oxide eugenol  \nComparator: none  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "primary molars",
+        "root canal filling materials",
+        "calcium hydroxide",
+        "zinc oxide eugenol"
+      ],
+      "Intervention": [
+        "root canal filling materials",
+        "calcium hydroxide",
+        "zinc oxide eugenol"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "calcium hydroxide",
+        "zinc oxide eugenol"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.7,
+    "reward_element": 0.8
+  },
+  {
+    "doc_id": 28,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It can be either a medication, therapy, or other intervention that aims to improve health outcomes.",
+    "raw_completion": "Population: 274 patients | 126 patients (46%) | 148 (54%)  \nIntervention: telemedicine consultation | conventional hospital outpatient consultation  \nComparator: conventional hospital outpatient consultation  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "274 patients",
+        "126 patients (46%)",
+        "148 (54%)"
+      ],
+      "Intervention": [
+        "telemedicine consultation",
+        "conventional hospital outpatient consultation"
+      ],
+      "Comparator": [
+        "conventional hospital outpatient consultation"
+      ],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "274 patients required a hospital outpatient dermatology referral - - 126 patients (46%)"
+      ],
+      "Intervention": [
+        "realtime teledermatology",
+        "a telemedicine consultation"
+      ],
+      "Comparator": [
+        "conventional care",
+        "a conventional hospital outpatient consultation"
+      ],
+      "Outcome": []
+    },
+    "reward": 0.25,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 29,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes:\n\n| Intervention: Mouthrinse containing histinins | none |",
+    "raw_completion": "Population: 159 periodontally healthy subjects  \nIntervention: 0. 005%, 0. 01%, 0. 05% P - 113 or placebo mouthrinse formulations  \nComparator: none  \nOutcome: safety, anti - plaque, and anti - gingivitis effects",
+    "prediction": {
+      "Population": [
+        "159 periodontally healthy subjects"
+      ],
+      "Intervention": [
+        "0. 005%, 0. 01%, 0. 05% P - 113 or placebo mouthrinse formulations"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "safety, anti - plaque, and anti - gingivitis effects"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "humans with experimental gingivitis",
+        "159 periodontally healthy subjects"
+      ],
+      "Intervention": [
+        "a histatin - containing mouthrinse",
+        "0. 005%",
+        "0. 01%",
+        "0. 05% P - 113"
+      ],
+      "Comparator": [
+        "placebo mouthrinse formulations"
+      ],
+      "Outcome": [
+        "the safety",
+        "anti - plaque",
+        "anti - gingivitis effects of P - 113"
+      ]
+    },
+    "reward": 0.16666666666666666,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 30,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. Interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or therapies.",
+    "raw_completion": "Population: none  \nIntervention: L - arginine and S - nitrosoglutathione  \nComparator: none  \nOutcome: none",
+    "prediction": {
+      "Population": [],
+      "Intervention": [
+        "L - arginine and S - nitrosoglutathione"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "L - arginine",
+        "S - nitrosoglutathione"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.75,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 31,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It can be either a single drug or a combination of drugs. The interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or",
+    "raw_completion": "Population: none  \nIntervention: none  \nComparator: none  \nOutcome: none",
+    "prediction": {
+      "Population": [],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 1.0,
+    "reward_element": 1.0
+  },
+  {
+    "doc_id": 32,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes: \n- Allogeneic marrow transplantation\n- Filgrastim - mobilized blood stem cell transplantation\n\nNone",
+    "raw_completion": "Population: allogeneic marrow or filgrastim - mobilized blood stem cell transplantation  \nIntervention: allogeneic marrow transplantation  \nComparator: filgrastim - mobilized blood stem cell transplantation  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "allogeneic marrow or filgrastim - mobilized blood stem cell transplantation"
+      ],
+      "Intervention": [
+        "allogeneic marrow transplantation"
+      ],
+      "Comparator": [
+        "filgrastim - mobilized blood stem cell transplantation"
+      ],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "115 patients"
+      ],
+      "Intervention": [
+        "allogeneic marrow transplantation",
+        "blood stem cell transplantation",
+        "allogeneic marrow",
+        "filgrastim - mobilized blood stem cell transplantation"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "Immune reconstitution"
+      ]
+    },
+    "reward": 0.1,
+    "reward_element": 0.4
+  },
+  {
+    "doc_id": 33,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: One hundred and ninety - three (193) H. pylori - positive patients  \nIntervention: amoxicillin, clarithromycin and rabeprazole | tinidazole, clarithromycin and ranitidine bismuth citrate | tinidazole, clarithromycin and rabeprazole | tinidazole, tetracycline, bismuth and rabeprazole  \nComparator: none  \nOutcome: 13C - Urea Breath Test | presence and intensity of drug side effects",
+    "prediction": {
+      "Population": [
+        "One hundred and ninety - three (193) H. pylori - positive patients"
+      ],
+      "Intervention": [
+        "amoxicillin, clarithromycin and rabeprazole",
+        "tinidazole, clarithromycin and ranitidine bismuth citrate",
+        "tinidazole, clarithromycin and rabeprazole",
+        "tinidazole, tetracycline, bismuth and rabeprazole"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "13C - Urea Breath Test",
+        "presence and intensity of drug side effects"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "patients undergoing H. pylori eradication",
+        "One hundred and ninety - three (193) H. pylori - positive patients"
+      ],
+      "Intervention": [
+        "antibiotics",
+        "amoxicillin",
+        "clarithromycin",
+        "rabeprazole",
+        "tinidazole",
+        "clarithromycin",
+        "ranitidine bismuth citrate",
+        "tinidazole",
+        "clarithromycin",
+        "rabeprazole",
+        "tinidazole",
+        "tetracycline",
+        "bismuth",
+        "rabeprazole"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "Eradication",
+        "13C - Urea Breath Test",
+        "a validated questionnaire",
+        "presence",
+        "intensity of drug side effects"
+      ]
+    },
+    "reward": 0.4880952380952381,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 34,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: percutaneous coronary interventions (PCI)  \nIntervention: percutaneous coronary interventions (PCI)  \nComparator: none  \nOutcome: Rehabilitation outcomes",
+    "prediction": {
+      "Population": [
+        "percutaneous coronary interventions (PCI)"
+      ],
+      "Intervention": [
+        "percutaneous coronary interventions (PCI)"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "Rehabilitation outcomes"
+      ]
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "percutaneous coronary interventions (PCI)",
+        "PCI",
+        "PCI"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "Data",
+        "hospital admission"
+      ]
+    },
+    "reward": 0.41666666666666663,
+    "reward_element": 0.6666666666666666
+  },
+  {
+    "doc_id": 35,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: therapists at a university counseling center  \nIntervention: increase the number of self - disclosures they made during treatment of one client  \nComparator: refrain from making self - disclosures during treatment of another client  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "therapists at a university counseling center"
+      ],
+      "Intervention": [
+        "increase the number of self - disclosures they made during treatment of one client"
+      ],
+      "Comparator": [
+        "refrain from making self - disclosures during treatment of another client"
+      ],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "therapists at a university counseling center"
+      ],
+      "Intervention": [
+        "information about themselves",
+        "the number of self - disclosures",
+        "self - disclosures"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.5,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 36,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes the following entities:\n\n- Computer Program\n- Half-Hour Sessions\n- Autism\n- Asperger Syndrome\n- Special Schools\n\nNone of these entities were included",
+    "raw_completion": "Population: Two groups of 11 children (age 12 - 18) with autism or Asperger syndrome at two special schools  \nIntervention: computer program for 10 half - hour sessions over 2 weeks  \nComparator: none  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "Two groups of 11 children (age 12 - 18) with autism or Asperger syndrome at two special schools"
+      ],
+      "Intervention": [
+        "computer program for 10 half - hour sessions over 2 weeks"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "people with autism or Asperger syndrome",
+        "Two groups of 11 children (age 12 - 18) with autism or Asperger syndrome at two special schools"
+      ],
+      "Intervention": [
+        "a new computer intervention",
+        "the computer program"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.6666666666666666,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 37,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. Interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or therapies.",
+    "raw_completion": "Population: none  \nIntervention: human immunodeficiency virus protease inhibitors used in combination with amprenavir  \nComparator: none  \nOutcome: none",
+    "prediction": {
+      "Population": [],
+      "Intervention": [
+        "human immunodeficiency virus protease inhibitors used in combination with amprenavir"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "human immunodeficiency virus protease inhibitors",
+        "amprenavir"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.75,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 38,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes the following key elements:\n\n- **Dosage**: up to 40 micro/kg/min\n- **Frequency**: all quality-controlled for stress echo reading\n\n**None",
+    "raw_completion": "Population: patients (131 men and 55 women, mean age 56 + / - 12 years) with IDC, ejection fraction < 35%, and angiographically normal coronary arteries  \nIntervention: high - dose (up to 40 micro / kg / min) dobutamine echo  \nComparator: none  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "patients (131 men and 55 women, mean age 56 + / - 12 years) with IDC, ejection fraction < 35%, and angiographically normal coronary arteries"
+      ],
+      "Intervention": [
+        "high - dose (up to 40 micro / kg / min) dobutamine echo"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "186 patients (131 men and 55 women, mean age 56 + / - 12 years) with IDC, ejection fraction < 35%, and angiographically normal coronary arteries"
+      ],
+      "Intervention": [
+        "the dobutamine echocardiography test",
+        "high - dose (up to 40 micro / kg / min) dobutamine echo"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.6666666666666666,
+    "reward_element": 0.6666666666666666
+  },
+  {
+    "doc_id": 39,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. Interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or therapies.",
+    "raw_completion": "Population: none  \nIntervention: none  \nComparator: none  \nOutcome: Pacifier | acute otitis media",
+    "prediction": {
+      "Population": [],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": [
+        "Pacifier",
+        "acute otitis media"
+      ]
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "Pacifier"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.5,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 40,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. Interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or therapies.",
+    "raw_completion": "Population: COPD patients | a smaller assistant model proposed these candidate Intervention spans as a starting point, based on the same guidelines: The Intervention component represents the proposed treatment or approach being administered to the participants. Interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or therapies. Weigh them alongside your own reading of the abstract -- neither defer to them automatically nor set them aside by default. Keep any that hold up against the guidelines and the abstract, correct or drop any that don't, and add any genuine Intervention spans they missed. Extract every span for each element, copied verbatim from the abstract, following the rules above exactly. Respond in exactly this format, one line per element, spans copied verbatim from the abstract and separated by ' | ' (a pipe, not a comma -- spans can contain their own commas) -- write 'none' if an element has no spans: Population: ... Intervention: ... Comparator: ... Outcome:",
+    "prediction": {
+      "Population": [
+        "COPD patients",
+        "a smaller assistant model proposed these candidate Intervention spans as a starting point, based on the same guidelines: The Intervention component represents the proposed treatment or approach being administered to the participants. Interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or therapies. Weigh them alongside your own reading of the abstract -- neither defer to them automatically nor set them aside by default. Keep any that hold up against the guidelines and the abstract, correct or drop any that don't, and add any genuine Intervention spans they missed. Extract every span for each element, copied verbatim from the abstract, following the rules above exactly. Respond in exactly this format, one line per element, spans copied verbatim from the abstract and separated by '",
+        "' (a pipe, not a comma -- spans can contain their own commas) -- write 'none' if an element has no spans: Population: ... Intervention: ... Comparator: ... Outcome:"
+      ],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "COPD patients"
+      ],
+      "Intervention": [
+        "oxolamine"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.625,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 41,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes the following entities:\n\n- Irradiated drug - containing porcine - cornea\n- Transplantation\n- Ocular burns\n\nNone of these can be",
+    "raw_completion": "Population: Fifty - five cases of patients with ocular burns (in 88 eyes) | Thirty cases in treatment group with 49 eyes | 25 cases in control group with 39 eyes  \nIntervention: Transplantation of irradiated drug - containing (ofloxacin, acetyl cysteine and reduced glutathione) porcine - cornea  \nComparator: Routine program  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "Fifty - five cases of patients with ocular burns (in 88 eyes)",
+        "Thirty cases in treatment group with 49 eyes",
+        "25 cases in control group with 39 eyes"
+      ],
+      "Intervention": [
+        "Transplantation of irradiated drug - containing (ofloxacin, acetyl cysteine and reduced glutathione) porcine - cornea"
+      ],
+      "Comparator": [
+        "Routine program"
+      ],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "patients with ocular burns",
+        "Fifty - five cases of patients with ocular burns (in 88 eyes)"
+      ],
+      "Intervention": [
+        "irradiated drug - containing porcine - cornea",
+        "irradiated drug - containing (ofloxacin, acetyl cysteine and reduced glutathione) porcine - cornea"
+      ],
+      "Comparator": [
+        "routine program"
+      ],
+      "Outcome": []
+    },
+    "reward": 0.6,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 42,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: healthy male patients | 3 groups of healthy male patients | Control (n = 35) | 2. 5 microg / kg Clonidine (n = 36) | 5. 0 microg / kg Clonidine (n = 36) groups | 3 groups of healthy male patients: Control (n = 35), 2. 5 microg / kg Clonidine (n = 36), and 5. 0 microg / kg Clonidine (n = 36) groups\n\nIntervention: target effect - site concentrations of propofol | computer - assisted target - controlled infusion | verbal command to open their eyes | arterial blood samples for analysis of the serum propofol and clonidine concentrations | logistic regression | response surface modeling analysis\n\nComparator: None\n\nOutcome: serum propofol concentrations | effect - site | loss of consciousness | EC50 for loss of",
+    "prediction": {
+      "Population": [
+        "healthy male patients",
+        "3 groups of healthy male patients",
+        "Control (n = 35)",
+        "2. 5 microg / kg Clonidine (n = 36)",
+        "5. 0 microg / kg Clonidine (n = 36) groups",
+        "3 groups of healthy male patients: Control (n = 35), 2. 5 microg / kg Clonidine (n = 36), and 5. 0 microg / kg Clonidine (n = 36) groups"
+      ],
+      "Intervention": [
+        "target effect - site concentrations of propofol",
+        "computer - assisted target - controlled infusion",
+        "verbal command to open their eyes",
+        "arterial blood samples for analysis of the serum propofol and clonidine concentrations",
+        "logistic regression",
+        "response surface modeling analysis"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "serum propofol concentrations",
+        "effect - site",
+        "loss of consciousness",
+        "EC50 for loss of"
+      ]
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "propofol",
+        "clonidine"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.25,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 43,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: a prospective randomized trial | the treatment outcome was measured through a detailed scoring system that included the ability to eradicate infection, the functional status of the limb, and the radiographic appearance of the bone and joint",
+    "prediction": {
+      "Population": [
+        "a prospective randomized trial",
+        "the treatment outcome was measured through a detailed scoring system that included the ability to eradicate infection, the functional status of the limb, and the radiographic appearance of the bone and joint"
+      ],
+      "Intervention": [],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "Short - term intravenous antibiotic treatment"
+      ],
+      "Comparator": [],
+      "Outcome": [
+        "a detailed scoring system"
+      ]
+    },
+    "reward": 0.25,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 44,
+    "sample_idx": 0,
+    "keywords": "None",
+    "raw_completion": "Population: a total of 18 hypertensive and hyperinsulinemic (= 10 U / mL or more) men and women  \nIntervention: an oat cereal group (standardized to 5. 52 g / day beta - glucan)  \nComparator: a low - fiber cereal control group (less than 1. 0 g / day total fiber)  \nOutcome: changes in systolic blood pressure (SBP) and diastolic blood pressure (DBP) | blood lipid | fasting glucose | insulin levels | side effects related to elevated blood pressure and increased dietary fiber intake",
+    "prediction": {
+      "Population": [
+        "a total of 18 hypertensive and hyperinsulinemic (= 10 U / mL or more) men and women"
+      ],
+      "Intervention": [
+        "an oat cereal group (standardized to 5. 52 g / day beta - glucan)"
+      ],
+      "Comparator": [
+        "a low - fiber cereal control group (less than 1. 0 g / day total fiber)"
+      ],
+      "Outcome": [
+        "changes in systolic blood pressure (SBP) and diastolic blood pressure (DBP)",
+        "blood lipid",
+        "fasting glucose",
+        "insulin levels",
+        "side effects related to elevated blood pressure and increased dietary fiber intake"
+      ]
+    },
+    "gold": {
+      "Population": [
+        "patients with mild or borderline hypertension",
+        "A total of 18 hypertensive and hyperinsulinemic (= 10 U / mL or more) men and women"
+      ],
+      "Intervention": [
+        "Oat ingestion",
+        "an oat cereal"
+      ],
+      "Comparator": [
+        "a low - fiber cereal"
+      ],
+      "Outcome": [
+        "systolic blood pressure (SBP)",
+        "diastolic blood pressure (DBP)",
+        "blood lipid",
+        "fasting glucose",
+        "insulin levels",
+        "side effects",
+        "elevated blood pressure",
+        "increased dietary fiber intake"
+      ]
+    },
+    "reward": 0.28205128205128205,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 45,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes:\n\n- **Prolonged GnRH agonist** - The intervention involves the administration of leuprolide acetate.\n- **Add-back therapy** -",
+    "raw_completion": "Population: All patients had received monthly leuprolide acetate | Of 201 patients enrolled in the initial trial, 123 completed at least 280 days of therapy and entered the follow - up period  \nIntervention: monthly leuprolide acetate | daily placebo | daily norethindrone acetate 5 mg | daily norethindrone acetate 5 mg and conjugated equine estrogens 0. 625 mg | daily norethindrone acetate 5 mg and conjugated equine estrogens 1. 25 mg  \nComparator: daily placebo | daily norethindrone acetate 5 mg | daily norethindrone acetate 5 mg and conjugated equine estrogens 0. 625 mg | daily norethindrone acetate 5 mg and conjugated equine estrogens 1. 25 mg",
+    "prediction": {
+      "Population": [
+        "All patients had received monthly leuprolide acetate",
+        "Of 201 patients enrolled in the initial trial, 123 completed at least 280 days of therapy and entered the follow - up period"
+      ],
+      "Intervention": [
+        "monthly leuprolide acetate",
+        "daily placebo",
+        "daily norethindrone acetate 5 mg",
+        "daily norethindrone acetate 5 mg and conjugated equine estrogens 0. 625 mg",
+        "daily norethindrone acetate 5 mg and conjugated equine estrogens 1. 25 mg"
+      ],
+      "Comparator": [
+        "daily placebo",
+        "daily norethindrone acetate 5 mg",
+        "daily norethindrone acetate 5 mg and conjugated equine estrogens 0. 625 mg",
+        "daily norethindrone acetate 5 mg and conjugated equine estrogens 1. 25 mg"
+      ],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "201 patients enrolled in the initial trial, 123 completed at least 280 days of therapy and entered the follow - up period"
+      ],
+      "Intervention": [
+        "Prolonged GnRH agonist",
+        "add - back therapy",
+        "daily norethindrone acetate",
+        "daily norethindrone acetate",
+        "conjugated equine estrogens",
+        "daily norethindrone acetate",
+        "conjugated equine estrogens"
+      ],
+      "Comparator": [
+        "daily placebo"
+      ],
+      "Outcome": [
+        "Physical findings",
+        "symptoms",
+        "lumbar spine bone mineral density"
+      ]
+    },
+    "reward": 0.1,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 46,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. Interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or therapies.",
+    "raw_completion": "Population: an active pectoral pulse generator | a smaller assistant model | the same guidelines | the abstract | the methods section | the title | the candidate intervention spans | the proposed treatment or approach | the participants involved in a medical study | the characteristics or requirements they needed to meet for inclusion | the age | the gender | the sample size | the medical diagnoses or conditions | the treatment locations\n\nIntervention: an active pectoral pulse generator\n\nComparator: none\n\nOutcome: none",
+    "prediction": {
+      "Population": [
+        "an active pectoral pulse generator",
+        "a smaller assistant model",
+        "the same guidelines",
+        "the abstract",
+        "the methods section",
+        "the title",
+        "the candidate intervention spans",
+        "the proposed treatment or approach",
+        "the participants involved in a medical study",
+        "the characteristics or requirements they needed to meet for inclusion",
+        "the age",
+        "the gender",
+        "the sample size",
+        "the medical diagnoses or conditions",
+        "the treatment locations"
+      ],
+      "Intervention": [
+        "an active pectoral pulse generator"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [],
+      "Intervention": [
+        "an active pectoral pulse generator"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.75,
+    "reward_element": 1.0
+  },
+  {
+    "doc_id": 47,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes: \n- Colonic short-chain fatty acids\n- Type 2 diabetes\n- High-fiber breakfast cereal\n- Monounsaturated fatty acids\n\nNone",
+    "raw_completion": "Population: Subjects with type 2 diabetes  \nIntervention: low - fiber breakfast cereal | high - fiber breakfast cereal | monounsaturated fatty acids  \nComparator: none  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "Subjects with type 2 diabetes"
+      ],
+      "Intervention": [
+        "low - fiber breakfast cereal",
+        "high - fiber breakfast cereal",
+        "monounsaturated fatty acids"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "subjects with type 2 diabetes",
+        "Subjects with type 2 diabetes (n = 62)"
+      ],
+      "Intervention": [
+        "a high - fiber diet",
+        "low - fiber breakfast cereal (LF diet)",
+        "high - fiber breakfast cereal (HF diet)",
+        "monounsaturated fatty acids (MUFA diet)"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.6666666666666666,
+    "reward_element": 0.0
+  },
+  {
+    "doc_id": 48,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. Interventions are not limited to medical treatments; they may also be non-medical approaches such as educational courses or therapies.",
+    "raw_completion": "Population: diabetic patients undergoing percutaneous coronary intervention  \nIntervention: Tirofiban | ReoPro  \nComparator: none  \nOutcome: none",
+    "prediction": {
+      "Population": [
+        "diabetic patients undergoing percutaneous coronary intervention"
+      ],
+      "Intervention": [
+        "Tirofiban",
+        "ReoPro"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "diabetic patients undergoing percutaneous coronary intervention"
+      ],
+      "Intervention": [
+        "platelet glycoprotein IIb / IIIa receptor inhibitors",
+        "Tirofiban",
+        "ReoPro"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.95,
+    "reward_element": 0.8
+  },
+  {
+    "doc_id": 49,
+    "sample_idx": 0,
+    "keywords": "The Intervention component represents the proposed treatment or approach being administered to the participants. It includes both the name of the treatment (capecitabine + docetaxel) and the method of administration (oral).",
+    "raw_completion": "Population: Patients | Patients were randomized to 21 - day cycles of oral capecitabine 1, 250 mg / m (2) twice daily on days 1 to 14 plus docetaxel 75 mg / m (2) on day 1 (n = 255) or to docetaxel 100 mg / m (2) on day 1 (n = 256)\nIntervention: oral capecitabine 1, 250 mg / m (2) twice daily on days 1 to 14 plus docetaxel 75 mg / m (2) on day 1 | oral capecitabine 1, 250 mg / m (2) twice daily on days 1 to 14 | docetaxel 75 mg / m (2) on day 1 | docetax",
+    "prediction": {
+      "Population": [
+        "Patients",
+        "Patients were randomized to 21 - day cycles of oral capecitabine 1, 250 mg / m (2) twice daily on days 1 to 14 plus docetaxel 75 mg / m (2) on day 1 (n = 255) or to docetaxel 100 mg / m (2) on day 1 (n = 256)"
+      ],
+      "Intervention": [
+        "oral capecitabine 1, 250 mg / m (2) twice daily on days 1 to 14 plus docetaxel 75 mg / m (2) on day 1",
+        "oral capecitabine 1, 250 mg / m (2) twice daily on days 1 to 14",
+        "docetaxel 75 mg / m (2) on day 1",
+        "docetax"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "gold": {
+      "Population": [
+        "anthracycline - pretreated patients with advanced breast cancer"
+      ],
+      "Intervention": [
+        "capecitabine plus docetaxel combination therapy",
+        "21 - day cycles of oral capecitabine",
+        "docetaxel",
+        "docetaxel"
+      ],
+      "Comparator": [],
+      "Outcome": []
+    },
+    "reward": 0.5,
+    "reward_element": 0.0
+  }
+]
